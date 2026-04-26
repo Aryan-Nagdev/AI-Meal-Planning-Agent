@@ -258,45 +258,81 @@ class MealPlannerAgent:
     # STEP 2 — PLAN: build candidate pool
     # ═══════════════════════════════════════════════════════════════════════
     def _plan_pool(self, goals: dict) -> pd.DataFrame:
-        df = self.meals_df.copy()
+        """
+        Build the candidate meal pool.
+        KEY GUARANTEE: meals that match the user's favourite_meal name OR
+        ingredient_pref are ALWAYS kept in the pool regardless of cost,
+        so the queue builders can always find them.
+        """
+        full_df = self.meals_df.copy()
 
-        # 2a. Hard diet filter
+        # ── identify fav / ingredient rows to protect from filters ────────
+        fav_mask  = pd.Series(False, index=full_df.index)
+        ing_mask  = pd.Series(False, index=full_df.index)
+
+        if goals.get("favorite_meal"):
+            base_tokens = self._get_base_tokens(goals["favorite_meal"])
+            primary     = max(base_tokens, key=len) if base_tokens else ""
+            if primary:
+                # match on meal name OR ingredients (so 'paneer masala' also
+                # finds paneer dishes even if the name says 'paneer tikka')
+                fav_mask = full_df["meal_name"].str.lower().str.contains(primary, regex=False) |                            full_df["ingredients"].str.lower().str.contains(primary, regex=False)
+
+        if goals.get("ing_tokens"):
+            for tok in goals["ing_tokens"]:
+                ing_mask |= full_df["ingredients"].str.lower().str.contains(tok, regex=False) |                             full_df["meal_name"].str.lower().str.contains(tok, regex=False)
+
+        protected = full_df[fav_mask | ing_mask].copy()
+
+        # ── 2a. Hard diet filter on whole dataset ─────────────────────────
+        df = full_df.copy()
         if goals["diet_type"].lower() == "veg":
             df = df[df["diet_type"] == "Veg"]
+            protected = protected[protected["diet_type"] == "Veg"]
             self._trace.append(f"[PLAN] Diet filter → {len(df)} veg meals")
         else:
             self._trace.append(f"[PLAN] Diet filter → {len(df)} all-diet meals")
 
-        # 2b. Soft budget filter: keep meals ≤3× per-meal budget
-        #     (agent will further penalise via scoring; don't over-filter)
-        bpm3 = goals["budget_per_meal"] * 3
-        budget_filtered = df[df["cost_inr"] <= bpm3]
-        if len(budget_filtered) >= 10:
-            df = budget_filtered
-            self._trace.append(f"[PLAN] Budget soft-filter (≤₹{bpm3:.0f}) → {len(df)} meals")
+        # ── 2b. Budget filter (does NOT apply to protected fav/ing rows) ──
+        bpm    = goals["budget_per_meal"]
+        strict = df[df["cost_inr"] <= bpm * 1.5]
+        medium = df[df["cost_inr"] <= bpm * 2.5]
+        if len(strict) >= 10:
+            df = strict
+            self._trace.append(f"[PLAN] Budget strict-filter (≤₹{bpm*1.5:.0f}) → {len(df)} meals")
+        elif len(medium) >= 10:
+            df = medium
+            self._trace.append(f"[PLAN] Budget medium-filter (≤₹{bpm*2.5:.0f}) → {len(df)} meals")
         else:
-            self._trace.append(f"[PLAN] Budget soft-filter skipped (too restrictive), keeping all")
+            self._trace.append(f"[PLAN] Budget filter skipped (pool too small), keeping all")
 
-        # 2c. Cook-time filter: if 'quick', soft-filter to prep_time ≤ 0.40
+        # ── 2c. Cook-time filter ──────────────────────────────────────────
         if goals["cook_time"] == "quick":
             quick = df[df["prep_time"] <= 0.40]
             df = quick if len(quick) >= 8 else df
             self._trace.append(f"[PLAN] Cook-time 'quick' filter → {len(df)} meals")
 
-        # 2d. Disease: near-zero score meals excluded later in scoring
-        #     (we only hard-remove if pool is large enough)
+        # ── 2d. Disease filter ────────────────────────────────────────────
         if goals["d_rules"]:
-            avoid = goals["d_rules"].get("avoid", [])
+            avoid  = goals["d_rules"].get("avoid", [])
             before = len(df)
-            safe = df[~df["ingredients"].str.lower().apply(
+            safe   = df[~df["ingredients"].str.lower().apply(
                 lambda s: any(kw in s for kw in avoid)
             )]
             if len(safe) >= 12:
                 df = safe
                 self._trace.append(f"[PLAN] Disease '{goals['disease']}' filter: {before}→{len(df)} meals")
 
+        # ── Merge protected rows back in (union, dedup) ───────────────────
+        if not protected.empty:
+            df = pd.concat([df, protected], ignore_index=True).drop_duplicates(
+                subset="meal_name", keep="first"
+            )
+            self._trace.append(
+                f"[PLAN] Protected {len(protected)} fav/ingredient meals kept in pool → total {len(df)}"
+            )
+
         if df.empty:
-            # ultimate fallback
             df = self.meals_df.copy()
             self._trace.append("[PLAN] ⚠ Pool empty — using full dataset as fallback")
 
@@ -320,11 +356,12 @@ class MealPlannerAgent:
         cal_n = float(row.get("calories", 0.5))
         pt_n  = float(row.get("prep_time", 0.5))
 
-        # — cost score: reward meals well under per-meal budget
+        # — cost score: hard penalty for meals over per-meal budget
         ratio = row["cost_inr"] / (bpm + 1e-9)
         if   ratio <= 0.5:  cost_score = 1.0
-        elif ratio <= 1.0:  cost_score = 1.0 - (ratio - 0.5)
-        else:               cost_score = max(0.0, 0.5 - (ratio - 1.0))
+        elif ratio <= 0.8:  cost_score = 1.0 - (ratio - 0.5) * 1.2
+        elif ratio <= 1.0:  cost_score = max(0.0, 0.64 - (ratio - 0.8) * 2.0)
+        else:               cost_score = 0.0   # over per-meal budget → zero cost score
 
         # — calorie score: directional scoring based on weight goal
         #   loss   → lower cal_n = better  (linear: score = 1 - cal_n)
@@ -377,14 +414,18 @@ class MealPlannerAgent:
             prep_score = 1.0 - abs(pt_n - 0.45)   # prefer moderate
 
         score = (
-            0.25 * cost_score
-          + 0.18 * cal_score
-          + 0.12 * nutrition_score
-          + 0.08 * health_score
-          + 0.22 * fav_sim          # 0.10 → 0.22: strong favourite signal
-          + 0.10 * ing_pref_score   # 0.10: ingredient preference
+            0.35 * cost_score
+          + 0.15 * cal_score
+          + 0.10 * nutrition_score
+          + 0.06 * health_score
+          + 0.18 * fav_sim
+          + 0.11 * ing_pref_score
           + 0.05 * prep_score
         )
+
+        # hard zero for meals that individually exceed 1.3× per-meal budget
+        if ratio > 1.3:
+            score *= 0.05
 
         # disease max-calorie penalty
         max_cal = goals["d_rules"].get("max_cal_norm", 1.0)
@@ -396,65 +437,181 @@ class MealPlannerAgent:
     def _score_pool(self, pool: pd.DataFrame, goals: dict) -> pd.DataFrame:
         pool = pool.copy()
         pool["_score"] = pool.apply(lambda r: self._score_row(r, goals), axis=1)
+        # Add small random jitter so identical-scoring meals get shuffled each run.
+        # Jitter is ±6% of the score range — enough to reorder close competitors
+        # without overriding meaningful quality differences.
+        jitter = np.random.uniform(-0.06, 0.06, size=len(pool))
+        pool["_score"] = (pool["_score"] + jitter).clip(0.0, 1.5)
         pool = pool.sort_values("_score", ascending=False).reset_index(drop=True)
         self._trace.append(
-            f"[SCORE] Top-3 scored meals: "
+            f"[SCORE] Top-3 scored meals (post-jitter): "
             + ", ".join(f"{r.meal_name}({r._score:.3f})"
                         for _, r in pool.head(3).iterrows())
         )
         return pool
 
     # ═══════════════════════════════════════════════════════════════════════
-    # STEP 4 — SELECT: pin favourite to Day1 Lunch, similar meals to Day1
+    # STEP 4 — SELECT: 1 fav-similar dish per day + 1 ingredient dish per day
     # ═══════════════════════════════════════════════════════════════════════
+    def _get_base_tokens(self, meal_name: str) -> set:
+        """
+        Extract the meaningful base words from a meal name.
+        e.g. 'Paneer Butter Masala' → {'paneer', 'butter', 'masala'}
+        Stop words are filtered out so 'paneer tikka' and 'paneer matar'
+        both share the base token 'paneer'.
+        """
+        STOP = {"with", "and", "the", "in", "of", "a", "an", "or", "for",
+                "de", "style", "indian", "special"}
+        return {t.lower().strip() for t in meal_name.split()
+                if len(t) > 2 and t.lower() not in STOP}
+
+    def _build_fav_queue(self, pool: pd.DataFrame, goals: dict) -> list:
+        """
+        Build an ordered queue of fav-similar meals — one distinct dish per day.
+
+        Strategy (most-to-least specific):
+          1. Meals whose NAME contains the longest base token of the favourite
+             (e.g. favourite='Paneer Masala' → primary='paneer' → 'Paneer Tikka',
+              'Paneer Butter Masala', 'Matar Paneer', …)
+          2. Meals whose INGREDIENTS contain the primary token (catches dishes
+             like 'Shahi Paneer' or any paneer dish not using the word in the name)
+          3. Exact name match is placed FIRST in the queue (Day 1 Lunch).
+
+        Returns a deduplicated list of meal_names ordered best-first.
+        """
+        if not goals.get("favorite_meal"):
+            return []
+
+        fav_name    = goals["favorite_meal"]
+        base_tokens = self._get_base_tokens(fav_name)
+        if not base_tokens:
+            return []
+
+        # Use the longest token as primary (most specific noun, e.g. 'paneer')
+        primary = max(base_tokens, key=len)
+
+        pool = pool.copy()
+
+        # Tier 1: meal NAME contains primary token
+        name_match = pool["meal_name"].str.lower().str.contains(primary, regex=False)
+        # Tier 2: INGREDIENTS contain primary token (but name doesn't)
+        ing_match  = (~name_match) & pool["ingredients"].str.lower().str.contains(primary, regex=False)
+
+        tier1 = pool[name_match].sort_values("_score", ascending=False)
+        tier2 = pool[ing_match].sort_values("_score", ascending=False)
+
+        # Build queue: exact fav first, then tier1, then tier2
+        queue: list[str] = []
+        exact = tier1[tier1["meal_name"].str.lower() == fav_name.lower()]
+        if not exact.empty:
+            queue.append(exact.iloc[0]["meal_name"])
+
+        for df_tier in [tier1, tier2]:
+            for _, row in df_tier.iterrows():
+                if row["meal_name"] not in queue:
+                    queue.append(row["meal_name"])
+
+        self._trace.append(
+            f"[SELECT] 🎯 Fav-queue (primary='{primary}'): {queue[:goals['num_days']]}"
+        )
+        return queue
+
+    def _build_ing_queue(self, pool: pd.DataFrame, goals: dict) -> list:
+        """
+        Build an ordered queue of ingredient-preference meals — one per day.
+
+        Matches against BOTH meal name and ingredients string, so that
+        'paneer' finds 'Paneer Tikka', 'Matar Paneer', 'Shahi Paneer', etc.
+        Ordered by: #tokens matched DESC → score DESC.
+        Deduplicates against fav_queue so the same dish isn't pinned twice.
+        """
+        if not goals.get("ing_tokens"):
+            return []
+
+        ing_tokens = goals["ing_tokens"]
+        pool = pool.copy()
+
+        combined_text = pool["meal_name"].str.lower() + " " + pool["ingredients"].str.lower()
+        pool["_ing_match_count"] = combined_text.apply(
+            lambda s: sum(1 for t in ing_tokens if t in s)
+        )
+        matched = (
+            pool[pool["_ing_match_count"] > 0]
+            .sort_values(["_ing_match_count", "_score"], ascending=[False, False])
+        )
+        queue = list(matched["meal_name"].unique())
+        self._trace.append(
+            f"[SELECT] 🧂 Ingredient queue (tokens={list(ing_tokens)[:3]}): {queue[:goals['num_days']]}"
+        )
+        return queue
+
     def _select_meals(self, pool: pd.DataFrame, goals: dict) -> list[dict]:
+        """
+        Select meals for the plan using a guaranteed pinned-slot system.
+
+        Pinning rules (one fav + one ingredient meal per day, different slots):
+          Day 1: fav → Lunch,  ing → Dinner
+          Day 2: fav → Dinner, ing → Lunch   (alternating keeps variety)
+          Day 3: fav → Lunch,  ing → Dinner  … etc.
+          Breakfast is always chosen freely by the scorer.
+
+        Pinned meals are ALWAYS placed even if they push the total cost up —
+        _validate compensates by swapping expensive non-pinned meals down.
+        """
         num_days     = goals["num_days"]
         bpm          = goals["budget_per_meal"]
         meals_needed = num_days * len(SLOTS)
 
-        # ── Step A: build Day 1 pinned slot map ──────────────────────────
-        pinned_day1: dict = {}   # slot -> meal_name forced onto Day 1
+        fav_queue = self._build_fav_queue(pool, goals)
+        ing_queue = self._build_ing_queue(pool, goals)
 
-        # Find best favourite match
-        best_fav_name = None
-        if goals["fav_tokens"]:
-            pool = pool.copy()
-            pool["_fav_match"] = pool.apply(
-                lambda r: sum(1 for t in goals["fav_tokens"]
-                              if t in (r["meal_name"] + " " + r["ingredients"]).lower()),
-                axis=1
-            )
-            fav_pool = pool[pool["_fav_match"] > 0].sort_values("_fav_match", ascending=False)
-            if not fav_pool.empty:
-                best_fav_name = fav_pool.iloc[0]["meal_name"]
-                pinned_day1["Lunch"] = best_fav_name
-                self._trace.append(
-                    f"[SELECT] 🎯 Favourite match: '{best_fav_name}' → pinned to Day 1 Lunch"
-                )
+        # ── Build per-day pinned slot map ─────────────────────────────────
+        pinned: dict        = {}   # (day, slot) → meal_name
+        used_in_pinned: set = set()
 
-        # Fill remaining Day 1 slots with ingredient-preference similar meals
-        search_tokens = goals["ing_tokens"] | goals["fav_tokens"]
-        if search_tokens:
-            pool = pool.copy()
-            pool["_ing_match"] = pool["ingredients"].str.lower().apply(
-                lambda s: sum(1 for t in search_tokens if t in s)
-            )
-            similar = pool[pool["_ing_match"] > 0].sort_values("_ing_match", ascending=False)
-            if best_fav_name:
-                similar = similar[similar["meal_name"] != best_fav_name]
-            for slot in SLOTS:
-                if slot in pinned_day1 or similar.empty:
-                    continue
-                meal_name = similar.iloc[0]["meal_name"]
-                pinned_day1[slot] = meal_name
-                similar = similar.iloc[1:]
-                self._trace.append(
-                    f"[SELECT] 🎯 Similar meal: '{meal_name}' → pinned to Day 1 {slot}"
-                )
+        fav_idx = 0
+        ing_idx = 0
 
-        # ── Main selection loop ───────────────────────────────────────────
-        top_n      = min(len(pool), max(meals_needed * 4, 40))
-        candidates = pool.sort_values("_score", ascending=False).head(top_n).reset_index(drop=True)
+        for day in range(1, num_days + 1):
+            # Alternate which heavy slot fav vs ingredient gets
+            fav_slot = "Lunch"  if day % 2 == 1 else "Dinner"
+            ing_slot = "Dinner" if day % 2 == 1 else "Lunch"
+
+            # Pin next unused fav-similar meal
+            while fav_idx < len(fav_queue):
+                name = fav_queue[fav_idx]; fav_idx += 1
+                if name not in used_in_pinned:
+                    pinned[(day, fav_slot)] = name
+                    used_in_pinned.add(name)
+                    self._trace.append(
+                        f"[SELECT] 📌 Day {day} {fav_slot} ← fav-similar '{name}'"
+                    )
+                    break
+
+            # Pin next unused ingredient-match meal (must be a different meal)
+            while ing_idx < len(ing_queue):
+                name = ing_queue[ing_idx]; ing_idx += 1
+                if name not in used_in_pinned:
+                    pinned[(day, ing_slot)] = name
+                    used_in_pinned.add(name)
+                    self._trace.append(
+                        f"[SELECT] 📌 Day {day} {ing_slot} ← ingredient-match '{name}'"
+                    )
+                    break
+
+        self._trace.append(
+            f"[SELECT] Pinned {len(pinned)} slots across {num_days} days"
+        )
+
+        # Build candidate pool: top scored meals, then shuffle within score bands
+        # so meals with similar scores appear in different order each run.
+        top_n      = min(len(pool), max(meals_needed * 5, 50))
+        candidates = pool.sort_values("_score", ascending=False).head(top_n).copy()
+        # Shuffle within 0.05-width score bands to break ties differently each run
+        candidates["_band"] = (candidates["_score"] / 0.05).astype(int)
+        candidates = candidates.groupby("_band", group_keys=False).apply(
+            lambda g: g.sample(frac=1)
+        ).reset_index(drop=True)
 
         used_names: set       = set()
         used_ingredients: set = set()
@@ -467,23 +624,33 @@ class MealPlannerAgent:
                 remaining_slots = meals_needed - len(selected)
                 tight = (budget_left / max(remaining_slots, 1)) < (bpm * 0.5)
 
-                forced = False
-                if day == 1 and slot in pinned_day1:
-                    pin_name = pinned_day1[slot]
+                forced  = False
+                pin_key = (day, slot)
+
+                if pin_key in pinned:
+                    pin_name = pinned[pin_key]
                     pin_row  = pool[pool["meal_name"] == pin_name]
                     if not pin_row.empty and pin_name not in used_names:
+                        # Always honour the pin — cost overruns fixed by _validate
                         chosen = pin_row.iloc[0]
                         forced = True
+                        self._trace.append(
+                            f"[SELECT] ✅ Day {day}/{slot}: PINNED '{pin_name}' "
+                            f"₹{int(chosen['cost_inr'])} (budget_left=₹{budget_left:.0f})"
+                        )
 
                 if not forced:
                     available = candidates[~candidates["meal_name"].isin(used_names)].copy()
                     if available.empty:
                         available = candidates.copy()
                         self._trace.append(f"[SELECT] Day{day}/{slot}: pool exhausted — allowing reuse")
+
+                    # When budget is tight, heavily favour cheaper meals for free slots
                     if tight:
                         cost_norm = 1 - (available["cost_inr"] / (available["cost_inr"].max() + 1))
                         available = available.copy()
-                        available["_score"] = available["_score"] * 0.5 + 0.5 * cost_norm
+                        available["_score"] = available["_score"] * 0.4 + 0.6 * cost_norm
+
                     available = available.copy()
                     available["_ing_overlap"] = available["_ing_tokens"].apply(
                         lambda s: len(s & used_ingredients) / (len(s) + 1e-9)
@@ -491,7 +658,8 @@ class MealPlannerAgent:
                     available["_final_score"] = available["_score"] + 0.06 * available["_ing_overlap"]
                     scores  = available["_final_score"].values.astype(float)
                     shifted = scores - scores.max()
-                    weights = np.exp(shifted * 6)
+                    # Temperature=3: flatter distribution → more meal variety each run
+                    weights = np.exp(shifted * 3)
                     weights = weights / weights.sum()
                     idx     = np.random.choice(len(available), p=weights)
                     chosen  = available.iloc[idx]
@@ -504,12 +672,7 @@ class MealPlannerAgent:
                 cal_est   = self._lookup_calories(ing_list)
                 score_val = float(chosen.get("_score", 0.5))
 
-                is_fav = False
-                if goals["fav_tokens"]:
-                    combo  = (chosen["meal_name"] + " " + chosen["ingredients"]).lower()
-                    is_fav = any(t in combo for t in goals["fav_tokens"])
-                if day == 1 and slot in pinned_day1:
-                    is_fav = True
+                is_fav = chosen["meal_name"] in used_in_pinned
 
                 selected.append({
                     "day": day, "slot": slot,
@@ -533,31 +696,45 @@ class MealPlannerAgent:
                 })
 
         self._trace.append(f"[SELECT] Selected {len(selected)} meals, total cost \u20b9{total_cost:.0f}")
-        return selected, total_cost
+        return selected, total_cost, used_in_pinned
 
     # ═══════════════════════════════════════════════════════════════════════
     # STEP 5 — VALIDATE + RE-PLAN
     # ═══════════════════════════════════════════════════════════════════════
-    def _validate(self, selected, total_cost, goals, pool):
-        """If over budget, re-plan by swapping most expensive meals for cheaper alternatives."""
-        budget = goals["budget"]
+    def _validate(self, selected, total_cost, goals, pool, pinned_names: set = None):
+        """
+        Swap expensive NON-PINNED meals to bring total closer to budget.
+
+        HARD RULE: pinned_names (fav / ingredient meals) are NEVER swapped out,
+        even if the plan remains over budget after all other swaps.
+        It is acceptable to exceed budget in order to honour the user's favourite
+        dish and ingredient preferences — the summary will note the overage.
+        """
+        budget       = goals["budget"]
+        pinned_names = pinned_names or set()
+
         if total_cost <= budget:
             self._trace.append(f"[VALIDATE] ✅ Within budget (₹{total_cost:.0f} ≤ ₹{budget:.0f})")
             return selected, total_cost
 
         self._trace.append(
-            f"[VALIDATE] ⚠ Over budget (₹{total_cost:.0f} > ₹{budget:.0f}) — re-planning"
+            f"[VALIDATE] ⚠ Over budget (₹{total_cost:.0f} > ₹{budget:.0f}) — swapping "
+            f"non-pinned meals only (protecting {len(pinned_names)} fav/ingredient meals)"
         )
-        overage = total_cost - budget
-        # sort selected by cost descending; try to swap expensive meals
-        sorted_sel = sorted(selected, key=lambda x: x["meal"]["cost_inr"], reverse=True)
+
+        # Pass 1: swap most expensive NON-PINNED meals with cheaper alternatives
         swapped_names = set(x["meal"]["meal_name"] for x in selected)
+        sorted_sel = sorted(
+            selected,
+            key=lambda x: (x["meal"]["meal_name"] in pinned_names, -x["meal"]["cost_inr"])
+        )
 
         for entry in sorted_sel:
-            if overage <= 0:
+            if total_cost <= budget:
                 break
+            if entry["meal"]["meal_name"] in pinned_names:
+                continue   # ← NEVER touch pinned meals
             old_cost = entry["meal"]["cost_inr"]
-            # find cheapest available meal not already in plan
             cheaper = pool[
                 (~pool["meal_name"].isin(swapped_names)) &
                 (pool["cost_inr"] < old_cost)
@@ -566,34 +743,81 @@ class MealPlannerAgent:
             if cheaper.empty:
                 continue
 
-            r = cheaper.iloc[0]
-            savings = old_cost - r["cost_inr"]
+            r        = cheaper.iloc[0]
+            savings  = old_cost - r["cost_inr"]
             ing_list = [i.strip() for i in str(r["ingredients"]).split(",") if i.strip()]
             cal_est  = self._lookup_calories(ing_list)
 
             swapped_names.discard(entry["meal"]["meal_name"])
             swapped_names.add(r["meal_name"])
             entry["meal"].update({
-                "meal_name":              r["meal_name"],
-                "diet_type":              r["diet_type"],
-                "cost_inr":               int(r["cost_inr"]),
-                "ingredients":            ing_list,
+                "meal_name":               r["meal_name"],
+                "diet_type":               r["diet_type"],
+                "cost_inr":                int(r["cost_inr"]),
+                "ingredients":             ing_list,
                 "estimated_calories_kcal": cal_est,
-                "calories_normalized":    round(float(r["calories"]), 4),
-                "protein":                round(float(r["protein"]),  4),
-                "fat":                    round(float(r["fat"]),      4),
-                "carbs":                  round(float(r["carbs"]),    4),
-                "score":                  round(float(r.get("_score", 0.5)), 4),
-                "is_healthy":             bool(r["is_healthy"]),
-                "recipe_steps":           str(r["recipe_steps"]) if r["recipe_steps"] else "",
+                "calories_normalized":     round(float(r["calories"]), 4),
+                "protein":                 round(float(r["protein"]),  4),
+                "fat":                     round(float(r["fat"]),      4),
+                "carbs":                   round(float(r["carbs"]),    4),
+                "score":                   round(float(r.get("_score", 0.5)), 4),
+                "is_healthy":              bool(r["is_healthy"]),
+                "is_favorite":             False,
+                "recipe_steps":            str(r["recipe_steps"]) if r["recipe_steps"] else "",
             })
-            overage     -= savings
-            total_cost  -= savings
+            total_cost -= savings
             self._trace.append(
-                f"[REPLAN] Swapped '{entry['meal']['meal_name']}' ← '{r['meal_name']}' saving ₹{savings}"
+                f"[REPLAN] Swapped '{entry['meal']['meal_name']}' ← '{r['meal_name']}' saving ₹{savings:.0f}"
             )
 
-        self._trace.append(f"[VALIDATE] Final cost: ₹{total_cost:.0f}")
+        # Pass 2: still over? Replace non-pinned meals with absolute cheapest in pool.
+        # Pinned meals remain untouched no matter what.
+        if total_cost > budget:
+            self._trace.append("[VALIDATE] Pass 2: force cheapest non-pinned meals (pinned meals protected)")
+            cheapest_row = pool.sort_values("cost_inr").iloc[0]
+            cheapest_ing = [i.strip() for i in str(cheapest_row["ingredients"]).split(",") if i.strip()]
+            cheapest_cal = self._lookup_calories(cheapest_ing)
+
+            sorted_sel2 = sorted(
+                selected,
+                key=lambda x: (x["meal"]["meal_name"] in pinned_names, -x["meal"]["cost_inr"])
+            )
+            for entry in sorted_sel2:
+                if total_cost <= budget:
+                    break
+                if entry["meal"]["meal_name"] in pinned_names:
+                    continue   # ← still never touch pinned meals
+                old_cost = entry["meal"]["cost_inr"]
+                if int(cheapest_row["cost_inr"]) >= old_cost:
+                    continue
+                savings = old_cost - int(cheapest_row["cost_inr"])
+                entry["meal"].update({
+                    "meal_name":               cheapest_row["meal_name"],
+                    "diet_type":               cheapest_row["diet_type"],
+                    "cost_inr":                int(cheapest_row["cost_inr"]),
+                    "ingredients":             cheapest_ing,
+                    "estimated_calories_kcal": cheapest_cal,
+                    "calories_normalized":     round(float(cheapest_row["calories"]), 4),
+                    "protein":                 round(float(cheapest_row["protein"]),  4),
+                    "fat":                     round(float(cheapest_row["fat"]),      4),
+                    "carbs":                   round(float(cheapest_row["carbs"]),    4),
+                    "score":                   round(float(cheapest_row.get("_score", 0.3)), 4),
+                    "is_healthy":              bool(cheapest_row["is_healthy"]),
+                    "is_favorite":             False,
+                    "recipe_steps":            str(cheapest_row["recipe_steps"]) if cheapest_row["recipe_steps"] else "",
+                })
+                total_cost -= savings
+                self._trace.append(f"[REPLAN-P2] Force-cheapest swap saving ₹{savings:.0f}")
+
+        if total_cost > budget:
+            over = total_cost - budget
+            self._trace.append(
+                f"[VALIDATE] ℹ️ Final cost ₹{total_cost:.0f} exceeds budget ₹{budget:.0f} by ₹{over:.0f} "
+                f"— fav/ingredient meals kept as requested (cannot swap them out)"
+            )
+        else:
+            self._trace.append(f"[VALIDATE] ✅ Final cost ₹{total_cost:.0f} within budget ₹{budget:.0f}")
+
         return selected, total_cost
 
     # ═══════════════════════════════════════════════════════════════════════
@@ -602,35 +826,58 @@ class MealPlannerAgent:
     def _reflect(self, selected, total_cost, goals):
         num_days = goals["num_days"]
 
+        # Pantry discount: for multi-day plans some ingredients are already
+        # at home from Day 1 shopping, so effective spend is lower.
+        #   Day 1 → full price   (buying everything fresh)
+        #   Day 2 → 10% discount (staples already stocked)
+        #   Day 3+ → 20% discount (pantry well-stocked)
+        def _pantry_factor(day: int, total_days: int) -> float:
+            if total_days <= 1 or day == 1:
+                return 1.0
+            if day == 2:
+                return 0.90
+            return 0.80
+
         # reshape flat list → day-keyed structure
         plan = []
         for day in range(1, num_days + 1):
-            day_entries  = [e for e in selected if e["day"] == day]
-            day_meals    = {e["slot"]: e["meal"] for e in day_entries}
-            day_cost     = sum(e["meal"]["cost_inr"] for e in day_entries)
-            day_cal      = sum(e["meal"]["estimated_calories_kcal"] for e in day_entries)
-            plan.append({"day": day, "meals": day_meals,
-                         "day_cost_inr": round(day_cost, 2),
-                         "day_calories_kcal": round(day_cal, 1)})
+            day_entries      = [e for e in selected if e["day"] == day]
+            day_meals        = {e["slot"]: e["meal"] for e in day_entries}
+            raw_day_cost     = sum(e["meal"]["cost_inr"] for e in day_entries)
+            factor           = _pantry_factor(day, num_days)
+            adj_day_cost     = int(round(raw_day_cost * factor))
+            day_cal          = sum(e["meal"]["estimated_calories_kcal"] for e in day_entries)
+            discount_pct     = round((1 - factor) * 100)
+            plan.append({
+                "day":                day,
+                "meals":             day_meals,
+                "day_cost_inr":      adj_day_cost,
+                "raw_day_cost_inr":  int(round(raw_day_cost)),
+                "pantry_discount_pct": discount_pct,
+                "day_calories_kcal": round(day_cal, 1),
+            })
 
-        total_cal     = sum(d["day_calories_kcal"] for d in plan)
-        within_budget = total_cost <= goals["budget"]
-        saved         = goals["budget"] - total_cost
-
+        total_cal         = sum(d["day_calories_kcal"] for d in plan)
+        # Budget check uses the REAL (undiscounted) total_cost.
+        # Display uses the pantry-adjusted total.
+        display_total     = sum(d["day_cost_inr"] for d in plan)
+        within_budget     = total_cost <= goals["budget"]
+        saved             = goals["budget"] - total_cost
+        display_remaining = goals["budget"] - display_total
         unique_meals  = len({e["meal"]["meal_name"] for e in selected})
         d_note        = goals["d_rules"].get("note","") if goals["d_rules"] else ""
 
         if within_budget:
-            budget_line = f"✅ Within budget — saving ₹{abs(round(saved))}."
+            budget_line = f"✅ Within budget — ₹{abs(int(round(saved)))} to spare."
         else:
-            budget_line = f"⚠️ Slightly over budget by ₹{abs(round(saved))}."
+            budget_line = f"⚠️ Over budget by ₹{abs(int(round(saved)))} to fit your favourites."
 
         ai_summary = (
             f"{budget_line} "
-            f"Your {num_days}-day plan has {unique_meals} unique meals "
-            f"targeting {goals['cal_label']}. "
-            f"Avg {round(total_cal/num_days)} kcal/day. "
-            + (f"Health note: {d_note}" if d_note else "")
+            f"{num_days}-day plan · {unique_meals} unique meals · "
+            f"~{int(round(total_cal/num_days))} kcal/day · "
+            f"Est. spend ₹{int(round(display_total))}."
+            + (f" {d_note}" if d_note else "")
         ).strip()
 
         self._trace.append("[REFLECT] Plan assembled — returning to client")
@@ -639,12 +886,13 @@ class MealPlannerAgent:
             "plan": plan,
             "grocery_list": self._build_grocery(plan),
             "summary": {
-                "total_cost_inr":           round(total_cost, 2),
+                "total_cost_inr":           int(round(display_total)),
+                "raw_total_cost_inr":        int(round(total_cost)),
                 "total_calories_kcal":      round(total_cal, 1),
-                "avg_daily_cost_inr":       round(total_cost / num_days, 2),
+                "avg_daily_cost_inr":       int(round(display_total / num_days)),
                 "avg_daily_calories_kcal":  round(total_cal / num_days, 1),
-                "budget":                   goals["budget"],
-                "budget_remaining_inr":     round(saved, 2),
+                "budget":                   int(round(goals["budget"])),
+                "budget_remaining_inr":     int(round(display_remaining)),
                 "within_budget":            within_budget,
                 "num_days":                 num_days,
                 "diet_type":                goals["diet_type"],
@@ -675,16 +923,21 @@ class MealPlannerAgent:
         seed: Optional[int]           = None,
     ) -> dict:
         self._trace = []
-        if seed is not None:
-            random.seed(seed); np.random.seed(seed)
+        # Always seed with a fresh random value so every Generate / Re-plan
+        # call produces a different selection of dishes and sequence.
+        # An explicit seed (e.g. for tests/repro) overrides this.
+        effective_seed = seed if seed is not None else random.randint(0, 2**31 - 1)
+        random.seed(effective_seed)
+        np.random.seed(effective_seed)
+        self._trace.append(f"[INIT] run_seed={effective_seed}")
 
         # ── agent loop ──────────────────────────────────────────────────
         goals    = self._analyze(budget, diet_type, num_days, disease,
                                  cook_time, weight_goal, favorite_meal, ingredient_pref)
         pool     = self._plan_pool(goals)
         pool     = self._score_pool(pool, goals)
-        selected, total_cost = self._select_meals(pool, goals)
-        selected, total_cost = self._validate(selected, total_cost, goals, pool)
+        selected, total_cost, pinned_names = self._select_meals(pool, goals)
+        selected, total_cost = self._validate(selected, total_cost, goals, pool, pinned_names)
         result   = self._reflect(selected, total_cost, goals)
 
         return _clean(result)

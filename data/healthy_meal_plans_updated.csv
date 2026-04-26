@@ -1,426 +1,426 @@
 meal_name,diet_type,cost_inr,ingredients,num_ingredients,calories,prep_time,protein,fat,carbs,vegan,vegetarian,keto,paleo,gluten_free,mediterranean,is_healthy
-Gluten-Free Pasta,Veg,141,"rice pasta, tomato sauce, garlic, olive oil, basil",0.2727272727272727,0.4909090909090909,0.84,0.7836791164816183,0.5979073292293274,0.4445718604904733,0,0,0,0,1,0,1
-Grilled Salmon,Non-veg,454,"salmon fillet, lemon, asparagus, olive oil, herbs",0.9090909090909092,0.1581818181818181,0.7,0.1435880294901841,0.6520815495218811,0.0506091241647837,0,0,1,1,1,1,0
-Lentil Soup,Veg,133,"lentils, carrots, celery, onion, vegetable broth, spices",0.4545454545454545,0.7,0.4,0.6206374920193753,0.6127475610288435,0.0006883689503828,0,1,0,0,0,0,0
-Chickpea Stew,Veg,139,"chickpeas, spinach, tomatoes, coconut milk, curry powder",0.9090909090909092,0.1054545454545454,0.82,0.0468933633740663,0.9757605996296852,0.2290256532339217,1,1,0,0,0,0,0
-Turkey Lettuce Wraps,Non-veg,215,"ground turkey, lettuce leaves, ginger, soy sauce, water chestnuts",0.1818181818181818,0.4418181818181818,0.04,0.8643402019700046,0.6815746035272576,0.4492927819101209,0,0,1,1,1,1,0
-Cauliflower Rice Bowl,Veg,152,"cauliflower, bell peppers, broccoli, tofu, soy sauce",0.2727272727272727,0.5727272727272728,0.26,0.8125327277358156,0.3049359717360003,0.092350853570445,1,1,0,1,1,0,1
-Almond Flour Pancakes,Veg,193,"almond flour, eggs, almond milk, maple syrup, baking powder",1.0,0.6654545454545454,0.12,0.6131142429244506,0.8348464853860428,0.1689261452742643,0,1,1,1,1,0,0
-Chickpea Stew,Veg,145,"chickpeas, spinach, tomatoes, coconut milk, curry powder",0.2727272727272727,0.7036363636363636,0.02,0.4273252274059647,0.2080207370012977,0.5678606966659067,1,1,0,0,0,0,1
-Cauliflower Rice Bowl,Veg,151,"cauliflower, bell peppers, broccoli, tofu, soy sauce",0.8181818181818182,0.2927272727272727,0.18,0.8994061154953945,0.5989597903725732,0.9261651007275952,1,1,0,1,1,0,0
-Vegan Curry,Veg,180,"tofu, coconut milk, sweet potato, peas, curry paste",0.5454545454545454,0.4563636363636363,0.78,0.8488546083516119,0.7487557103648721,0.5395258601107095,1,1,0,0,0,0,0
-Tofu Stir Fry,Veg,163,"tofu, broccoli, carrots, snap peas, soy sauce, sesame oil",0.7272727272727273,0.2836363636363636,0.28,0.1661030631325829,0.0152318369702057,0.421878987199708,1,1,0,0,0,0,0
-Quinoa Salad,Veg,157,"quinoa, cucumber, cherry tomatoes, feta cheese, lemon dressing",1.0,0.8563636363636363,0.2,0.1998507701139256,0.7126870686240638,0.792930491158903,1,1,0,0,0,1,0
-Mediterranean Wrap,Veg,135,"whole wheat wrap, hummus, cucumber, olives, feta cheese",0.8181818181818182,0.4181818181818181,0.8,0.9196417193314164,0.8517325129256483,0.448231975206608,0,0,0,0,0,1,0
-Quinoa Salad,Veg,145,"quinoa, cucumber, cherry tomatoes, feta cheese, lemon dressing",0.5454545454545454,0.7381818181818182,0.46,0.6693268402944578,0.5923409948895683,0.2714653462741048,1,1,0,0,0,1,0
-Keto Omelette,Veg,138,"eggs, spinach, mushrooms, cheddar cheese, avocado",0.0,0.8381818181818181,0.04,0.7646761773951315,0.5622449035627055,0.7734981161322768,0,0,1,0,1,0,0
-uten-Free Pasta,Veg,138,"rice pasta, tomato sauce, garlic, olive oil, basil",0.0,0.1727272727272727,0.06,0.9122105906290744,0.2494752991358435,0.4087086026708388,0,0,0,0,1,0,0
-Grilled Salmon,Non-veg,442,"salmon fillet, lemon, asparagus, olive oil, herbs",0.2727272727272727,0.9527272727272728,0.62,0.601925948678716,0.6960884083390182,0.884275809212313,0,0,1,1,1,1,0
-Vegetarian Pizza,Veg,258,"whole wheat crust, tomato sauce, mozzarella, bell peppers, olives",0.7272727272727273,0.049090909090909,0.86,0.1875154678460743,0.8943598716403433,0.5391718890952869,0,1,0,0,0,0,0
-Gluten-Free Pasta,Veg,137,"rice pasta, tomato sauce, garlic, olive oil, basil",0.0,0.6981818181818182,0.52,0.4292871548500221,0.8196281618068026,0.8643083708474789,0,0,0,0,1,0,0
-Lentil Soup,Veg,125,"lentils, carrots, celery, onion, vegetable broth, spices",0.6363636363636364,0.6781818181818182,0.62,0.5214403204093901,0.7043431426061666,0.3614100288488382,0,1,0,0,0,0,0
-Chickpea Stew,Veg,126,"chickpeas, spinach, tomatoes, coconut milk, curry powder",0.8181818181818182,0.4854545454545454,0.76,0.4997876936196097,0.3011911177732236,0.2817020554069785,1,1,0,0,0,0,1
-Chickpea Stew,Veg,148,"chickpeas, spinach, tomatoes, coconut milk, curry powder",0.9090909090909092,0.2036363636363636,0.02,0.5052460694809017,0.0511643242643797,0.2754357883748146,1,1,0,0,0,0,0
-Quinoa Salad,Veg,146,"quinoa, cucumber, cherry tomatoes, feta cheese, lemon dressing",0.0,0.730909090909091,0.02,0.5336465804409141,0.4484654353248747,0.5528807708505465,1,1,0,0,0,1,0
-Vegan Buddha Bowl,Veg,214,"quinoa, chickpeas, avocado, sweet potato, kale, tahini",0.5454545454545454,0.3672727272727272,0.32,0.7319404001337115,0.3682642049780106,0.6332196508395695,1,1,0,0,1,0,1
-Paleo Chicken Bowl,Non-veg,270,"grilled chicken, sweet potato, broccoli, avocado, olive oil",0.4545454545454545,0.9272727272727272,0.94,0.8024289367531422,0.1506527005747429,0.5076652182113695,0,0,1,1,1,0,0
-Eggplant Parmesan,Veg,176,"eggplant, marinara sauce, mozzarella, parmesan, basil",0.1818181818181818,0.730909090909091,0.5,0.5147083985007513,0.226621512555469,0.6462366695276998,0,1,0,0,0,1,0
-Almond Flour Pancakes,Veg,192,"almond flour, eggs, almond milk, maple syrup, baking powder",0.7272727272727273,1.0,0.34,0.8419958598169651,0.6769455692551672,0.7373301143594055,0,1,1,1,1,0,0
-Cauliflower Rice Bowl,Veg,165,"cauliflower, bell peppers, broccoli, tofu, soy sauce",0.5454545454545454,0.7527272727272727,0.58,0.699342075141106,0.2286809255442748,0.1705349651752047,1,1,0,1,1,0,0
-Eggplant Parmesan,Veg,175,"eggplant, marinara sauce, mozzarella, parmesan, basil",0.7272727272727273,0.0018181818181818,0.0,0.0935686900638979,0.8990283427613591,0.904458693606296,0,1,0,0,0,1,0
-Keto Avocado Salad,Non-veg,206,"avocado, bacon, hard boiled egg, mixed greens, ranch dressing",0.7272727272727273,0.1781818181818182,0.36,0.7296681331684393,0.8989225794352305,0.8909715826599102,0,0,1,1,1,0,0
-Chickpea Stew,Veg,151,"chickpeas, spinach, tomatoes, coconut milk, curry powder",0.0,0.3109090909090909,0.54,0.4723436323861255,0.2798195354865603,0.8873372848441404,1,1,0,0,0,0,0
-Keto Avocado Salad,Non-veg,221,"avocado, bacon, hard boiled egg, mixed greens, ranch dressing",0.3636363636363636,0.5072727272727273,0.56,0.4303690362605235,0.968642041712772,0.9683976958705834,0,0,1,1,1,0,0
-Quinoa Salad,Veg,165,"quinoa, cucumber, cherry tomatoes, feta cheese, lemon dressing",0.2727272727272727,0.3454545454545454,0.4,0.1918787092748227,0.2687061708053387,0.4844790276924101,1,1,0,0,0,1,0
-Cauliflower Rice Bowl,Veg,154,"cauliflower, bell peppers, broccoli, tofu, soy sauce",0.7272727272727273,0.5854545454545454,0.78,0.0707656707816095,0.2090002490217749,0.6725102754082589,1,1,0,1,1,0,0
-Chicken Stir Fry,Non-veg,252,"chicken breast, bell peppers, onion, soy sauce, ginger",0.9090909090909092,0.889090909090909,0.02,0.3241937534879258,0.8503602875987724,0.1317543100592486,0,0,1,1,1,0,0
-Eggplant Parmesan,Veg,202,"eggplant, marinara sauce, mozzarella, parmesan, basil",0.5454545454545454,0.8654545454545455,0.82,0.8135014794244672,0.8117069187715653,0.8707240656507488,0,1,0,0,0,1,0
-Tofu Stir Fry,Veg,160,"tofu, broccoli, carrots, snap peas, soy sauce, sesame oil",1.0,0.9181818181818182,0.12,0.504077376148056,0.7998589804810996,0.6510836858084913,1,1,0,0,0,0,0
-Shrimp Zoodles,Non-veg,319,"shrimp, zucchini noodles, garlic, lemon, parmesan",1.0,0.8545454545454545,0.28,0.3774979967313926,0.0937744075313627,0.5785638952304525,0,0,1,1,1,0,0
-Greek Yogurt Parfait,Veg,124,"greek yogurt, honey, granola, mixed berries, walnuts",0.7272727272727273,0.3436363636363636,0.42,0.5938525375858948,0.0301330624388263,0.0313234101299667,0,1,0,0,0,1,0
-Paleo Chicken Bowl,Non-veg,294,"grilled chicken, sweet potato, broccoli, avocado, olive oil",0.4545454545454545,0.8054545454545454,0.72,0.5249106707368519,0.7714861765853407,0.211877659971957,0,0,1,1,1,0,0
-Mediterranean Wrap,Veg,139,"whole wheat wrap, hummus, cucumber, olives, feta cheese",0.5454545454545454,0.3545454545454545,0.1,0.05193515367947,0.5322470829014849,0.5404798467935364,0,0,0,0,0,1,0
-Vegan Curry,Veg,184,"tofu, coconut milk, sweet potato, peas, curry paste",0.2727272727272727,0.4872727272727272,0.98,0.5189372718778147,0.3233248070399587,0.7979995813544613,1,1,0,0,0,0,0
-Greek Yogurt Parfait,Veg,113,"greek yogurt, honey, granola, mixed berries, walnuts",1.0,0.1036363636363636,0.5,0.0254690981516412,0.964625561319529,0.839269259768347,0,1,0,0,0,1,0
-Keto Avocado Salad,Non-veg,206,"avocado, bacon, hard boiled egg, mixed greens, ranch dressing",1.0,0.1036363636363636,0.0,0.4446097998559926,0.2399465245849063,0.0885077264655599,0,0,1,1,1,0,0
-Vegan Curry,Veg,177,"tofu, coconut milk, sweet potato, peas, curry paste",0.3636363636363636,0.4927272727272727,0.76,0.6604706116501335,0.4363247123511982,0.7320929380426204,1,1,0,0,0,0,0
-Keto Omelette,Veg,134,"eggs, spinach, mushrooms, cheddar cheese, avocado",1.0,0.2781818181818182,0.3,0.1594486086265854,0.1200229644872397,0.3394064380207787,0,0,1,0,1,0,0
-Mediterranean Wrap,Veg,149,"whole wheat wrap, hummus, cucumber, olives, feta cheese",0.0,0.1690909090909091,0.9,0.9845237179392906,0.1753273270160692,0.0109008945222453,0,0,0,0,0,1,0
-Eggplant Parmesan,Veg,177,"eggplant, marinara sauce, mozzarella, parmesan, basil",0.3636363636363636,1.0,0.7,0.1740787001322911,0.4344988825050697,0.3966918865469099,0,1,0,0,0,1,0
-Vegetarian Pizza,Veg,239,"whole wheat crust, tomato sauce, mozzarella, bell peppers, olives",0.4545454545454545,0.18,0.66,0.2622203117888634,0.0148991358818564,0.9378620146219412,0,1,0,0,0,0,0
-Quinoa Salad,Veg,153,"quinoa, cucumber, cherry tomatoes, feta cheese, lemon dressing",0.6363636363636364,0.5890909090909091,0.88,0.1637585853770523,0.0703023313764202,0.6434510449264644,1,1,0,0,0,1,0
-Chickpea Stew,Veg,131,"chickpeas, spinach, tomatoes, coconut milk, curry powder",1.0,0.289090909090909,0.52,0.8050464658275763,0.6784275123062817,0.5735934976668106,1,1,0,0,0,0,0
-Quinoa Salad,Veg,155,"quinoa, cucumber, cherry tomatoes, feta cheese, lemon dressing",0.0,0.7745454545454545,0.72,0.6291390428111072,0.8220463059835151,0.652622263455708,1,1,0,0,0,1,0
-Grilled Salmon,Non-veg,443,"salmon fillet, lemon, asparagus, olive oil, herbs",1.0,0.5163636363636364,0.24,0.215678266300184,0.3777639873142733,0.0329571877133966,0,0,1,1,1,1,0
-Cauliflower Rice Bowl,Veg,151,"cauliflower, bell peppers, broccoli, tofu, soy sauce",0.1818181818181818,0.1618181818181818,0.14,0.3873620091229001,0.6828840188042741,0.338136703396547,1,1,0,1,1,0,0
-Greek Yogurt Parfait,Veg,112,"greek yogurt, honey, granola, mixed berries, walnuts",0.7272727272727273,0.3545454545454545,0.98,0.6321576257696742,0.879234943209541,0.7371833470033119,0,1,0,0,0,1,0
-Vegan Buddha Bowl,Veg,188,"quinoa, chickpeas, avocado, sweet potato, kale, tahini",0.8181818181818182,0.8290909090909091,0.46,0.8109621027116014,0.9925523477588564,0.4109694190082566,1,1,0,0,1,0,0
-Cauliflower Rice Bowl,Veg,169,"cauliflower, bell peppers, broccoli, tofu, soy sauce",0.0,0.1727272727272727,0.46,0.8715532163133535,0.5628358807041425,0.2349191117868987,1,1,0,1,1,0,0
-Tofu Stir Fry,Veg,172,"tofu, broccoli, carrots, snap peas, soy sauce, sesame oil",0.5454545454545454,0.3927272727272727,0.68,0.103641199288479,0.904378914310764,0.5046844519470917,1,1,0,0,0,0,0
-Eggplant Parmesan,Veg,188,"eggplant, marinara sauce, mozzarella, parmesan, basil",0.7272727272727273,0.62,0.24,0.9001055634147063,0.3897366182112346,0.0045036979368649,0,1,0,0,0,1,0
-Keto Avocado Salad,Non-veg,212,"avocado, bacon, hard boiled egg, mixed greens, ranch dressing",0.1818181818181818,0.1363636363636363,0.16,0.3209400203973934,0.952007459026324,0.9552331056570372,0,0,1,1,1,0,0
-Greek Yogurt Parfait,Veg,120,"greek yogurt, honey, granola, mixed berries, walnuts",0.8181818181818182,0.6654545454545454,0.3,0.450734350659762,0.293504295948263,0.3260371974235604,0,1,0,0,0,1,1
-Vegan Buddha Bowl,Veg,193,"quinoa, chickpeas, avocado, sweet potato, kale, tahini",0.3636363636363636,0.2727272727272727,0.3,0.7936571851913071,0.0909915895647204,0.4937260569346637,1,1,0,0,1,0,1
-Gluten-Free Pasta,Veg,160,"rice pasta, tomato sauce, garlic, olive oil, basil",0.8181818181818182,0.24,0.68,0.8922464060140983,0.351353661823255,0.1119719459562402,0,0,0,0,1,0,0
-Lentil Soup,Veg,125,"lentils, carrots, celery, onion, vegetable broth, spices",0.7272727272727273,0.1327272727272727,0.86,0.871304042679061,0.8401456312268497,0.4246003531714113,0,1,0,0,0,0,0
-Vegan Curry,Veg,156,"tofu, coconut milk, sweet potato, peas, curry paste",0.8181818181818182,0.7127272727272728,0.98,0.8964606406945672,0.1465296348864118,0.5128524075561274,1,1,0,0,0,0,0
-Paleo Chicken Bowl,Non-veg,284,"grilled chicken, sweet potato, broccoli, avocado, olive oil",0.1818181818181818,0.9,0.88,0.372531844852244,0.8143998470206317,0.9518353673201272,0,0,1,1,1,0,0
-Tofu Stir Fry,Veg,172,"tofu, broccoli, carrots, snap peas, soy sauce, sesame oil",0.2727272727272727,0.1254545454545454,0.6,0.4841262425879206,0.3784943263889385,0.7068469526159542,1,1,0,0,0,0,0
-Vegetarian Pizza,Veg,249,"whole wheat crust, tomato sauce, mozzarella, bell peppers, olives",0.8181818181818182,0.9636363636363636,0.76,0.4366688856792282,0.2538762844839985,0.403467345737865,0,1,0,0,0,0,0
-Almond Flour Pancakes,Veg,192,"almond flour, eggs, almond milk, maple syrup, baking powder",1.0,0.8272727272727273,0.8,0.7480177643111182,0.6823083327214677,0.233816006806607,0,1,1,1,1,0,0
-Chickpea Stew,Veg,131,"chickpeas, spinach, tomatoes, coconut milk, curry powder",0.7272727272727273,0.2109090909090909,0.1,0.8062123707314769,0.979916174512294,0.5560290130386976,1,1,0,0,0,0,0
-Turkey Lettuce Wraps,Non-veg,216,"ground turkey, lettuce leaves, ginger, soy sauce, water chestnuts",0.3636363636363636,0.1436363636363636,0.4,0.9980470057572,0.0735382666079514,0.5538531759681896,0,0,1,1,1,1,0
-Almond Flour Pancakes,Veg,193,"almond flour, eggs, almond milk, maple syrup, baking powder",0.7272727272727273,0.7290909090909091,0.92,0.6326157553322617,0.6970545881110127,0.4533817317072278,0,1,1,1,1,0,0
-Keto Omelette,Veg,122,"eggs, spinach, mushrooms, cheddar cheese, avocado",0.5454545454545454,0.02,0.18,0.9552753954518636,0.8920588846220989,0.4545104312592177,0,0,1,0,1,0,0
-Vegan Curry,Veg,169,"tofu, coconut milk, sweet potato, peas, curry paste",0.8181818181818182,0.6309090909090909,0.7,0.4660654808292268,0.3537970068457954,0.5840025624901524,1,1,0,0,0,0,1
-Mediterranean Wrap,Veg,127,"whole wheat wrap, hummus, cucumber, olives, feta cheese",0.7272727272727273,0.9109090909090908,0.32,0.2811869980189425,0.4117970025936862,0.6033513839151079,0,0,0,0,0,1,0
-Eggplant Parmesan,Veg,188,"eggplant, marinara sauce, mozzarella, parmesan, basil",0.1818181818181818,0.4581818181818182,0.1,0.9546606873123832,0.7271007835309775,0.61410870715979,0,1,0,0,0,1,0
-Chicken Stir Fry,Non-veg,241,"chicken breast, bell peppers, onion, soy sauce, ginger",0.8181818181818182,0.4381818181818182,0.88,0.1656681655711411,0.4118455200211275,0.780210600755417,0,0,1,1,1,0,0
-Cauliflower Rice Bowl,Veg,148,"cauliflower, bell peppers, broccoli, tofu, soy sauce",0.0,0.5109090909090909,0.48,0.9748783590328032,0.8437929404972173,0.8416452339569379,1,1,0,1,1,0,0
-Chicken Stir Fry,Non-veg,242,"chicken breast, bell peppers, onion, soy sauce, ginger",0.7272727272727273,0.1781818181818182,0.0,0.0137304074916475,0.075104691870494,0.6933210603731792,0,0,1,1,1,0,0
-Mediterranean Wrap,Veg,132,"whole wheat wrap, hummus, cucumber, olives, feta cheese",0.3636363636363636,0.7927272727272727,0.44,0.7729206220552322,0.9466979019265382,0.8530959222979657,0,0,0,0,0,1,0
-Chickpea Stew,Veg,128,"chickpeas, spinach, tomatoes, coconut milk, curry powder",0.3636363636363636,0.14,0.16,0.1298103078170294,0.9560065516415268,0.6067837037782318,1,1,0,0,0,0,0
-Quinoa Salad,Veg,136,"quinoa, cucumber, cherry tomatoes, feta cheese, lemon dressing",0.0,0.8854545454545455,0.62,0.0471253519779162,0.2689042929637835,0.0159831221255621,1,1,0,0,0,1,0
-Chicken Stir Fry,Non-veg,254,"chicken breast, bell peppers, onion, soy sauce, ginger",0.4545454545454545,0.2127272727272727,0.04,0.5228202426418167,0.8538808248620364,0.5518830185664882,0,0,1,1,1,0,0
-Mediterranean Wrap,Veg,130,"whole wheat wrap, hummus, cucumber, olives, feta cheese",0.9090909090909092,0.7272727272727273,0.94,0.4824969058135217,0.4211495227818489,0.7873589868347889,0,0,0,0,0,1,0
-Shrimp Zoodles,Non-veg,326,"shrimp, zucchini noodles, garlic, lemon, parmesan",0.0909090909090909,0.1345454545454545,1.0,0.9077725243230548,0.618372223063846,0.9854368697433212,0,0,1,1,1,0,0
-Cauliflower Rice Bowl,Veg,154,"cauliflower, bell peppers, broccoli, tofu, soy sauce",0.0909090909090909,0.6072727272727273,0.52,0.0914572368488425,0.7277800117529234,0.547370466447601,1,1,0,1,1,0,0
-Quinoa Salad,Veg,138,"quinoa, cucumber, cherry tomatoes, feta cheese, lemon dressing",0.6363636363636364,0.6072727272727273,0.58,0.6252663072226167,0.8640886413424379,0.9541339109721916,1,1,0,0,0,1,0
-Vegan Buddha Bowl,Veg,206,"quinoa, chickpeas, avocado, sweet potato, kale, tahini",0.8181818181818182,0.3327272727272727,0.32,0.4946291525825531,0.2584499727885913,0.458030008036168,1,1,0,0,1,0,1
-Chicken Stir Fry,Non-veg,253,"chicken breast, bell peppers, onion, soy sauce, ginger",0.4545454545454545,0.0945454545454545,0.02,0.3304264098438134,0.6345499498758237,0.2364859329301049,0,0,1,1,1,0,0
-Greek Yogurt Parfait,Veg,125,"greek yogurt, honey, granola, mixed berries, walnuts",0.7272727272727273,0.3309090909090909,0.3,0.152670259073863,0.1387324252107518,0.6418884986482202,0,1,0,0,0,1,0
-Vegan Curry,Veg,172,"tofu, coconut milk, sweet potato, peas, curry paste",0.2727272727272727,0.509090909090909,0.04,0.878791155037352,0.516087968296907,0.9779987480074744,1,1,0,0,0,0,0
-Greek Yogurt Parfait,Veg,120,"greek yogurt, honey, granola, mixed berries, walnuts",0.1818181818181818,0.0072727272727272,0.34,0.2800078115357036,0.1770117671093287,0.0832766670181425,0,1,0,0,0,1,0
-Quinoa Salad,Veg,146,"quinoa, cucumber, cherry tomatoes, feta cheese, lemon dressing",0.3636363636363636,0.4218181818181818,0.22,0.2073805148331882,0.3647420974982781,0.5028279487736507,1,1,0,0,0,1,0
-Tofu Stir Fry,Veg,146,"tofu, broccoli, carrots, snap peas, soy sauce, sesame oil",0.9090909090909092,0.1309090909090909,0.5,0.8034996755271538,0.6290356514900902,0.0762521877245404,1,1,0,0,0,0,0
-Grilled Salmon,Non-veg,444,"salmon fillet, lemon, asparagus, olive oil, herbs",0.0,0.0454545454545454,0.7,0.8103253935936929,0.749697653636829,0.1802126204650697,0,0,1,1,1,1,0
-Turkey Lettuce Wraps,Non-veg,234,"ground turkey, lettuce leaves, ginger, soy sauce, water chestnuts",0.6363636363636364,0.9545454545454546,0.5,0.7638422816687136,0.5321579817814838,0.7224586194235925,0,0,1,1,1,1,0
-Shrimp Zoodles,Non-veg,308,"shrimp, zucchini noodles, garlic, lemon, parmesan",0.9090909090909092,0.5654545454545454,1.0,0.7169973709933337,0.8970143701006165,0.5111844529679427,0,0,1,1,1,0,0
-Turkey Lettuce Wraps,Non-veg,218,"ground turkey, lettuce leaves, ginger, soy sauce, water chestnuts",1.0,0.4963636363636363,0.74,0.5353378957342751,0.2426364171173634,0.2659228913750313,0,0,1,1,1,1,0
-Mediterranean Wrap,Veg,155,"whole wheat wrap, hummus, cucumber, olives, feta cheese",1.0,0.069090909090909,0.32,0.2125210396969865,0.327877106497823,0.114698492702461,0,0,0,0,0,1,0
-Chickpea Stew,Veg,140,"chickpeas, spinach, tomatoes, coconut milk, curry powder",0.2727272727272727,0.0436363636363636,0.06,0.3569142920093464,0.6500107218394505,0.4787148058045823,1,1,0,0,0,0,0
-Vegan Buddha Bowl,Veg,199,"quinoa, chickpeas, avocado, sweet potato, kale, tahini",0.4545454545454545,0.06,0.92,0.7492518802480128,0.4323012664011984,0.1226078418542421,1,1,0,0,1,0,0
-Keto Avocado Salad,Non-veg,202,"avocado, bacon, hard boiled egg, mixed greens, ranch dressing",0.3636363636363636,0.94,0.5,0.6106602828844354,0.2445238037792914,0.4975980864448143,0,0,1,1,1,0,0
-Paleo Chicken Bowl,Non-veg,278,"grilled chicken, sweet potato, broccoli, avocado, olive oil",0.3636363636363636,0.6836363636363636,0.64,0.0075613199349521,0.2254556102047553,0.3631573895405744,0,0,1,1,1,0,0
-Eggplant Parmesan,Veg,197,"eggplant, marinara sauce, mozzarella, parmesan, basil",0.2727272727272727,0.6345454545454545,0.2,0.0883267931411545,0.8074477259203481,0.0498421933944612,0,1,0,0,0,1,0
-Keto Avocado Salad,Non-veg,222,"avocado, bacon, hard boiled egg, mixed greens, ranch dressing",0.5454545454545454,0.44,0.6,0.4124904660698412,0.9844053846174012,0.1068851921138964,0,0,1,1,1,0,0
-Chicken Stir Fry,Non-veg,249,"chicken breast, bell peppers, onion, soy sauce, ginger",0.2727272727272727,0.1345454545454545,0.06,0.005315500960406,0.9770755424922682,0.4900117129093639,0,0,1,1,1,0,0
-Paleo Chicken Bowl,Non-veg,294,"grilled chicken, sweet potato, broccoli, avocado, olive oil",0.1818181818181818,0.8,0.02,0.5596073892279524,0.5726063890201972,0.2767839593771756,0,0,1,1,1,0,0
-Lentil Soup,Veg,112,"lentils, carrots, celery, onion, vegetable broth, spices",0.3636363636363636,0.5909090909090909,0.5,0.3253280147097274,0.426062507795746,0.5070699580563641,0,1,0,0,0,0,1
-Chickpea Stew,Veg,145,"chickpeas, spinach, tomatoes, coconut milk, curry powder",1.0,0.0,0.5,0.7717065117265635,0.0870658176358924,0.505545967320498,1,1,0,0,0,0,0
-Vegan Buddha Bowl,Veg,200,"quinoa, chickpeas, avocado, sweet potato, kale, tahini",0.9090909090909092,0.4690909090909091,0.64,0.3711129374585116,0.4549665521334632,0.5485407686113855,1,1,0,0,1,0,0
-Vegetarian Pizza,Veg,247,"whole wheat crust, tomato sauce, mozzarella, bell peppers, olives",1.0,0.0218181818181818,0.78,0.8140174029774656,0.2548371759350487,0.6829902933933991,0,1,0,0,0,0,0
-Chickpea Stew,Veg,142,"chickpeas, spinach, tomatoes, coconut milk, curry powder",0.7272727272727273,0.9981818181818182,0.68,0.3506462644380192,0.9314229965813372,0.8338460285843853,1,1,0,0,0,0,0
-Lentil Soup,Veg,119,"lentils, carrots, celery, onion, vegetable broth, spices",0.0909090909090909,0.6054545454545455,0.2,0.9431424438912503,0.1812449687079227,0.0608114235781721,0,1,0,0,0,0,0
-Vegan Curry,Veg,175,"tofu, coconut milk, sweet potato, peas, curry paste",0.4545454545454545,0.6327272727272727,0.14,0.8321765250474308,0.7519455271934714,0.8024012596060809,1,1,0,0,0,0,0
-Keto Omelette,Veg,138,"eggs, spinach, mushrooms, cheddar cheese, avocado",0.3636363636363636,0.2981818181818181,0.08,0.2368891490168602,0.6349085589113285,0.9119936288756576,0,0,1,0,1,0,0
-Tofu Stir Fry,Veg,170,"tofu, broccoli, carrots, snap peas, soy sauce, sesame oil",0.8181818181818182,0.16,0.34,0.8207768957756011,0.4397954291297233,0.3748801379470416,1,1,0,0,0,0,0
-Greek Yogurt Parfait,Veg,119,"greek yogurt, honey, granola, mixed berries, walnuts",0.4545454545454545,0.04,0.28,0.5804370779376099,0.3558122863110962,0.3895873621133586,0,1,0,0,0,1,0
-Chicken Stir Fry,Non-veg,252,"chicken breast, bell peppers, onion, soy sauce, ginger",0.3636363636363636,0.1872727272727272,1.0,0.545622430224326,0.432169532831789,0.3302368511486684,0,0,1,1,1,0,1
-Greek Yogurt Parfait,Veg,122,"greek yogurt, honey, granola, mixed berries, walnuts",0.6363636363636364,0.8127272727272727,0.28,0.8831247835822159,0.4962257119721346,0.7436477351499083,0,1,0,0,0,1,0
-Vegan Buddha Bowl,Veg,212,"quinoa, chickpeas, avocado, sweet potato, kale, tahini",0.4545454545454545,0.8,0.64,0.7105955727769846,0.7800861370079677,0.1383368469842704,1,1,0,0,1,0,0
-Vegan Buddha Bowl,Veg,197,"quinoa, chickpeas, avocado, sweet potato, kale, tahini",0.4545454545454545,0.9472727272727272,0.08,0.8812517453352418,0.3424981825037753,0.8243747414301994,1,1,0,0,1,0,0
-Turkey Lettuce Wraps,Non-veg,213,"ground turkey, lettuce leaves, ginger, soy sauce, water chestnuts",0.2727272727272727,0.3909090909090909,0.28,0.8013737922890523,0.1498505716806695,0.2254646572352667,0,0,1,1,1,1,1
-Lentil Soup,Veg,133,"lentils, carrots, celery, onion, vegetable broth, spices",0.0909090909090909,0.7454545454545455,0.6,0.6015010146117706,0.5664866945738731,0.7180710533480074,0,1,0,0,0,0,0
-Mediterranean Wrap,Veg,139,"whole wheat wrap, hummus, cucumber, olives, feta cheese",0.2727272727272727,0.0181818181818181,0.18,0.3442697103395464,0.2274788712182495,0.4220766475219851,0,0,0,0,0,1,0
-Shrimp Zoodles,Non-veg,317,"shrimp, zucchini noodles, garlic, lemon, parmesan",0.9090909090909092,0.7181818181818181,0.5,0.5892254934698934,0.5067170838520116,0.6121248772687099,0,0,1,1,1,0,0
-Turkey Lettuce Wraps,Non-veg,205,"ground turkey, lettuce leaves, ginger, soy sauce, water chestnuts",0.6363636363636364,0.8345454545454546,0.86,0.5680206193489986,0.6979589918546448,0.9267975375493628,0,0,1,1,1,1,0
-Vegan Curry,Veg,179,"tofu, coconut milk, sweet potato, peas, curry paste",0.8181818181818182,0.6854545454545454,0.16,0.4262947649302447,0.7378524832435767,0.9388035755302032,1,1,0,0,0,0,0
-Grilled Salmon,Non-veg,441,"salmon fillet, lemon, asparagus, olive oil, herbs",0.5454545454545454,0.7345454545454545,0.5,0.8431899346893642,0.1245323103496248,0.9251207086761228,0,0,1,1,1,1,0
-Greek Yogurt Parfait,Veg,103,"greek yogurt, honey, granola, mixed berries, walnuts",0.6363636363636364,0.7818181818181819,0.16,0.7480559541247424,0.2056529424915534,0.7905170170573346,0,1,0,0,0,1,0
-Keto Avocado Salad,Non-veg,218,"avocado, bacon, hard boiled egg, mixed greens, ranch dressing",0.1818181818181818,0.4418181818181818,0.48,0.8679362896022432,0.924837563447504,0.4646709299920195,0,0,1,1,1,0,0
-Chicken Stir Fry,Non-veg,225,"chicken breast, bell peppers, onion, soy sauce, ginger",0.9090909090909092,0.96,0.84,0.033003479044054,0.9146011146468828,0.2446609982333986,0,0,1,1,1,0,0
-Gluten-Free Pasta,Veg,146,"rice pasta, tomato sauce, garlic, olive oil, basil",0.2727272727272727,0.9090909090909092,0.46,0.3130593323888512,0.7820147437429052,0.2743641429477412,0,0,0,0,1,0,0
-Cauliflower Rice Bowl,Veg,152,"cauliflower, bell peppers, broccoli, tofu, soy sauce",0.3636363636363636,0.0872727272727272,0.12,0.9805341429594464,0.4596994411924502,0.5573445081808439,1,1,0,1,1,0,0
-
-Dal Makhani,Veg,160,"black lentils, kidney beans, butter, cream, onion, tomato, garam masala",0.7272727273,0.457143,0.529412,0.4,0.327273,0.872727,0,1,0,0,1,0,0
-Chole Bhature,Veg,130,"chickpeas, refined flour, onion, tomato, chole masala, butter, yogurt",0.0909090909,0.685714,0.470588,0.363636,0.436364,1.0,0,1,0,0,0,0,0
-Methi Thepla,Veg,110,"fenugreek leaves, whole wheat flour, yogurt, turmeric, cumin, oil, green chilli",0.9090909091,0.157143,0.235294,0.181818,0.163636,0.8,0,1,0,0,0,0,1
-Matar Paneer,Veg,175,"paneer, green peas, onion, tomato, ginger, garam masala, oil",0.1818181818,0.314286,0.294118,0.381818,0.4,0.436364,0,1,0,0,1,0,1
-Kadai Vegetables,Veg,150,"bell peppers, paneer, onion, tomato, kadai masala, oil, coriander",0.7272727273,0.214286,0.235294,0.254545,0.290909,0.545455,0,1,0,0,1,0,1
-Pesarattu,Veg,100,"green moong dal, rice, ginger, cumin, green chilli, onion, oil",0.0,0.114286,0.294118,0.272727,0.090909,0.763636,1,1,0,0,1,0,1
-Aloo Paratha,Veg,120,"whole wheat flour, potato, onion, cumin, ajwain, butter, green chilli",0.4545454545,0.4,0.294118,0.2,0.272727,1.0,0,1,0,0,0,0,0
-Kadhi Pakora,Veg,130,"yogurt, chickpea flour, onion, fenugreek, mustard seeds, ghee, turmeric",0.5454545455,0.228571,0.411765,0.236364,0.254545,0.690909,0,1,0,0,1,0,0
-Bisi Bele Bath,Veg,140,"toor dal, basmati rice, mixed vegetables, tamarind, ghee, sambar masala, cashews",0.8181818182,0.371429,0.470588,0.290909,0.2,1.0,0,1,0,0,1,0,1
-Pav Bhaji,Veg,130,"mixed vegetables, butter, pav bread, pav bhaji masala, onion, tomato, lemon",0.2727272727,0.485714,0.294118,0.218182,0.327273,1.0,0,1,0,0,0,0,0
-Rava Upma,Veg,90,"semolina, mustard seeds, curry leaves, carrot, peas, oil, onion",0.0909090909,0.157143,0.176471,0.163636,0.145455,0.872727,1,1,0,0,0,0,1
-Vegetable Khichdi,Veg,120,"moong dal, basmati rice, carrot, peas, turmeric, ghee, cumin",0.5454545455,0.271429,0.294118,0.272727,0.163636,1.0,0,1,0,0,1,0,1
-Paneer Bhurji,Veg,160,"paneer, onion, tomato, green chilli, turmeric, cumin, coriander",0.5454545455,0.257143,0.176471,0.436364,0.4,0.218182,0,1,0,0,1,0,1
-Avial,Veg,130,"mixed vegetables, coconut, yogurt, curry leaves, turmeric, cumin, mustard oil",0.0909090909,0.128571,0.352941,0.127273,0.254545,0.581818,0,1,0,0,1,0,1
-Gujarati Dal,Veg,120,"toor dal, peanuts, kokum, jaggery, mustard seeds, ghee, curry leaves",0.0,0.2,0.294118,0.254545,0.181818,0.836364,0,1,0,0,1,0,1
-Rajasthani Gatte Ki Sabzi,Veg,155,"chickpea flour, yogurt, mustard seeds, red chilli, ghee, turmeric, coriander",0.0909090909,0.285714,0.411765,0.272727,0.254545,0.763636,0,1,0,0,1,0,0
-
-
-
-
-Appam with Stew,Veg,140,"rice flour, coconut milk, mixed vegetables, cardamom, curry leaves, oil, onion",0.2727272727,0.242857,0.411765,0.145455,0.218182,0.945455,1,1,0,0,1,0,1
-Lauki Chana Dal,Veg,110,"bottle gourd, chana dal, onion, tomato, cumin, turmeric, mustard oil",0.5454545455,0.157143,0.352941,0.290909,0.127273,0.727273,1,1,0,0,1,0,1
-Stuffed Bell Peppers Indian,Veg,165,"bell peppers, paneer, onion, tomato, spices, oil, coriander",0.0909090909,0.2,0.294118,0.327273,0.254545,0.509091,0,1,0,0,1,0,1
-Sindhi Kadhi,Veg,135,"chickpea flour, cluster beans, drumstick, potato, okra, turmeric, mustard seeds",0.5454545455,0.171429,0.411765,0.218182,0.181818,0.727273,0,1,0,0,1,0,1
-Panch Phoron Sabzi,Veg,130,"mixed vegetables, panch phoron, mustard oil, turmeric, green chilli, bay leaf, onion",0.0,0.114286,0.235294,0.145455,0.181818,0.581818,1,1,0,0,1,0,1
-Butter Chicken,Non-veg,240,"chicken, butter, cream, tomato puree, onion, garam masala, kasuri methi",0.8181818182,0.457143,0.411765,0.654545,0.509091,0.327273,0,0,0,0,1,0,0
-Mutton Biryani,Non-veg,320,"mutton, basmati rice, fried onion, yogurt, saffron, ghee, whole spices",0.0,0.742857,0.764706,0.690909,0.472727,1.0,0,0,0,0,1,0,0
-Prawn Masala,Non-veg,280,"prawns, onion, tomato, coconut milk, ginger, garlic, curry leaves",0.7272727273,0.257143,0.294118,0.581818,0.327273,0.290909,0,0,0,0,1,0,1
-Egg Curry,Non-veg,160,"eggs, onion, tomato, mustard oil, turmeric, garam masala, coriander",0.7272727273,0.271429,0.235294,0.4,0.436364,0.254545,0,0,0,0,1,0,1
-Chicken Saag,Non-veg,230,"chicken, spinach, onion, garlic, cream, garam masala, oil",0.0909090909,0.3,0.411765,0.690909,0.363636,0.218182,0,0,0,0,1,0,1
-Chettinad Chicken,Non-veg,250,"chicken, chettinad masala, coconut, onion, kalpasi, marathi mokku, oil",0.2727272727,0.357143,0.470588,0.727273,0.4,0.254545,0,0,0,0,1,0,1
-Fish Tikka,Non-veg,240,"fish fillet, yogurt, tikka masala, lemon, mustard oil, ginger, garlic",0.2727272727,0.171429,0.294118,0.618182,0.218182,0.145455,0,0,0,0,1,0,1
-Kolhapuri Mutton,Non-veg,310,"mutton, kolhapuri masala, onion, tomato, sesame, coconut, oil",0.0,0.442857,0.588235,0.654545,0.509091,0.290909,0,0,0,0,1,0,0
-Goan Prawn Curry,Non-veg,290,"prawns, coconut milk, kokum, green chilli, garlic, turmeric, mustard seeds",1.0,0.257143,0.294118,0.545455,0.363636,0.254545,0,0,0,1,1,0,1
-Malabar Fish Curry,Non-veg,260,"snapper fillet, coconut milk, tamarind, shallots, green chilli, ginger, curry leaves",0.2727272727,0.271429,0.294118,0.581818,0.363636,0.290909,0,0,0,0,1,0,1
-Mangalorean Chicken Sukka,Non-veg,250,"chicken, dry coconut, coriander seeds, red chilli, garlic, mustard oil, curry leaves",0.9090909091,0.328571,0.411765,0.727273,0.4,0.181818,0,0,0,0,1,0,1
-Awadhi Gosht Biryani,Non-veg,330,"mutton, aged basmati rice, fried onion, kewra, ghee, yogurt, saffron",0.5454545455,0.771429,0.882353,0.654545,0.509091,1.0,0,0,0,0,1,0,0
-Bangladeshi Hilsa Curry,Non-veg,280,"hilsa fish, mustard paste, turmeric, green chilli, mustard oil, onion, coriander",0.6363636364,0.257143,0.235294,0.581818,0.4,0.145455,0,0,0,0,1,0,1
-Maharashtrian Misal Pav,Veg,125,"sprouted moth beans, pav bread, farsan, onion, tomato, coconut oil, usal masala",0.4545454545,0.4,0.235294,0.327273,0.254545,1.0,0,1,0,0,0,0,1
-Kerala Puttu Kadala,Veg,120,"rice flour, black chickpeas, coconut, banana, coconut milk, cardamom, cumin",0.7272727273,0.342857,0.294118,0.290909,0.181818,1.0,0,1,0,0,1,0,1
-Shakshuka,Veg,160,"eggs, canned tomatoes, bell peppers, onion, cumin, paprika, olive oil",0.0,0.2,0.235294,0.327273,0.363636,0.290909,0,0,0,0,1,1,1
-Falafel Bowl,Veg,200,"chickpeas, tahini, flatbread, tomato, cucumber, parsley, lemon",0.8181818182,0.414286,0.352941,0.327273,0.363636,1.0,1,1,0,0,0,1,1
-Hummus Plate,Veg,170,"chickpeas, tahini, garlic, lemon, olive oil, paprika, pita bread",0.0909090909,0.314286,0.117647,0.290909,0.327273,0.872727,1,1,0,0,0,1,1
-Baba Ganoush,Veg,155,"eggplant, tahini, garlic, lemon juice, olive oil, parsley, cumin",0.7272727273,0.085714,0.176471,0.145455,0.290909,0.4,1,1,0,1,1,1,1
-Tabbouleh,Veg,145,"bulgur wheat, parsley, tomato, cucumber, mint, lemon juice, olive oil",0.2727272727,0.128571,0.176471,0.145455,0.181818,0.727273,1,1,0,0,0,1,1
-Fattoush Salad,Veg,140,"romaine lettuce, tomato, cucumber, pita chips, sumac, lemon, olive oil",0.2727272727,0.1,0.117647,0.109091,0.218182,0.581818,0,1,0,0,0,1,1
-Musakhan Chicken,Non-veg,270,"chicken, flatbread, caramelised onions, sumac, pine nuts, olive oil, allspice",0.0909090909,0.514286,0.529412,0.654545,0.436364,0.763636,0,0,0,0,0,1,0
-Lamb Shawarma,Non-veg,290,"lamb, yogurt marinade, garlic, cumin, tahini, flatbread, pickled vegetables",0.2727272727,0.571429,0.470588,0.727273,0.509091,0.690909,0,0,0,0,0,1,0
-Mujaddara,Veg,140,"lentils, basmati rice, caramelised onion, cumin, olive oil, parsley, yogurt",0.8181818182,0.314286,0.411765,0.327273,0.218182,1.0,0,1,0,0,1,1,1
-Grilled Sea Bass,Non-veg,310,"sea bass, lemon, olive oil, garlic, fresh herbs, capers, cherry tomatoes",0.0,0.2,0.235294,0.690909,0.290909,0.109091,0,0,0,1,1,1,1
-Spanakopita,Veg,200,"spinach, feta cheese, phyllo dough, egg, onion, dill, olive oil",0.0909090909,0.314286,0.588235,0.290909,0.4,0.690909,0,1,0,0,0,1,1
-Greek Moussaka,Non-veg,260,"minced beef, eggplant, bechamel sauce, onion, tomato, cinnamon, olive oil",0.1818181818,0.514286,0.705882,0.545455,0.545455,0.654545,0,0,0,0,0,1,0
-Chicken Souvlaki,Non-veg,240,"chicken thigh, lemon, oregano, garlic, olive oil, pita, tzatziki",0.7272727273,0.342857,0.294118,0.727273,0.290909,0.509091,0,0,0,0,0,1,1
-Koshari,Veg,130,"lentils, rice, pasta, fried onions, tomato sauce, cumin, vinegar",0.4545454545,0.4,0.411765,0.327273,0.109091,1.0,1,1,0,0,0,0,1
-Lebanese Kibbeh,Non-veg,240,"minced lamb, bulghur wheat, pine nuts, onion, cinnamon, allspice, olive oil",0.0909090909,0.428571,0.470588,0.509091,0.436364,0.690909,0,0,0,0,0,1,0
-Turkish Mercimek Corbasi,Veg,140,"red lentils, onion, carrot, butter, paprika, cumin, lemon",0.8181818182,0.2,0.294118,0.327273,0.181818,0.836364,0,1,0,0,1,1,1
-Moroccan Vegetable Stew,Veg,185,"chickpeas, sweet potato, zucchini, ras el hanout, tomatoes, onion, coriander",0.6363636364,0.257143,0.411765,0.254545,0.145455,1.0,1,1,0,0,1,1,1
-Miso Salmon,Non-veg,310,"salmon fillet, white miso, mirin, soy sauce, ginger, sesame oil, spring onion",0.3636363636,0.314286,0.176471,0.727273,0.363636,0.254545,0,0,0,0,1,0,1
-Teriyaki Chicken Rice,Non-veg,240,"chicken thigh, teriyaki sauce, basmati rice, broccoli, sesame seeds, ginger, garlic",0.6363636364,0.457143,0.235294,0.654545,0.254545,1.0,0,0,0,0,1,0,1
-Japanese Gyudon,Non-veg,230,"beef slices, onion, dashi, mirin, soy sauce, rice, egg",0.8181818182,0.514286,0.176471,0.581818,0.363636,1.0,0,0,0,0,0,0,0
-Bibimbap,Veg,220,"steamed rice, spinach, bean sprouts, carrot, mushrooms, gochujang, sesame oil",0.1818181818,0.4,0.294118,0.254545,0.181818,1.0,1,1,0,0,1,0,1
-Kimchi Fried Rice,Non-veg,200,"basmati rice, kimchi, egg, pork belly, sesame oil, spring onion, soy sauce",1.0,0.457143,0.176471,0.363636,0.363636,1.0,0,0,0,0,1,0,0
-Thai Green Curry,Non-veg,240,"chicken, coconut milk, green curry paste, Thai basil, bamboo shoots, fish sauce, lime",0.4545454545,0.371429,0.294118,0.581818,0.472727,0.327273,0,0,0,0,1,0,1
-Thai Basil Stir Fry,Non-veg,210,"minced pork, Thai basil, garlic, oyster sauce, fish sauce, egg, chilli",0.7272727273,0.342857,0.117647,0.509091,0.4,0.4,0,0,0,0,0,0,0
-Pad See Ew,Non-veg,220,"rice noodles, chicken, Chinese broccoli, egg, oyster sauce, dark soy, garlic",0.6363636364,0.457143,0.176471,0.509091,0.254545,1.0,0,0,0,0,1,0,0
-Vietnamese Pho,Non-veg,230,"rice noodles, beef broth, beef slices, bean sprouts, basil, lime, hoisin",0.7272727273,0.3,0.647059,0.509091,0.218182,0.8,0,0,0,0,1,0,1
-Tom Kha Gai,Non-veg,230,"chicken, coconut milk, galangal, lemongrass, mushrooms, fish sauce, lime",0.6363636364,0.214286,0.294118,0.472727,0.4,0.181818,0,0,0,1,1,0,1
-Mapo Tofu,Veg,180,"firm tofu, doubanjiang, sichuan peppercorn, garlic, ginger, soy sauce, sesame oil",0.5454545455,0.171429,0.176471,0.327273,0.327273,0.290909,1,1,0,0,1,0,1
-Ramen Tonkotsu,Non-veg,280,"pork broth, ramen noodles, chashu pork, soft egg, corn, nori, spring onion",1.0,0.685714,0.647059,0.581818,0.509091,1.0,0,0,0,0,0,0,0
-Hainanese Chicken Rice,Non-veg,230,"whole chicken, jasmine rice, ginger, spring onion, sesame oil, oyster sauce, chicken broth",0.0909090909,0.457143,0.588235,0.654545,0.290909,0.945455,0,0,0,0,1,0,1
-Korean Japchae,Veg,200,"glass noodles, spinach, carrot, mushrooms, soy sauce, sesame oil, garlic",1.0,0.314286,0.294118,0.181818,0.181818,1.0,0,1,0,0,1,0,1
-Indonesian Nasi Goreng,Non-veg,210,"jasmine rice, egg, chicken, shrimp paste, kecap manis, spring onion, cucumber",0.8181818182,0.457143,0.176471,0.4,0.290909,1.0,0,0,0,0,1,0,0
-Malaysian Laksa,Non-veg,240,"rice noodles, coconut milk, prawn, tofu puffs, bean sprouts, laksa paste, lime",0.5454545455,0.485714,0.294118,0.509091,0.472727,0.8,0,0,0,0,1,0,0
-Filipino Adobo Chicken,Non-veg,200,"chicken, soy sauce, vinegar, garlic, bay leaf, peppercorns, oil",0.9090909091,0.328571,0.411765,0.654545,0.363636,0.181818,0,0,0,0,1,0,1
-Singapore Noodles,Non-veg,220,"rice vermicelli, prawns, egg, curry powder, bean sprouts, spring onion, soy sauce",0.8181818182,0.342857,0.176471,0.472727,0.218182,0.945455,0,0,0,0,1,0,1
-Beef Bolognese,Non-veg,290,"minced beef, tomato, onion, carrot, celery, red wine, pasta",0.0,0.6,0.529412,0.618182,0.4,0.981818,0,0,0,0,0,1,0
-Pesto Pasta,Veg,210,"pasta, basil pesto, cherry tomatoes, parmesan, pine nuts, olive oil, garlic",0.4545454545,0.542857,0.176471,0.327273,0.472727,1.0,0,1,0,0,0,1,0
-Chicken Marsala,Non-veg,280,"chicken breast, marsala wine, mushrooms, butter, shallots, chicken broth, parsley",0.8181818182,0.371429,0.294118,0.727273,0.363636,0.254545,0,0,0,0,1,0,1
-Lamb Tagine,Non-veg,310,"lamb shoulder, apricots, chickpeas, ras el hanout, onion, cinnamon, honey",0.2727272727,0.514286,1.0,0.690909,0.4,0.8,0,0,0,0,1,0,1
-Beef Bourguignon,Non-veg,330,"beef chuck, red wine, mushrooms, pearl onions, carrot, bacon, thyme",0.4545454545,0.542857,1.0,0.654545,0.509091,0.4,0,0,0,0,1,0,0
-Chicken Cacciatore,Non-veg,250,"chicken pieces, canned tomatoes, olives, onion, bell pepper, rosemary, white wine",0.2727272727,0.328571,0.588235,0.690909,0.327273,0.327273,0,0,0,0,1,1,1
-Ratatouille,Veg,190,"zucchini, eggplant, bell peppers, tomatoes, onion, thyme, olive oil",0.7272727273,0.085714,0.529412,0.109091,0.218182,0.509091,1,1,0,1,1,1,1
-French Onion Soup,Veg,200,"onions, beef broth, baguette, gruyere cheese, butter, thyme, white wine",0.7272727273,0.285714,0.588235,0.254545,0.290909,0.763636,0,1,0,0,0,1,0
-Risotto Funghi,Veg,240,"arborio rice, porcini mushrooms, parmesan, white wine, shallots, butter, vegetable broth",0.8181818182,0.457143,0.411765,0.254545,0.327273,1.0,0,1,0,0,1,1,0
-Osso Buco,Non-veg,340,"veal shank, gremolata, white wine, carrot, celery, onion, canned tomatoes",0.3636363636,0.485714,0.882353,0.8,0.436364,0.327273,0,0,0,0,1,1,1
-Coq au Vin,Non-veg,310,"chicken, red wine, mushrooms, bacon lardons, pearl onions, thyme, chicken stock",0.1818181818,0.457143,0.882353,0.727273,0.472727,0.290909,0,0,0,0,1,1,0
-Beef Stew,Non-veg,290,"beef chuck, potato, carrot, onion, celery, beef broth, thyme",0.3636363636,0.4,0.882353,0.654545,0.327273,0.654545,0,0,0,0,1,0,1
-Zucchini Frittata,Veg,180,"eggs, zucchini, onion, parmesan, olive oil, basil, salt",0.4545454545,0.157143,0.176471,0.363636,0.363636,0.145455,0,1,0,0,1,1,1
-Spanish Tortilla,Veg,175,"potato, egg, onion, olive oil, salt, parsley, paprika",0.3636363636,0.257143,0.294118,0.290909,0.363636,0.581818,0,1,0,0,1,1,0
-Swedish Kottbullar,Non-veg,240,"minced pork beef mix, cream sauce, lingonberry, potato, allspice, onion, butter",0.4545454545,0.514286,0.352941,0.545455,0.545455,0.581818,0,0,0,0,0,0,0
-Portuguese Caldo Verde,Non-veg,200,"chorizo, kale, potato, onion, olive oil, garlic, vegetable broth",0.0909090909,0.285714,0.411765,0.327273,0.290909,0.690909,0,0,0,0,1,1,0
-Polish Bigos,Non-veg,220,"sauerkraut, pork, kielbasa, mushrooms, onion, tomato paste, bay leaf",0.7272727273,0.371429,0.647059,0.509091,0.4,0.436364,0,0,0,0,1,0,0
-Hungarian Goulash,Non-veg,250,"beef, onion, paprika, carrot, potato, beef broth, tomato paste",0.1818181818,0.371429,0.823529,0.581818,0.327273,0.654545,0,0,0,0,1,0,1
-Georgian Chakhokhbili,Non-veg,240,"chicken, tomatoes, onion, fresh herbs, garlic, butter, adjika",0.9090909091,0.314286,0.470588,0.690909,0.327273,0.254545,0,0,0,0,1,0,1
-Iranian Ghormeh Sabzi,Non-veg,270,"lamb, kidney beans, fenugreek leaves, parsley, dried lime, saffron, oil",0.3636363636,0.4,0.764706,0.654545,0.4,0.509091,0,0,0,0,1,0,1
-Russian Solyanka,Non-veg,220,"beef, olives, gherkins, tomato paste, onion, lemon, capers",0.7272727273,0.285714,0.529412,0.509091,0.327273,0.4,0,0,0,0,1,0,0
-Black Bean Tacos,Veg,170,"black beans, corn tortillas, avocado, salsa, jalapeño, lime, coriander",0.3636363636,0.314286,0.176471,0.290909,0.254545,1.0,1,1,0,0,1,0,1
-Chicken Enchiladas,Non-veg,230,"chicken, corn tortillas, enchilada sauce, cheddar, onion, sour cream, coriander",0.8181818182,0.485714,0.411765,0.654545,0.4,0.8,0,0,0,0,1,0,0
-Beef Chilli,Non-veg,230,"minced beef, kidney beans, canned tomatoes, onion, cumin, chipotle, bell pepper",0.9090909091,0.4,0.470588,0.618182,0.363636,0.690909,0,0,0,0,1,0,1
-Corn Black Bean Bowl,Veg,185,"corn, black beans, quinoa, avocado, salsa verde, lime, coriander",0.1818181818,0.342857,0.176471,0.290909,0.254545,1.0,1,1,0,0,1,0,1
-Chicken Burrito Bowl,Non-veg,220,"chicken, brown rice, black beans, corn, avocado, tomato, sour cream",0.0,0.542857,0.235294,0.690909,0.327273,1.0,0,0,0,0,1,0,1
-Turkey Meatballs Marinara,Non-veg,220,"minced turkey, egg, breadcrumbs, parmesan, garlic, tomato sauce, basil",0.4545454545,0.342857,0.294118,0.654545,0.290909,0.509091,0,0,0,0,0,0,1
-Peruvian Lomo Saltado,Non-veg,260,"beef sirloin, tomato, onion, soy sauce, vinegar, fries, coriander",1.0,0.542857,0.294118,0.618182,0.363636,0.909091,0,0,0,0,0,0,0
-Chimichurri Skirt Steak,Non-veg,320,"beef skirt steak, chimichurri sauce, garlic, parsley, vinegar, olive oil, chilli",0.8181818182,0.457143,0.176471,0.8,0.509091,0.109091,0,0,1,1,1,0,1
-Brazilian Moqueca,Non-veg,280,"fish fillet, coconut milk, tomato, onion, dende oil, coriander, lime",0.7272727273,0.314286,0.352941,0.618182,0.4,0.290909,0,0,0,0,1,0,1
-Cuban Ropa Vieja,Non-veg,250,"shredded beef, tomato, bell pepper, onion, garlic, cumin, olives",0.8181818182,0.371429,0.647059,0.690909,0.290909,0.4,0,0,0,0,1,0,1
-Jamaican Jerk Chicken,Non-veg,230,"chicken, scotch bonnet, allspice, thyme, soy sauce, ginger, lime",0.7272727273,0.314286,0.529412,0.727273,0.290909,0.181818,0,0,0,1,1,0,1
-Colombian Ajiaco,Non-veg,220,"chicken, three potato varieties, corn, guasca herb, cream, capers, avocado",0.7272727273,0.342857,0.647059,0.545455,0.254545,0.763636,0,0,0,0,1,0,1
-Egg Bacon Cups,Non-veg,160,"eggs, bacon, heavy cream, cheddar, spinach, butter, chives",0.8181818182,0.257143,0.176471,0.472727,0.509091,0.072727,0,0,1,0,1,0,0
-Cauliflower Steak,Veg,170,"cauliflower, olive oil, garlic, parmesan, rosemary, lemon, paprika",0.1818181818,0.057143,0.294118,0.181818,0.254545,0.327273,0,1,1,0,1,0,1
-Zucchini Noodle Alfredo,Veg,190,"zucchini, heavy cream, parmesan, garlic, butter, nutmeg, black pepper",0.7272727273,0.228571,0.176471,0.218182,0.509091,0.254545,0,1,1,0,1,0,1
-Keto Chicken Thighs,Non-veg,210,"chicken thighs, butter, garlic, rosemary, lemon, olive oil, dijon mustard",0.5454545455,0.314286,0.294118,0.654545,0.509091,0.072727,0,0,1,1,1,0,1
-Broccoli Cheddar Soup,Veg,190,"broccoli, cheddar, heavy cream, onion, garlic, vegetable broth, butter",0.4545454545,0.257143,0.235294,0.290909,0.509091,0.254545,0,1,1,0,1,0,0
-Steak Wedge Salad,Non-veg,280,"beef sirloin, iceberg lettuce, blue cheese, bacon, cherry tomatoes, olive oil, walnuts",0.7272727273,0.342857,0.176471,0.654545,0.509091,0.218182,0,0,1,1,1,0,1
-Smoked Salmon Avocado,Non-veg,270,"smoked salmon, avocado, cucumber, cream cheese, lemon, capers, dill",0.2727272727,0.228571,0.058824,0.509091,0.472727,0.145455,0,0,1,0,1,1,1
-Egg Salad Lettuce Wraps,Veg,160,"hard boiled eggs, mayo, mustard, celery, lettuce, chives, paprika",0.3636363636,0.114286,0.117647,0.327273,0.363636,0.109091,0,1,1,0,1,0,1
-Lentil Bolognese,Veg,180,"green lentils, canned tomatoes, carrot, celery, red wine, pasta, basil",0.8181818182,0.4,0.411765,0.4,0.145455,1.0,1,1,0,0,0,1,1
-Roasted Chickpea Tacos,Veg,165,"chickpeas, corn tortillas, red cabbage, lime, avocado, chipotle, cumin",0.0,0.314286,0.294118,0.290909,0.218182,1.0,1,1,0,0,1,0,1
-Mushroom Bourguignon,Veg,210,"portobello mushrooms, red wine, carrot, onion, thyme, lentils, vegetable broth",0.7272727273,0.228571,0.647059,0.290909,0.145455,0.8,1,1,0,0,1,1,1
-Black Bean Soup,Veg,150,"black beans, onion, garlic, cumin, vegetable broth, lime, coriander",0.8181818182,0.2,0.352941,0.327273,0.109091,0.909091,1,1,0,0,1,0,1
-Tempeh Stir Fry,Veg,200,"tempeh, bok choy, carrot, soy sauce, ginger, sesame oil, brown rice",0.5454545455,0.371429,0.176471,0.472727,0.290909,0.909091,1,1,0,0,1,0,1
-Jackfruit Pulled Tacos,Veg,175,"jackfruit, taco seasoning, corn tortillas, avocado, red onion, lime, jalapeño",0.9090909091,0.257143,0.235294,0.145455,0.181818,1.0,1,1,0,0,1,0,1
-Sweet Potato Black Bean Burrito,Veg,170,"sweet potato, black beans, brown rice, avocado, salsa, cumin, lime",0.0,0.457143,0.352941,0.254545,0.181818,1.0,1,1,0,0,1,0,1
-White Bean Minestrone,Veg,160,"white beans, zucchini, pasta, tomatoes, carrot, basil, vegetable broth",0.2727272727,0.257143,0.411765,0.290909,0.109091,1.0,1,1,0,0,0,1,1
-Edamame Soba Bowl,Veg,190,"soba noodles, edamame, carrot, cucumber, soy sauce, sesame oil, ginger",0.2727272727,0.314286,0.176471,0.363636,0.181818,1.0,1,1,0,0,0,0,1
-Balinese Tempeh Sambal,Veg,175,"tempeh, sambal sauce, shallots, garlic, lime, palm sugar, kaffir lime leaves",0.2727272727,0.214286,0.176471,0.363636,0.290909,0.509091,1,1,0,0,1,0,1
-Tofu Tikka Masala,Veg,190,"firm tofu, tomato puree, cream, onion, tikka masala, ginger, garlic",0.2727272727,0.257143,0.294118,0.4,0.327273,0.436364,0,1,0,0,1,0,1
-Egyptian Ful Medames,Veg,120,"fava beans, lemon juice, garlic, cumin, olive oil, parsley, tomato",0.1818181818,0.2,0.176471,0.327273,0.181818,0.8,1,1,0,0,1,0,1
-Tuscan Bean Soup,Veg,180,"cannellini beans, kale, tomatoes, rosemary, garlic, olive oil, vegetable broth",0.9090909091,0.2,0.294118,0.327273,0.145455,0.8,1,1,0,0,1,1,1
-Moroccan Harira,Non-veg,200,"lamb, lentils, chickpeas, tomato, cinnamon, coriander, lemon",0.6363636364,0.371429,0.529412,0.545455,0.290909,0.8,0,0,0,0,1,0,1
-Pumpkin Coconut Soup,Veg,160,"pumpkin, onion, vegetable broth, coconut milk, ginger, cumin, olive oil",0.8181818182,0.085714,0.294118,0.109091,0.218182,0.581818,1,1,0,0,1,0,1
-Clam Chowder,Non-veg,230,"clams, potato, heavy cream, bacon, onion, celery, thyme",0.1818181818,0.4,0.352941,0.4,0.509091,0.545455,0,0,0,0,1,0,0
-Tom Yum Soup,Non-veg,210,"prawns, lemongrass, galangal, kaffir lime leaves, mushrooms, fish sauce, lime",0.3636363636,0.057143,0.235294,0.4,0.145455,0.218182,0,0,0,0,1,0,1
-Lemon Chicken Orzo,Non-veg,220,"chicken, orzo pasta, spinach, lemon, garlic, chicken broth, parmesan",0.7272727273,0.4,0.352941,0.618182,0.254545,0.836364,0,0,0,0,0,1,1
-Sri Lankan Dhal Curry,Veg,120,"red lentils, coconut milk, pandan leaf, curry leaves, mustard seeds, turmeric, tomato",0.0,0.228571,0.294118,0.327273,0.254545,0.727273,1,1,0,0,1,0,1
-Ethiopian Doro Wat,Non-veg,250,"chicken, berbere spice, onion, niter kibbeh, egg, garlic, ginger",0.0909090909,0.4,0.647059,0.690909,0.436364,0.327273,0,0,0,0,1,0,1
-Jollof Rice Chicken,Non-veg,220,"rice, chicken, tomato, onion, scotch bonnet, bay leaf, vegetable broth",0.8181818182,0.514286,0.529412,0.545455,0.254545,1.0,0,0,0,0,1,0,1
-Nepalese Dal Bhat,Veg,120,"toor dal, basmati rice, spinach, mustard oil, fenugreek, turmeric, tomato",0.5454545455,0.4,0.352941,0.363636,0.145455,1.0,1,1,0,0,1,0,1
-Afghan Kabuli Pulao,Non-veg,260,"lamb, basmati rice, carrot, raisins, cardamom, rose water, fried onion",0.2727272727,0.6,0.705882,0.545455,0.363636,1.0,0,0,0,0,1,0,0
-Poke Bowl,Non-veg,260,"salmon, sushi rice, edamame, cucumber, avocado, soy sauce, sesame seeds",0.1818181818,0.485714,0.117647,0.618182,0.363636,0.945455,0,0,0,0,1,0,1
-Farro Grain Bowl,Veg,200,"farro, roasted vegetables, kale, goat cheese, walnuts, balsamic, lemon",0.1818181818,0.4,0.352941,0.290909,0.327273,1.0,0,1,0,0,0,0,1
-Warm Lentil Salad,Veg,165,"green lentils, roasted beetroot, goat cheese, walnuts, arugula, dijon vinaigrette, thyme",0.9090909091,0.285714,0.294118,0.363636,0.290909,0.727273,0,1,0,0,1,0,1
-Chicken Caesar Salad,Non-veg,220,"chicken breast, romaine, parmesan, croutons, caesar dressing, lemon, anchovy",0.2727272727,0.342857,0.176471,0.690909,0.4,0.4,0,0,0,0,0,0,1
-Soba Noodle Salad,Veg,190,"soba noodles, edamame, carrot, cucumber, sesame dressing, spring onion, nori",1.0,0.257143,0.176471,0.254545,0.145455,1.0,1,1,0,0,1,0,1
-Beef Bulgogi Bowl,Non-veg,250,"beef, sesame oil, soy sauce, pear, garlic, ginger, steamed rice",0.4545454545,0.485714,0.235294,0.618182,0.327273,0.981818,0,0,0,0,1,0,1
-Nicoise Tuna Wrap,Non-veg,210,"tuna, green beans, olives, egg, tomato, whole wheat wrap, dijon",0.3636363636,0.314286,0.117647,0.618182,0.290909,0.581818,0,0,0,0,0,1,1
-Roasted Beet Salad,Veg,170,"beetroot, arugula, goat cheese, candied walnuts, orange, olive oil, balsamic",0.9090909091,0.2,0.411765,0.181818,0.327273,0.654545,0,1,0,0,1,1,1
-Spicy Chickpea Couscous,Veg,165,"roasted chickpeas, couscous, cucumber, tomato, feta, harissa, lemon",0.1818181818,0.328571,0.235294,0.327273,0.218182,1.0,0,1,0,0,0,1,1
-Waldorf Chicken Salad,Non-veg,210,"chicken breast, apple, celery, walnuts, grapes, mayo, lettuce",1.0,0.257143,0.117647,0.581818,0.363636,0.4,0,0,0,0,1,0,1
-Tuna Nicoise Platter,Non-veg,230,"tuna steak, green beans, potato, olives, egg, tomato, dijon vinaigrette",0.9090909091,0.314286,0.235294,0.690909,0.290909,0.509091,0,0,0,0,1,1,1
-Peruvian Causa,Veg,180,"yellow potato, avocado, lime, chilli paste, onion, olives, egg",0.4545454545,0.257143,0.352941,0.181818,0.290909,0.872727,0,1,0,0,1,0,1
-Spiced Quinoa Bowl,Veg,175,"quinoa, roasted chickpeas, avocado, cherry tomatoes, spinach, lemon, olive oil",1.0,0.314286,0.235294,0.290909,0.254545,0.945455,1,1,0,0,1,0,1
-Grilled Swordfish,Non-veg,310,"swordfish steak, lemon, olive oil, capers, garlic, parsley, cherry tomatoes",0.4545454545,0.228571,0.176471,0.727273,0.290909,0.072727,0,0,0,1,1,1,1
-Shrimp Scampi Pasta,Non-veg,270,"prawns, spaghetti, butter, garlic, white wine, lemon, parsley",0.1818181818,0.485714,0.235294,0.581818,0.363636,0.836364,0,0,0,0,0,1,0
-Baked Cod Salsa Verde,Non-veg,240,"cod fillet, salsa verde, lime, garlic, cumin, olive oil, coriander",0.5454545455,0.157143,0.235294,0.654545,0.181818,0.181818,0,0,0,1,1,0,1
-Crab Fried Rice,Non-veg,280,"crab meat, jasmine rice, egg, spring onion, soy sauce, sesame oil, ginger",0.2727272727,0.4,0.176471,0.472727,0.254545,0.981818,0,0,0,0,1,0,1
-Prawn Pad Thai,Non-veg,230,"rice noodles, prawns, egg, bean sprouts, peanuts, tamarind, fish sauce",0.8181818182,0.457143,0.176471,0.545455,0.254545,1.0,0,0,0,0,1,0,1
-Moroccan Spiced Salmon,Non-veg,290,"salmon, chermoula paste, lemon, chickpeas, spinach, olive oil, cumin",0.6363636364,0.314286,0.235294,0.727273,0.363636,0.327273,0,0,0,0,1,1,1
-Thai Fish Cakes,Non-veg,220,"white fish, red curry paste, kaffir lime, green beans, egg, fish sauce, oil",0.1818181818,0.2,0.235294,0.509091,0.254545,0.254545,0,0,0,0,1,0,1
-Steamed Mussels,Non-veg,250,"mussels, white wine, garlic, shallots, butter, parsley, crusty bread",0.0909090909,0.257143,0.176471,0.472727,0.254545,0.4,0,0,0,0,1,1,1
-Sri Lankan Fish Ambul Thiyal,Non-veg,250,"tuna, goraka, black pepper, curry leaves, pandan, turmeric, oil",0.7272727273,0.228571,0.352941,0.690909,0.254545,0.145455,0,0,0,0,1,0,1
-Salmon Teriyaki Bowl,Non-veg,290,"salmon fillet, teriyaki glaze, sushi rice, edamame, avocado, sesame, spring onion",0.1818181818,0.457143,0.176471,0.654545,0.4,0.909091,0,0,0,0,1,0,1
-Shakshuka Verde,Veg,165,"eggs, tomatillos, jalapeño, onion, cilantro, feta, olive oil",0.2727272727,0.157143,0.235294,0.327273,0.327273,0.290909,0,1,0,0,1,0,1
-Mushroom Omelette,Veg,150,"eggs, portobello mushrooms, cheddar, onion, olive oil, thyme, parsley",0.9090909091,0.2,0.117647,0.4,0.436364,0.145455,0,1,1,0,1,0,1
-Smoked Salmon Scramble,Non-veg,220,"eggs, smoked salmon, cream cheese, chives, butter, capers, sourdough",0.5454545455,0.342857,0.117647,0.545455,0.509091,0.327273,0,0,0,0,0,0,1
-Spinach Egg White Omelette,Veg,145,"egg whites, spinach, feta, cherry tomatoes, onion, olive oil, oregano",0.4545454545,0.028571,0.082353,0.472727,0.145455,0.145455,0,1,1,0,1,1,1
-Avocado Egg Toast,Veg,160,"sourdough, avocado, poached egg, chilli flakes, lemon, microgreens, olive oil",1.0,0.257143,0.058824,0.290909,0.4,0.581818,0,1,0,0,0,0,1
-Veggie Hummus Sandwich,Veg,155,"whole wheat bread, hummus, cucumber, tomato, spinach, red onion, feta",0.9090909091,0.257143,0.058824,0.254545,0.181818,0.909091,0,1,0,0,0,1,1
-Turkey Avocado Wrap,Non-veg,190,"turkey breast, avocado, whole wheat wrap, lettuce, tomato, mustard, onion",0.9090909091,0.342857,0.058824,0.618182,0.290909,0.690909,0,0,0,0,0,0,1
-Chicken Avocado Wrap,Non-veg,200,"grilled chicken, avocado, whole wheat wrap, salsa, lettuce, jalapeño, lime",0.8181818182,0.371429,0.117647,0.654545,0.290909,0.690909,0,0,0,0,0,0,1
-Caprese Panini,Veg,170,"ciabatta, fresh mozzarella, tomato, basil pesto, olive oil, balsamic, arugula",0.7272727273,0.314286,0.058824,0.290909,0.363636,0.763636,0,1,0,0,0,1,1
-Uzbek Plov,Non-veg,250,"lamb, basmati rice, carrot, onion, cumin, barberries, cottonseed oil",0.2727272727,0.6,0.647059,0.509091,0.436364,1.0,0,0,0,0,1,0,0
-Argentinian Locro,Non-veg,240,"white corn, chorizo, pork, squash, onion, sweet paprika, vegetable broth",0.0,0.457143,0.764706,0.509091,0.363636,0.945455,0,0,0,0,1,0,0
-Vegetable Paella,Veg,220,"calasparra rice, bell peppers, artichoke, tomato, saffron, paprika, olive oil",0.4545454545,0.4,0.352941,0.181818,0.181818,1.0,1,1,0,0,1,1,1
-Seafood Paella,Non-veg,320,"calasparra rice, prawns, mussels, squid, tomato, saffron, olive oil",1.0,0.457143,0.470588,0.581818,0.218182,1.0,0,0,0,0,1,1,1
-Lentil Shepherd Pie,Veg,185,"green lentils, mashed potato, carrot, onion, celery, vegetable broth, thyme",1.0,0.314286,0.529412,0.327273,0.145455,1.0,1,1,0,0,1,0,1
-Veggie Shakshuka,Veg,155,"eggs, harissa, roasted peppers, onion, garlic, cumin, feta",0.7272727273,0.171429,0.235294,0.327273,0.327273,0.327273,0,1,0,0,1,1,1
-Uzbek Shurpa Soup,Non-veg,230,"lamb ribs, potato, carrot, onion, tomato, bell pepper, coriander",0.4545454545,0.342857,0.588235,0.509091,0.327273,0.654545,0,0,0,0,1,0,1
-Chicken Piccata,Non-veg,260,"chicken breast, capers, lemon juice, white wine, butter, garlic, parsley",0.4545454545,0.257143,0.176471,0.727273,0.327273,0.145455,0,0,0,0,1,0,1
-Roasted Vegetable Tart,Veg,200,"shortcrust pastry, zucchini, tomato, goat cheese, egg, thyme, olive oil",0.7272727273,0.371429,0.470588,0.254545,0.436364,0.763636,0,1,0,0,0,1,1
-Lamb Kofta Platter,Non-veg,260,"minced lamb, cumin, coriander, onion, garlic, yogurt, flatbread",0.6363636364,0.428571,0.294118,0.618182,0.472727,0.509091,0,0,0,0,0,1,1
-Mushroom Risotto,Veg,230,"arborio rice, mixed mushrooms, shallots, white wine, parmesan, butter, thyme",0.4545454545,0.442857,0.411765,0.254545,0.327273,1.0,0,1,0,0,1,1,0
-Chicken Tikka Bowl,Non-veg,220,"chicken, tikka marinade, basmati rice, cucumber raita, mint chutney, onion, lemon",0.3636363636,0.4,0.352941,0.690909,0.254545,0.8,0,0,0,0,1,0,1
-Roasted Cauliflower Soup,Veg,160,"cauliflower, onion, garlic, vegetable broth, cream, cumin, olive oil",0.0909090909,0.114286,0.352941,0.145455,0.218182,0.472727,0,1,0,0,1,0,1
-Chicken Shawarma Rice,Non-veg,230,"chicken thigh, shawarma spice, basmati rice, garlic sauce, cucumber, tomato, parsley",0.1818181818,0.457143,0.352941,0.690909,0.290909,0.836364,0,0,0,0,1,1,1
-
-
-
-Turkey Lettuce Wraps,Non-veg,216,"ground turkey, lettuce leaves, ginger, soy sauce, water chestnuts",0.3636363636363636,0.9418181818181818,0.16,0.1935753653237945,0.1151280582199519,0.4202210537348876,0,0,1,1,1,1,0
-Cauliflower Rice Bowl,Veg,152,"cauliflower, bell peppers, broccoli, tofu, soy sauce",0.2727272727272727,0.7290909090909091,0.82,0.6478414770456693,0.6513586134074609,0.3624901271910797,1,1,0,1,1,0,0
-Lentil Soup,Veg,126,"lentils, carrots, celery, onion, vegetable broth, spices",1.0,0.1763636363636363,0.04,0.6998490391230736,0.3402858475355695,0.7267589027917558,0,1,0,0,0,0,0
-Lentil Soup,Veg,131,"lentils, carrots, celery, onion, vegetable broth, spices",0.5454545454545454,0.9563636363636364,0.96,0.5411517926977618,0.662875329695835,0.7400005464962032,0,1,0,0,0,0,0
-Quinoa Salad,Veg,137,"quinoa, cucumber, cherry tomatoes, feta cheese, lemon dressing",0.8181818181818182,0.1945454545454545,0.02,0.0245142629934795,0.8718432602835308,0.0150571160413526,1,1,0,0,0,1,0
-Tofu Stir Fry,Veg,145,"tofu, broccoli, carrots, snap peas, soy sauce, sesame oil",0.0909090909090909,0.7545454545454545,0.62,0.8028692950482553,1.0,0.3483415902858888,1,1,0,0,0,0,0
-Chickpea Stew,Veg,127,"chickpeas, spinach, tomatoes, coconut milk, curry powder",0.3636363636363636,0.4927272727272727,0.86,0.9891201176777196,0.7697617112351994,0.4161785748852046,1,1,0,0,0,0,0
-Gluten-Free Pasta,Veg,139,"rice pasta, tomato sauce, garlic, olive oil, basil",0.2727272727272727,0.7054545454545454,0.0,0.2399903768040957,0.1103080583105328,0.3522975362187641,0,0,0,0,1,0,0
-Cauliflower Rice Bowl,Veg,159,"cauliflower, bell peppers, broccoli, tofu, soy sauce",0.2727272727272727,0.2636363636363636,0.72,0.0422974330318805,0.0174749923009366,0.9927811990711736,1,1,0,1,1,0,0
-Keto Avocado Salad,Non-veg,208,"avocado, bacon, hard boiled egg, mixed greens, ranch dressing",0.0,0.6236363636363637,0.06,0.2193618346978662,0.9519064224582456,0.7890552921417014,0,0,1,1,1,0,0
-Grilled Salmon,Non-veg,437,"salmon fillet, lemon, asparagus, olive oil, herbs",1.0,0.7981818181818182,0.9,0.603868844809175,0.9055529200003825,0.9942607755562772,0,0,1,1,1,1,0
-Gluten-Free Pasta,Veg,135,"rice pasta, tomato sauce, garlic, olive oil, basil",0.2727272727272727,0.5618181818181818,1.0,0.5153069058872254,0.2308060466943302,0.1721264161705697,0,0,0,0,1,0,1
-Keto Avocado Salad,Non-veg,199,"avocado, bacon, hard boiled egg, mixed greens, ranch dressing",0.0,0.9181818181818182,0.04,0.8304324321414119,0.8023397119831389,0.6306622619218721,0,0,1,1,1,0,0
-Chickpea Stew,Veg,150,"chickpeas, spinach, tomatoes, coconut milk, curry powder",0.7272727272727273,0.1781818181818182,0.38,1.0,0.173888697297702,0.3944027824926411,1,1,0,0,0,0,0
-Cauliflower Rice Bowl,Veg,167,"cauliflower, bell peppers, broccoli, tofu, soy sauce",0.0909090909090909,0.1109090909090909,0.32,0.1546736970725408,0.8174410340912642,0.2205977283766302,1,1,0,1,1,0,0
-Turkey Lettuce Wraps,Non-veg,235,"ground turkey, lettuce leaves, ginger, soy sauce, water chestnuts",0.7272727272727273,0.5963636363636363,0.06,0.5830503525318133,0.0912730299551034,0.8812337644436307,0,0,1,1,1,1,0
-Keto Omelette,Veg,128,"eggs, spinach, mushrooms, cheddar cheese, avocado",0.9090909090909092,0.9818181818181818,0.16,0.0445926211376016,0.853892888153332,0.0293751302260081,0,0,1,0,1,0,0
-Turkey Lettuce Wraps,Non-veg,211,"ground turkey, lettuce leaves, ginger, soy sauce, water chestnuts",0.6363636363636364,0.9745454545454544,0.08,0.7389725970571147,0.2816547582372453,0.2491352279033373,0,0,1,1,1,1,0
-Paleo Chicken Bowl,Non-veg,291,"grilled chicken, sweet potato, broccoli, avocado, olive oil",0.6363636363636364,0.4545454545454545,0.08,0.0490221467439645,0.5334981091472416,0.9668822211342012,0,0,1,1,1,0,0
-Eggplant Parmesan,Veg,183,"eggplant, marinara sauce, mozzarella, parmesan, basil",1.0,0.2054545454545454,0.78,0.887423879122113,0.5169330539180217,0.9106254455793368,0,1,0,0,0,1,0
-Keto Omelette,Veg,129,"eggs, spinach, mushrooms, cheddar cheese, avocado",0.6363636363636364,0.0709090909090909,0.66,0.5465567964379114,0.8662231677272764,0.7360086807192487,0,0,1,0,1,0,0
-Greek Yogurt Parfait,Veg,109,"greek yogurt, honey, granola, mixed berries, walnuts",0.6363636363636364,0.1654545454545454,0.64,0.1581361220014903,0.1603596133891294,0.3314438582368131,0,1,0,0,0,1,0
-Tofu Stir Fry,Veg,170,"tofu, broccoli, carrots, snap peas, soy sauce, sesame oil",0.7272727272727273,0.3072727272727272,0.7,0.621773156826638,0.7541658119495649,0.1539944661761362,1,1,0,0,0,0,0
-Grilled Salmon,Non-veg,444,"salmon fillet, lemon, asparagus, olive oil, herbs",0.8181818181818182,0.0545454545454545,0.44,0.0051598710114976,0.8215651726150649,0.22483112017654,0,0,1,1,1,1,0
-Gluten-Free Pasta,Veg,162,"rice pasta, tomato sauce, garlic, olive oil, basil",0.0909090909090909,0.6454545454545455,0.02,0.8363913273868977,0.5083001100200697,0.0,0,0,0,0,1,0,0
-Tofu Stir Fry,Veg,157,"tofu, broccoli, carrots, snap peas, soy sauce, sesame oil",0.9090909090909092,0.2036363636363636,0.8,0.6350430325806796,0.260013086892665,0.6349393478383248,1,1,0,0,0,0,0
-Tofu Stir Fry,Veg,163,"tofu, broccoli, carrots, snap peas, soy sauce, sesame oil",0.1818181818181818,0.5909090909090909,0.36,0.7649202771193905,0.5421839583597848,0.9677623990024116,1,1,0,0,0,0,0
-Turkey Lettuce Wraps,Non-veg,235,"ground turkey, lettuce leaves, ginger, soy sauce, water chestnuts",0.3636363636363636,0.5036363636363637,0.06,0.1746331352625743,0.7723488963075851,0.9518852532728136,0,0,1,1,1,1,0
-Chickpea Stew,Veg,131,"chickpeas, spinach, tomatoes, coconut milk, curry powder",1.0,0.7272727272727273,0.18,0.4759916255017076,0.0576222343443059,0.0691051835942031,1,1,0,0,0,0,0
-Cauliflower Rice Bowl,Veg,161,"cauliflower, bell peppers, broccoli, tofu, soy sauce",0.0909090909090909,0.4890909090909091,0.92,0.9738364990462764,0.7510932962039958,0.1251430042848911,1,1,0,1,1,0,0
-Lentil Soup,Veg,124,"lentils, carrots, celery, onion, vegetable broth, spices",0.5454545454545454,0.0509090909090909,0.2,0.825715609980828,0.3723247881643743,0.8218742547583323,0,1,0,0,0,0,0
-Grilled Salmon,Non-veg,463,"salmon fillet, lemon, asparagus, olive oil, herbs",0.8181818181818182,0.9763636363636364,0.66,0.2750186751708187,0.9991883534703404,0.4246912279557476,0,0,1,1,1,1,0
-Tofu Stir Fry,Veg,148,"tofu, broccoli, carrots, snap peas, soy sauce, sesame oil",0.7272727272727273,0.069090909090909,0.28,0.7988752230313957,0.694982927793924,0.2168839573527292,1,1,0,0,0,0,0
-Chicken Stir Fry,Non-veg,254,"chicken breast, bell peppers, onion, soy sauce, ginger",0.2727272727272727,0.0381818181818181,0.2,0.2746496524648066,0.952811070221954,0.1463592344868217,0,0,1,1,1,0,0
-Turkey Lettuce Wraps,Non-veg,209,"ground turkey, lettuce leaves, ginger, soy sauce, water chestnuts",0.3636363636363636,0.1509090909090909,0.1,0.7639816625430192,0.4429672399699827,0.3091297350358132,0,0,1,1,1,1,0
-Paleo Chicken Bowl,Non-veg,287,"grilled chicken, sweet potato, broccoli, avocado, olive oil",0.0909090909090909,0.2945454545454545,0.96,0.6549981782540194,0.3690092851434506,0.8679783445152908,0,0,1,1,1,0,0
-Eggplant Parmesan,Veg,181,"eggplant, marinara sauce, mozzarella, parmesan, basil",0.9090909090909092,0.1072727272727272,0.9,0.2047345411511517,0.0909498722672513,0.1489897046606193,0,1,0,0,0,1,0
-Shrimp Zoodles,Non-veg,317,"shrimp, zucchini noodles, garlic, lemon, parmesan",0.0909090909090909,0.36,0.04,0.8008737020066874,0.294463904936825,0.9160098317528084,0,0,1,1,1,0,0
-Keto Omelette,Veg,129,"eggs, spinach, mushrooms, cheddar cheese, avocado",0.2727272727272727,0.9563636363636364,0.48,0.0012264600326253,0.5993881513005113,0.6079287171885789,0,0,1,0,1,0,0
-Almond Flour Pancakes,Veg,175,"almond flour, eggs, almond milk, maple syrup, baking powder",0.2727272727272727,0.9454545454545454,0.74,0.2266854677234549,0.1607860469186352,0.652657363024456,0,1,1,1,1,0,0
-Chicken Stir Fry,Non-veg,253,"chicken breast, bell peppers, onion, soy sauce, ginger",0.6363636363636364,0.7163636363636363,0.24,0.1503362961207525,0.4653231578656369,0.6819319976021642,0,0,1,1,1,0,0
-Cauliflower Rice Bowl,Veg,148,"cauliflower, bell peppers, broccoli, tofu, soy sauce",0.4545454545454545,0.9872727272727272,0.2,0.6985354450340586,0.8618416929307945,0.7824855310797734,1,1,0,1,1,0,0
-Vegan Curry,Veg,167,"tofu, coconut milk, sweet potato, peas, curry paste",0.9090909090909092,0.3872727272727272,1.0,0.1054567752291922,0.2422098592518552,0.9917090428945392,1,1,0,0,0,0,0
-Turkey Lettuce Wraps,Non-veg,211,"ground turkey, lettuce leaves, ginger, soy sauce, water chestnuts",0.4545454545454545,0.1545454545454545,0.54,0.7060569176345555,0.560612293799513,0.0034244524430712,0,0,1,1,1,1,0
-Quinoa Salad,Veg,161,"quinoa, cucumber, cherry tomatoes, feta cheese, lemon dressing",0.0909090909090909,0.4072727272727273,0.64,0.8870491834278299,0.0822721467439488,0.8276694648932064,1,1,0,0,0,1,0
-Gluten-Free Pasta,Veg,153,"rice pasta, tomato sauce, garlic, olive oil, basil",0.0909090909090909,0.3,0.76,0.2018778014746185,0.6944934148081318,0.8245603039135557,0,0,0,0,1,0,0
-Vegetarian Pizza,Veg,256,"whole wheat crust, tomato sauce, mozzarella, bell peppers, olives",0.5454545454545454,0.7763636363636364,0.96,0.9564197261796568,0.1240884824562949,0.900212995146428,0,1,0,0,0,0,0
-Keto Avocado Salad,Non-veg,222,"avocado, bacon, hard boiled egg, mixed greens, ranch dressing",0.4545454545454545,0.1309090909090909,0.76,0.6160768807542657,0.2991435576392357,0.9396481117890528,0,0,1,1,1,0,0
-Vegan Curry,Veg,156,"tofu, coconut milk, sweet potato, peas, curry paste",0.0909090909090909,0.5763636363636364,0.38,0.3411798757687118,0.8164304877188774,0.074588827107722,1,1,0,0,0,0,0
-Almond Flour Pancakes,Veg,174,"almond flour, eggs, almond milk, maple syrup, baking powder",0.2727272727272727,0.7072727272727273,0.42,0.4546269804508054,0.6447523853085416,0.5260814023107193,0,1,1,1,1,0,1
-Vegetarian Pizza,Veg,247,"whole wheat crust, tomato sauce, mozzarella, bell peppers, olives",0.9090909090909092,0.02,0.44,0.6536184971183012,0.4800404105497075,0.6164626694044429,0,1,0,0,0,0,0
-Greek Yogurt Parfait,Veg,124,"greek yogurt, honey, granola, mixed berries, walnuts",0.5454545454545454,0.6454545454545455,0.88,0.1830404851780092,0.7912406881977112,0.659929504229907,0,1,0,0,0,1,0
-Greek Yogurt Parfait,Veg,119,"greek yogurt, honey, granola, mixed berries, walnuts",1.0,0.9963636363636365,0.62,0.5452498537700657,0.4940735332438128,0.0760169333393843,0,1,0,0,0,1,0
-Greek Yogurt Parfait,Veg,115,"greek yogurt, honey, granola, mixed berries, walnuts",0.1818181818181818,0.8072727272727273,0.56,0.420534482898326,0.2036463806548621,0.8437937028544528,0,1,0,0,0,1,0
-Chickpea Stew,Veg,130,"chickpeas, spinach, tomatoes, coconut milk, curry powder",0.3636363636363636,0.2872727272727273,0.46,0.4276644185305643,0.346361117166623,0.3689055976112201,1,1,0,0,0,0,1
-Almond Flour Pancakes,Veg,192,"almond flour, eggs, almond milk, maple syrup, baking powder",1.0,0.2745454545454545,0.98,0.8714676686066588,0.5796868707211192,0.4372703558205909,0,1,1,1,1,0,0
-Chicken Stir Fry,Non-veg,252,"chicken breast, bell peppers, onion, soy sauce, ginger",0.2727272727272727,0.6072727272727273,0.66,0.7970122606772766,0.6562127793010811,0.997243567405748,0,0,1,1,1,0,0
-Lentil Soup,Veg,116,"lentils, carrots, celery, onion, vegetable broth, spices",0.1818181818181818,0.4290909090909091,0.34,0.6347884261933693,0.7345128920989995,0.1266417263981565,0,1,0,0,0,0,0
-Vegan Curry,Veg,166,"tofu, coconut milk, sweet potato, peas, curry paste",0.2727272727272727,0.8672727272727273,0.44,0.6357737683282744,0.3733424490909406,0.5121331525709617,1,1,0,0,0,0,0
-Mediterranean Wrap,Veg,144,"whole wheat wrap, hummus, cucumber, olives, feta cheese",0.3636363636363636,0.5763636363636364,0.92,0.5959483736019028,0.5804282212968455,0.6638886483495328,0,0,0,0,0,1,1
-Gluten-Free Pasta,Veg,164,"rice pasta, tomato sauce, garlic, olive oil, basil",0.4545454545454545,0.2618181818181818,0.48,0.9743737079089708,0.2583387381396331,0.6579354055022779,0,0,0,0,1,0,0
-Quinoa Salad,Veg,164,"quinoa, cucumber, cherry tomatoes, feta cheese, lemon dressing",0.6363636363636364,0.8345454545454546,0.7,0.9747845273977094,0.454486918053943,0.2323430183995204,1,1,0,0,0,1,0
-Keto Omelette,Veg,125,"eggs, spinach, mushrooms, cheddar cheese, avocado",0.4545454545454545,0.4890909090909091,0.3,0.5224286916833177,0.3374068377106099,0.8320897403666785,0,0,1,0,1,0,0
-Quinoa Salad,Veg,160,"quinoa, cucumber, cherry tomatoes, feta cheese, lemon dressing",0.3636363636363636,0.5,0.14,0.6202992426343819,0.7081108525407217,0.1625296616524858,1,1,0,0,0,1,0
-Almond Flour Pancakes,Veg,187,"almond flour, eggs, almond milk, maple syrup, baking powder",1.0,0.2181818181818181,0.84,0.7401680590125063,0.6650300878160998,0.4737058369144014,0,1,1,1,1,0,0
-Chickpea Stew,Veg,152,"chickpeas, spinach, tomatoes, coconut milk, curry powder",0.6363636363636364,0.2818181818181818,0.92,0.8727138130847455,0.2059150015726761,0.1067645182272359,1,1,0,0,0,0,0
-Cauliflower Rice Bowl,Veg,169,"cauliflower, bell peppers, broccoli, tofu, soy sauce",0.0909090909090909,0.9272727272727272,0.72,0.9413987800324576,0.0389985938690328,0.1170736555296029,1,1,0,1,1,0,0
-Paleo Chicken Bowl,Non-veg,271,"grilled chicken, sweet potato, broccoli, avocado, olive oil",0.3636363636363636,0.1054545454545454,0.08,0.1038272370784875,0.58569724063143,0.6897736347072912,0,0,1,1,1,0,0
-Almond Flour Pancakes,Veg,194,"almond flour, eggs, almond milk, maple syrup, baking powder",0.3636363636363636,0.4381818181818182,0.46,0.6894750523486005,0.0169796049892675,0.3204387710318377,0,1,1,1,1,0,1
-Gluten-Free Pasta,Veg,135,"rice pasta, tomato sauce, garlic, olive oil, basil",0.6363636363636364,0.8981818181818182,0.84,0.4913426661506882,0.668097512900458,0.134819569372252,0,0,0,0,1,0,0
-Tofu Stir Fry,Veg,145,"tofu, broccoli, carrots, snap peas, soy sauce, sesame oil",0.2727272727272727,0.6090909090909091,0.98,0.2028772648083377,0.6746822075110515,0.9747631451427196,1,1,0,0,0,0,0
-Quinoa Salad,Veg,159,"quinoa, cucumber, cherry tomatoes, feta cheese, lemon dressing",0.5454545454545454,0.6381818181818182,0.74,0.8725841250456077,0.1771514226297084,0.6942432462962969,1,1,0,0,0,1,0
-Grilled Salmon,Non-veg,461,"salmon fillet, lemon, asparagus, olive oil, herbs",0.8181818181818182,0.7509090909090909,0.98,0.2453880702714466,0.8325229359707721,0.8682318530514035,0,0,1,1,1,1,0
-Chickpea Stew,Veg,154,"chickpeas, spinach, tomatoes, coconut milk, curry powder",1.0,0.6254545454545455,0.9,0.923378914724239,0.6016761686067642,0.9453878195975988,1,1,0,0,0,0,0
-Shrimp Zoodles,Non-veg,329,"shrimp, zucchini noodles, garlic, lemon, parmesan",0.3636363636363636,0.5509090909090909,0.08,0.5801344994394294,0.3490064280761409,0.1546847638069998,0,0,1,1,1,0,1
-Paleo Chicken Bowl,Non-veg,284,"grilled chicken, sweet potato, broccoli, avocado, olive oil",0.7272727272727273,0.2909090909090909,0.8,0.9984210560790902,0.7538762084877179,0.0850765777364913,0,0,1,1,1,0,0
-Keto Avocado Salad,Non-veg,207,"avocado, bacon, hard boiled egg, mixed greens, ranch dressing",0.9090909090909092,0.5872727272727273,0.66,0.4062018648923748,0.32741174845296,0.6689187413066446,0,0,1,1,1,0,0
-Paleo Chicken Bowl,Non-veg,273,"grilled chicken, sweet potato, broccoli, avocado, olive oil",0.0909090909090909,0.72,0.8,0.3188112346499018,0.8706419983523171,0.3735931238356131,0,0,1,1,1,0,0
-Gluten-Free Pasta,Veg,137,"rice pasta, tomato sauce, garlic, olive oil, basil",0.7272727272727273,0.1163636363636363,0.22,0.6129485449491916,0.5644120700491765,0.3783959425946084,0,0,0,0,1,0,0
-Quinoa Salad,Veg,141,"quinoa, cucumber, cherry tomatoes, feta cheese, lemon dressing",0.0,0.901818181818182,0.68,0.2284238247907205,0.0729361150408801,0.6040258706883551,1,1,0,0,0,1,0
-Shrimp Zoodles,Non-veg,310,"shrimp, zucchini noodles, garlic, lemon, parmesan",0.8181818181818182,0.0036363636363636,0.4,0.8677508521230597,0.5199433705042545,0.4783099141298698,0,0,1,1,1,0,0
-Lentil Soup,Veg,112,"lentils, carrots, celery, onion, vegetable broth, spices",0.3636363636363636,0.5509090909090909,0.72,0.2473203003865293,0.4774504596801904,0.3925042007504152,0,1,0,0,0,0,0
-Paleo Chicken Bowl,Non-veg,291,"grilled chicken, sweet potato, broccoli, avocado, olive oil",0.0909090909090909,0.66,0.84,0.0183144212861236,0.1958264684098457,0.0011907298746317,0,0,1,1,1,0,0
-Turkey Lettuce Wraps,Non-veg,213,"ground turkey, lettuce leaves, ginger, soy sauce, water chestnuts",0.3636363636363636,0.2236363636363636,0.28,0.2447196650105072,0.9289221232616868,0.0545099032127951,0,0,1,1,1,1,0
-Tofu Stir Fry,Veg,174,"tofu, broccoli, carrots, snap peas, soy sauce, sesame oil",0.4545454545454545,0.6054545454545455,0.06,0.2580821356943975,0.2851454566351463,0.3044133393353052,1,1,0,0,0,0,0
-Turkey Lettuce Wraps,Non-veg,209,"ground turkey, lettuce leaves, ginger, soy sauce, water chestnuts",1.0,0.5272727272727272,0.14,0.3128930115417441,0.6114248656440545,0.718042321621821,0,0,1,1,1,1,0
-Chickpea Stew,Veg,125,"chickpeas, spinach, tomatoes, coconut milk, curry powder",0.2727272727272727,0.1618181818181818,0.48,0.5251496710106573,0.1230886616791089,0.8629782473427602,1,1,0,0,0,0,0
-Gluten-Free Pasta,Veg,153,"rice pasta, tomato sauce, garlic, olive oil, basil",0.5454545454545454,0.5654545454545454,0.96,0.5702108338318922,0.2567641389887943,0.9676965108288088,0,0,0,0,1,0,0
-Vegan Buddha Bowl,Veg,194,"quinoa, chickpeas, avocado, sweet potato, kale, tahini",0.4545454545454545,0.6981818181818182,0.86,0.0436235444739737,0.6342998437190821,0.9560385864268228,1,1,0,0,1,0,0
-Keto Avocado Salad,Non-veg,206,"avocado, bacon, hard boiled egg, mixed greens, ranch dressing",0.8181818181818182,0.9454545454545454,0.28,0.6141036236059237,0.4116183032303112,0.8431957057947378,0,0,1,1,1,0,0
-Vegan Curry,Veg,178,"tofu, coconut milk, sweet potato, peas, curry paste",0.6363636363636364,0.0872727272727272,0.5,0.2569447608355851,0.3023762829807213,0.7340340661950591,1,1,0,0,0,0,0
-Vegan Buddha Bowl,Veg,199,"quinoa, chickpeas, avocado, sweet potato, kale, tahini",1.0,0.3018181818181818,0.18,0.8136711657615774,0.7681403651473315,0.1449895207416349,1,1,0,0,1,0,0
-Cauliflower Rice Bowl,Veg,171,"cauliflower, bell peppers, broccoli, tofu, soy sauce",0.3636363636363636,0.8763636363636363,0.86,0.8672115274828336,0.2168410013644569,0.0903704653697427,1,1,0,1,1,0,0
-Eggplant Parmesan,Veg,196,"eggplant, marinara sauce, mozzarella, parmesan, basil",0.3636363636363636,0.76,0.54,0.2072322039951712,0.6391213570311884,0.2534193687294449,0,1,0,0,0,1,0
-Tofu Stir Fry,Veg,168,"tofu, broccoli, carrots, snap peas, soy sauce, sesame oil",0.7272727272727273,0.46,0.48,0.9928411601951702,0.1363390008039048,0.6967912209108647,1,1,0,0,0,0,0
-Keto Omelette,Veg,123,"eggs, spinach, mushrooms, cheddar cheese, avocado",0.8181818181818182,0.6781818181818182,0.76,0.7282219245196041,0.0154169864737666,0.3386075867015471,0,0,1,0,1,0,1
-Shrimp Zoodles,Non-veg,324,"shrimp, zucchini noodles, garlic, lemon, parmesan",0.1818181818181818,0.3945454545454545,0.74,0.5813423443475582,0.2744062801735085,0.0738852388175275,0,0,1,1,1,0,1
-Vegan Curry,Veg,171,"tofu, coconut milk, sweet potato, peas, curry paste",0.3636363636363636,0.64,0.7,0.1928399086240975,0.323740940155272,0.2228394005364392,1,1,0,0,0,0,0
-Keto Avocado Salad,Non-veg,224,"avocado, bacon, hard boiled egg, mixed greens, ranch dressing",0.5454545454545454,0.9381818181818182,0.86,0.2348993291957961,0.5409261388329358,0.8838825240065178,0,0,1,1,1,0,0
-Cauliflower Rice Bowl,Veg,161,"cauliflower, bell peppers, broccoli, tofu, soy sauce",0.1818181818181818,0.6909090909090909,0.04,0.1912895339031483,0.0520266119970443,0.3764299986450631,1,1,0,1,1,0,0
-Paleo Chicken Bowl,Non-veg,290,"grilled chicken, sweet potato, broccoli, avocado, olive oil",0.0,0.6418181818181818,0.44,0.4675804201385541,0.0598497043755495,0.5623941671252722,0,0,1,1,1,0,0
-Vegan Buddha Bowl,Veg,204,"quinoa, chickpeas, avocado, sweet potato, kale, tahini",0.3636363636363636,0.8654545454545455,0.6,0.7586984394678645,0.1704627917826473,0.4077929774051419,1,1,0,0,1,0,0
-Eggplant Parmesan,Veg,186,"eggplant, marinara sauce, mozzarella, parmesan, basil",1.0,0.7254545454545455,0.22,0.9862584172413892,0.4756369787183261,0.3805270862134821,0,1,0,0,0,1,0
+Gluten-Free Pasta,Veg,141,"rice pasta, tomato sauce, garlic, olive oil, basil",0.272727273,0.490909091,0.84,0.783679116,0.597907329,0.44457186,0,0,0,0,1,0,1
+Grilled Salmon,Non-veg,454,"salmon fillet, lemon, asparagus, olive oil, herbs",0.909090909,0.158181818,0.7,0.143588029,0.65208155,0.050609124,0,0,1,1,1,1,0
+Lentil Soup,Veg,133,"lentils, carrots, celery, onion, vegetable broth, spices",0.454545455,0.7,0.4,0.620637492,0.612747561,0.000688369,0,1,0,0,0,0,0
+Chickpea Stew,Veg,139,"chickpeas, spinach, tomatoes, coconut milk, curry powder",0.909090909,0.105454545,0.82,0.046893363,0.9757606,0.229025653,1,1,0,0,0,0,0
+Turkey Lettuce Wraps,Non-veg,215,"ground turkey, lettuce leaves, ginger, soy sauce, water chestnuts",0.181818182,0.441818182,0.04,0.864340202,0.681574604,0.449292782,0,0,1,1,1,1,0
+Cauliflower Rice Bowl,Veg,152,"cauliflower, bell peppers, broccoli, tofu, soy sauce",0.272727273,0.572727273,0.26,0.812532728,0.304935972,0.092350854,1,1,0,1,1,0,1
+Almond Flour Pancakes,Veg,193,"almond flour, eggs, almond milk, maple syrup, baking powder",1,0.665454545,0.12,0.613114243,0.834846485,0.168926145,0,1,1,1,1,0,0
+Chickpea Stew,Veg,145,"chickpeas, spinach, tomatoes, coconut milk, curry powder",0.272727273,0.703636364,0.02,0.427325227,0.208020737,0.567860697,1,1,0,0,0,0,1
+Cauliflower Rice Bowl,Veg,151,"cauliflower, bell peppers, broccoli, tofu, soy sauce",0.818181818,0.292727273,0.18,0.899406115,0.59895979,0.926165101,1,1,0,1,1,0,0
+Vegan Curry,Veg,180,"tofu, coconut milk, sweet potato, peas, curry paste",0.545454545,0.456363636,0.78,0.848854608,0.74875571,0.53952586,1,1,0,0,0,0,0
+Tofu Stir Fry,Veg,163,"tofu, broccoli, carrots, snap peas, soy sauce, sesame oil",0.727272727,0.283636364,0.28,0.166103063,0.015231837,0.421878987,1,1,0,0,0,0,0
+Quinoa Salad,Veg,157,"quinoa, cucumber, cherry tomatoes, feta cheese, lemon dressing",1,0.856363636,0.2,0.19985077,0.712687069,0.792930491,1,1,0,0,0,1,0
+Mediterranean Wrap,Veg,135,"whole wheat wrap, hummus, cucumber, olives, feta cheese",0.818181818,0.418181818,0.8,0.919641719,0.851732513,0.448231975,0,0,0,0,0,1,0
+Quinoa Salad,Veg,145,"quinoa, cucumber, cherry tomatoes, feta cheese, lemon dressing",0.545454545,0.738181818,0.46,0.66932684,0.592340995,0.271465346,1,1,0,0,0,1,0
+Keto Omelette,Veg,138,"eggs, spinach, mushrooms, cheddar cheese, avocado",0,0.838181818,0.04,0.764676177,0.562244904,0.773498116,0,0,1,0,1,0,0
+uten-Free Pasta,Veg,138,"rice pasta, tomato sauce, garlic, olive oil, basil",0,0.172727273,0.06,0.912210591,0.249475299,0.408708603,0,0,0,0,1,0,0
+Grilled Salmon,Non-veg,342,"salmon fillet, lemon, asparagus, olive oil, herbs",0.272727273,0.952727273,0.62,0.601925949,0.696088408,0.884275809,0,0,1,1,1,1,0
+Vegetarian Pizza,Veg,258,"whole wheat crust, tomato sauce, mozzarella, bell peppers, olives",0.727272727,0.049090909,0.86,0.187515468,0.894359872,0.539171889,0,1,0,0,0,0,0
+Gluten-Free Pasta,Veg,137,"rice pasta, tomato sauce, garlic, olive oil, basil",0,0.698181818,0.52,0.429287155,0.819628162,0.864308371,0,0,0,0,1,0,0
+Lentil Soup,Veg,125,"lentils, carrots, celery, onion, vegetable broth, spices",0.636363636,0.678181818,0.62,0.52144032,0.704343143,0.361410029,0,1,0,0,0,0,0
+Chickpea Stew,Veg,126,"chickpeas, spinach, tomatoes, coconut milk, curry powder",0.818181818,0.485454545,0.76,0.499787694,0.301191118,0.281702055,1,1,0,0,0,0,1
+Chickpea Stew,Veg,148,"chickpeas, spinach, tomatoes, coconut milk, curry powder",0.909090909,0.203636364,0.02,0.505246069,0.051164324,0.275435788,1,1,0,0,0,0,0
+Quinoa Salad,Veg,146,"quinoa, cucumber, cherry tomatoes, feta cheese, lemon dressing",0,0.730909091,0.02,0.53364658,0.448465435,0.552880771,1,1,0,0,0,1,0
+Vegan Buddha Bowl,Veg,214,"quinoa, chickpeas, avocado, sweet potato, kale, tahini",0.545454545,0.367272727,0.32,0.7319404,0.368264205,0.633219651,1,1,0,0,1,0,1
+Paleo Chicken Bowl,Non-veg,270,"grilled chicken, sweet potato, broccoli, avocado, olive oil",0.454545455,0.927272727,0.94,0.802428937,0.150652701,0.507665218,0,0,1,1,1,0,0
+Eggplant Parmesan,Veg,176,"eggplant, marinara sauce, mozzarella, parmesan, basil",0.181818182,0.730909091,0.5,0.514708399,0.226621513,0.64623667,0,1,0,0,0,1,0
+Almond Flour Pancakes,Veg,192,"almond flour, eggs, almond milk, maple syrup, baking powder",0.727272727,1,0.34,0.84199586,0.676945569,0.737330114,0,1,1,1,1,0,0
+Cauliflower Rice Bowl,Veg,165,"cauliflower, bell peppers, broccoli, tofu, soy sauce",0.545454545,0.752727273,0.58,0.699342075,0.228680926,0.170534965,1,1,0,1,1,0,0
+Eggplant Parmesan,Veg,175,"eggplant, marinara sauce, mozzarella, parmesan, basil",0.727272727,0.001818182,0,0.09356869,0.899028343,0.904458694,0,1,0,0,0,1,0
+Keto Avocado Salad,Non-veg,206,"avocado, bacon, hard boiled egg, mixed greens, ranch dressing",0.727272727,0.178181818,0.36,0.729668133,0.898922579,0.890971583,0,0,1,1,1,0,0
+Chickpea Stew,Veg,151,"chickpeas, spinach, tomatoes, coconut milk, curry powder",0,0.310909091,0.54,0.472343632,0.279819535,0.887337285,1,1,0,0,0,0,0
+Keto Avocado Salad,Non-veg,221,"avocado, bacon, hard boiled egg, mixed greens, ranch dressing",0.363636364,0.507272727,0.56,0.430369036,0.968642042,0.968397696,0,0,1,1,1,0,0
+Quinoa Salad,Veg,165,"quinoa, cucumber, cherry tomatoes, feta cheese, lemon dressing",0.272727273,0.345454545,0.4,0.191878709,0.268706171,0.484479028,1,1,0,0,0,1,0
+Cauliflower Rice Bowl,Veg,94,"cauliflower, bell peppers, broccoli, tofu, soy sauce",0.727272727,0.585454545,0.78,0.070765671,0.209000249,0.672510275,1,1,0,1,1,0,0
+Chicken Stir Fry,Non-veg,252,"chicken breast, bell peppers, onion, soy sauce, ginger",0.909090909,0.889090909,0.02,0.324193753,0.850360288,0.13175431,0,0,1,1,1,0,0
+Eggplant Parmesan,Veg,202,"eggplant, marinara sauce, mozzarella, parmesan, basil",0.545454545,0.865454545,0.82,0.813501479,0.811706919,0.870724066,0,1,0,0,0,1,0
+Tofu Stir Fry,Veg,160,"tofu, broccoli, carrots, snap peas, soy sauce, sesame oil",1,0.918181818,0.12,0.504077376,0.79985898,0.651083686,1,1,0,0,0,0,0
+Shrimp Zoodles,Non-veg,319,"shrimp, zucchini noodles, garlic, lemon, parmesan",1,0.854545455,0.28,0.377497997,0.093774408,0.578563895,0,0,1,1,1,0,0
+Greek Yogurt Parfait,Veg,124,"greek yogurt, honey, granola, mixed berries, walnuts",0.727272727,0.343636364,0.42,0.593852538,0.030133062,0.03132341,0,1,0,0,0,1,0
+Paleo Chicken Bowl,Non-veg,294,"grilled chicken, sweet potato, broccoli, avocado, olive oil",0.454545455,0.805454545,0.72,0.524910671,0.771486177,0.21187766,0,0,1,1,1,0,0
+Mediterranean Wrap,Veg,139,"whole wheat wrap, hummus, cucumber, olives, feta cheese",0.545454545,0.354545455,0.1,0.051935154,0.532247083,0.540479847,0,0,0,0,0,1,0
+Vegan Curry,Veg,184,"tofu, coconut milk, sweet potato, peas, curry paste",0.272727273,0.487272727,0.98,0.518937272,0.323324807,0.797999581,1,1,0,0,0,0,0
+Greek Yogurt Parfait,Veg,113,"greek yogurt, honey, granola, mixed berries, walnuts",1,0.103636364,0.5,0.025469098,0.964625561,0.83926926,0,1,0,0,0,1,0
+Keto Avocado Salad,Non-veg,206,"avocado, bacon, hard boiled egg, mixed greens, ranch dressing",1,0.103636364,0,0.4446098,0.239946525,0.088507726,0,0,1,1,1,0,0
+Vegan Curry,Veg,177,"tofu, coconut milk, sweet potato, peas, curry paste",0.363636364,0.492727273,0.76,0.660470612,0.436324712,0.732092938,1,1,0,0,0,0,0
+Keto Omelette,Veg,134,"eggs, spinach, mushrooms, cheddar cheese, avocado",1,0.278181818,0.3,0.159448609,0.120022964,0.339406438,0,0,1,0,1,0,0
+Mediterranean Wrap,Veg,149,"whole wheat wrap, hummus, cucumber, olives, feta cheese",0,0.169090909,0.9,0.984523718,0.175327327,0.010900895,0,0,0,0,0,1,0
+Eggplant Parmesan,Veg,177,"eggplant, marinara sauce, mozzarella, parmesan, basil",0.363636364,1,0.7,0.1740787,0.434498883,0.396691887,0,1,0,0,0,1,0
+Vegetarian Pizza,Veg,239,"whole wheat crust, tomato sauce, mozzarella, bell peppers, olives",0.454545455,0.18,0.66,0.262220312,0.014899136,0.937862015,0,1,0,0,0,0,0
+Quinoa Salad,Veg,153,"quinoa, cucumber, cherry tomatoes, feta cheese, lemon dressing",0.636363636,0.589090909,0.88,0.163758585,0.070302331,0.643451045,1,1,0,0,0,1,0
+Chickpea Stew,Veg,131,"chickpeas, spinach, tomatoes, coconut milk, curry powder",1,0.289090909,0.52,0.805046466,0.678427512,0.573593498,1,1,0,0,0,0,0
+Quinoa Salad,Veg,155,"quinoa, cucumber, cherry tomatoes, feta cheese, lemon dressing",0,0.774545455,0.72,0.629139043,0.822046306,0.652622263,1,1,0,0,0,1,0
+Grilled Salmon,Non-veg,443,"salmon fillet, lemon, asparagus, olive oil, herbs",1,0.516363636,0.24,0.215678266,0.377763987,0.032957188,0,0,1,1,1,1,0
+Cauliflower Rice Bowl,Veg,151,"cauliflower, bell peppers, broccoli, tofu, soy sauce",0.181818182,0.161818182,0.14,0.387362009,0.682884019,0.338136703,1,1,0,1,1,0,0
+Greek Yogurt Parfait,Veg,112,"greek yogurt, honey, granola, mixed berries, walnuts",0.727272727,0.354545455,0.98,0.632157626,0.879234943,0.737183347,0,1,0,0,0,1,0
+Vegan Buddha Bowl,Veg,188,"quinoa, chickpeas, avocado, sweet potato, kale, tahini",0.818181818,0.829090909,0.46,0.810962103,0.992552348,0.410969419,1,1,0,0,1,0,0
+Cauliflower Rice Bowl,Veg,169,"cauliflower, bell peppers, broccoli, tofu, soy sauce",0,0.172727273,0.46,0.871553216,0.562835881,0.234919112,1,1,0,1,1,0,0
+Tofu Stir Fry,Veg,172,"tofu, broccoli, carrots, snap peas, soy sauce, sesame oil",0.545454545,0.392727273,0.68,0.103641199,0.904378914,0.504684452,1,1,0,0,0,0,0
+Eggplant Parmesan,Veg,188,"eggplant, marinara sauce, mozzarella, parmesan, basil",0.727272727,0.62,0.24,0.900105563,0.389736618,0.004503698,0,1,0,0,0,1,0
+Keto Avocado Salad,Non-veg,212,"avocado, bacon, hard boiled egg, mixed greens, ranch dressing",0.181818182,0.136363636,0.16,0.32094002,0.952007459,0.955233106,0,0,1,1,1,0,0
+Greek Yogurt Parfait,Veg,120,"greek yogurt, honey, granola, mixed berries, walnuts",0.818181818,0.665454545,0.3,0.450734351,0.293504296,0.326037197,0,1,0,0,0,1,1
+Vegan Buddha Bowl,Veg,193,"quinoa, chickpeas, avocado, sweet potato, kale, tahini",0.363636364,0.272727273,0.3,0.793657185,0.09099159,0.493726057,1,1,0,0,1,0,1
+Gluten-Free Pasta,Veg,160,"rice pasta, tomato sauce, garlic, olive oil, basil",0.818181818,0.24,0.68,0.892246406,0.351353662,0.111971946,0,0,0,0,1,0,0
+Lentil Soup,Veg,125,"lentils, carrots, celery, onion, vegetable broth, spices",0.727272727,0.132727273,0.86,0.871304043,0.840145631,0.424600353,0,1,0,0,0,0,0
+Vegan Curry,Veg,156,"tofu, coconut milk, sweet potato, peas, curry paste",0.818181818,0.712727273,0.98,0.896460641,0.146529635,0.512852408,1,1,0,0,0,0,0
+Paleo Chicken Bowl,Non-veg,284,"grilled chicken, sweet potato, broccoli, avocado, olive oil",0.181818182,0.9,0.88,0.372531845,0.814399847,0.951835367,0,0,1,1,1,0,0
+Tofu Stir Fry,Veg,172,"tofu, broccoli, carrots, snap peas, soy sauce, sesame oil",0.272727273,0.125454545,0.6,0.484126243,0.378494326,0.706846953,1,1,0,0,0,0,0
+Vegetarian Pizza,Veg,249,"whole wheat crust, tomato sauce, mozzarella, bell peppers, olives",0.818181818,0.963636364,0.76,0.436668886,0.253876284,0.403467346,0,1,0,0,0,0,0
+Almond Flour Pancakes,Veg,192,"almond flour, eggs, almond milk, maple syrup, baking powder",1,0.827272727,0.8,0.748017764,0.682308333,0.233816007,0,1,1,1,1,0,0
+Chickpea Stew,Veg,131,"chickpeas, spinach, tomatoes, coconut milk, curry powder",0.727272727,0.210909091,0.1,0.806212371,0.979916175,0.556029013,1,1,0,0,0,0,0
+Turkey Lettuce Wraps,Non-veg,216,"ground turkey, lettuce leaves, ginger, soy sauce, water chestnuts",0.363636364,0.143636364,0.4,0.998047006,0.073538267,0.553853176,0,0,1,1,1,1,0
+Almond Flour Pancakes,Veg,193,"almond flour, eggs, almond milk, maple syrup, baking powder",0.727272727,0.729090909,0.92,0.632615755,0.697054588,0.453381732,0,1,1,1,1,0,0
+Keto Omelette,Veg,122,"eggs, spinach, mushrooms, cheddar cheese, avocado",0.545454545,0.02,0.18,0.955275395,0.892058885,0.454510431,0,0,1,0,1,0,0
+Vegan Curry,Veg,169,"tofu, coconut milk, sweet potato, peas, curry paste",0.818181818,0.630909091,0.7,0.466065481,0.353797007,0.584002562,1,1,0,0,0,0,1
+Mediterranean Wrap,Veg,127,"whole wheat wrap, hummus, cucumber, olives, feta cheese",0.727272727,0.910909091,0.32,0.281186998,0.411797003,0.603351384,0,0,0,0,0,1,0
+Eggplant Parmesan,Veg,188,"eggplant, marinara sauce, mozzarella, parmesan, basil",0.181818182,0.458181818,0.1,0.954660687,0.727100784,0.614108707,0,1,0,0,0,1,0
+Chicken Stir Fry,Non-veg,241,"chicken breast, bell peppers, onion, soy sauce, ginger",0.818181818,0.438181818,0.88,0.165668166,0.41184552,0.780210601,0,0,1,1,1,0,0
+Cauliflower Rice Bowl,Veg,148,"cauliflower, bell peppers, broccoli, tofu, soy sauce",0,0.510909091,0.48,0.974878359,0.84379294,0.841645234,1,1,0,1,1,0,0
+Chicken Stir Fry,Non-veg,242,"chicken breast, bell peppers, onion, soy sauce, ginger",0.727272727,0.178181818,0,0.013730407,0.075104692,0.69332106,0,0,1,1,1,0,0
+Mediterranean Wrap,Veg,132,"whole wheat wrap, hummus, cucumber, olives, feta cheese",0.363636364,0.792727273,0.44,0.772920622,0.946697902,0.853095922,0,0,0,0,0,1,0
+Chickpea Stew,Veg,128,"chickpeas, spinach, tomatoes, coconut milk, curry powder",0.363636364,0.14,0.16,0.129810308,0.956006552,0.606783704,1,1,0,0,0,0,0
+Quinoa Salad,Veg,136,"quinoa, cucumber, cherry tomatoes, feta cheese, lemon dressing",0,0.885454545,0.62,0.047125352,0.268904293,0.015983122,1,1,0,0,0,1,0
+Chicken Stir Fry,Non-veg,254,"chicken breast, bell peppers, onion, soy sauce, ginger",0.454545455,0.212727273,0.04,0.522820243,0.853880825,0.551883019,0,0,1,1,1,0,0
+Mediterranean Wrap,Veg,130,"whole wheat wrap, hummus, cucumber, olives, feta cheese",0.909090909,0.727272727,0.94,0.482496906,0.421149523,0.787358987,0,0,0,0,0,1,0
+Shrimp Zoodles,Non-veg,326,"shrimp, zucchini noodles, garlic, lemon, parmesan",0.090909091,0.134545455,1,0.907772524,0.618372223,0.98543687,0,0,1,1,1,0,0
+Cauliflower Rice Bowl,Veg,154,"cauliflower, bell peppers, broccoli, tofu, soy sauce",0.090909091,0.607272727,0.52,0.091457237,0.727780012,0.547370466,1,1,0,1,1,0,0
+Quinoa Salad,Veg,138,"quinoa, cucumber, cherry tomatoes, feta cheese, lemon dressing",0.636363636,0.607272727,0.58,0.625266307,0.864088641,0.954133911,1,1,0,0,0,1,0
+Vegan Buddha Bowl,Veg,206,"quinoa, chickpeas, avocado, sweet potato, kale, tahini",0.818181818,0.332727273,0.32,0.494629153,0.258449973,0.458030008,1,1,0,0,1,0,1
+Chicken Stir Fry,Non-veg,253,"chicken breast, bell peppers, onion, soy sauce, ginger",0.454545455,0.094545455,0.02,0.33042641,0.63454995,0.236485933,0,0,1,1,1,0,0
+Greek Yogurt Parfait,Veg,125,"greek yogurt, honey, granola, mixed berries, walnuts",0.727272727,0.330909091,0.3,0.152670259,0.138732425,0.641888499,0,1,0,0,0,1,0
+Vegan Curry,Veg,172,"tofu, coconut milk, sweet potato, peas, curry paste",0.272727273,0.509090909,0.04,0.878791155,0.516087968,0.977998748,1,1,0,0,0,0,0
+Greek Yogurt Parfait,Veg,120,"greek yogurt, honey, granola, mixed berries, walnuts",0.181818182,0.007272727,0.34,0.280007812,0.177011767,0.083276667,0,1,0,0,0,1,0
+Quinoa Salad,Veg,146,"quinoa, cucumber, cherry tomatoes, feta cheese, lemon dressing",0.363636364,0.421818182,0.22,0.207380515,0.364742097,0.502827949,1,1,0,0,0,1,0
+Tofu Stir Fry,Veg,146,"tofu, broccoli, carrots, snap peas, soy sauce, sesame oil",0.909090909,0.130909091,0.5,0.803499676,0.629035651,0.076252188,1,1,0,0,0,0,0
+Grilled Salmon,Non-veg,444,"salmon fillet, lemon, asparagus, olive oil, herbs",0,0.045454545,0.7,0.810325394,0.749697654,0.18021262,0,0,1,1,1,1,0
+Turkey Lettuce Wraps,Non-veg,234,"ground turkey, lettuce leaves, ginger, soy sauce, water chestnuts",0.636363636,0.954545455,0.5,0.763842282,0.532157982,0.722458619,0,0,1,1,1,1,0
+Shrimp Zoodles,Non-veg,308,"shrimp, zucchini noodles, garlic, lemon, parmesan",0.909090909,0.565454545,1,0.716997371,0.89701437,0.511184453,0,0,1,1,1,0,0
+Turkey Lettuce Wraps,Non-veg,218,"ground turkey, lettuce leaves, ginger, soy sauce, water chestnuts",1,0.496363636,0.74,0.535337896,0.242636417,0.265922891,0,0,1,1,1,1,0
+Mediterranean Wrap,Veg,155,"whole wheat wrap, hummus, cucumber, olives, feta cheese",1,0.069090909,0.32,0.21252104,0.327877106,0.114698493,0,0,0,0,0,1,0
+Chickpea Stew,Veg,140,"chickpeas, spinach, tomatoes, coconut milk, curry powder",0.272727273,0.043636364,0.06,0.356914292,0.650010722,0.478714806,1,1,0,0,0,0,0
+Vegan Buddha Bowl,Veg,199,"quinoa, chickpeas, avocado, sweet potato, kale, tahini",0.454545455,0.06,0.92,0.74925188,0.432301266,0.122607842,1,1,0,0,1,0,0
+Keto Avocado Salad,Non-veg,202,"avocado, bacon, hard boiled egg, mixed greens, ranch dressing",0.363636364,0.94,0.5,0.610660283,0.244523804,0.497598086,0,0,1,1,1,0,0
+Paleo Chicken Bowl,Non-veg,278,"grilled chicken, sweet potato, broccoli, avocado, olive oil",0.363636364,0.683636364,0.64,0.00756132,0.22545561,0.36315739,0,0,1,1,1,0,0
+Eggplant Parmesan,Veg,197,"eggplant, marinara sauce, mozzarella, parmesan, basil",0.272727273,0.634545455,0.2,0.088326793,0.807447726,0.049842193,0,1,0,0,0,1,0
+Keto Avocado Salad,Non-veg,222,"avocado, bacon, hard boiled egg, mixed greens, ranch dressing",0.545454545,0.44,0.6,0.412490466,0.984405385,0.106885192,0,0,1,1,1,0,0
+Chicken Stir Fry,Non-veg,249,"chicken breast, bell peppers, onion, soy sauce, ginger",0.272727273,0.134545455,0.06,0.005315501,0.977075542,0.490011713,0,0,1,1,1,0,0
+Paleo Chicken Bowl,Non-veg,294,"grilled chicken, sweet potato, broccoli, avocado, olive oil",0.181818182,0.8,0.02,0.559607389,0.572606389,0.276783959,0,0,1,1,1,0,0
+Lentil Soup,Veg,112,"lentils, carrots, celery, onion, vegetable broth, spices",0.363636364,0.590909091,0.5,0.325328015,0.426062508,0.507069958,0,1,0,0,0,0,1
+Chickpea Stew,Veg,145,"chickpeas, spinach, tomatoes, coconut milk, curry powder",1,0,0.5,0.771706512,0.087065818,0.505545967,1,1,0,0,0,0,0
+Vegan Buddha Bowl,Veg,200,"quinoa, chickpeas, avocado, sweet potato, kale, tahini",0.909090909,0.469090909,0.64,0.371112937,0.454966552,0.548540769,1,1,0,0,1,0,0
+Vegetarian Pizza,Veg,247,"whole wheat crust, tomato sauce, mozzarella, bell peppers, olives",1,0.021818182,0.78,0.814017403,0.254837176,0.682990293,0,1,0,0,0,0,0
+Chickpea Stew,Veg,142,"chickpeas, spinach, tomatoes, coconut milk, curry powder",0.727272727,0.998181818,0.68,0.350646264,0.931422997,0.833846029,1,1,0,0,0,0,0
+Lentil Soup,Veg,119,"lentils, carrots, celery, onion, vegetable broth, spices",0.090909091,0.605454545,0.2,0.943142444,0.181244969,0.060811424,0,1,0,0,0,0,0
+Vegan Curry,Veg,175,"tofu, coconut milk, sweet potato, peas, curry paste",0.454545455,0.632727273,0.14,0.832176525,0.751945527,0.80240126,1,1,0,0,0,0,0
+Keto Omelette,Veg,138,"eggs, spinach, mushrooms, cheddar cheese, avocado",0.363636364,0.298181818,0.08,0.236889149,0.634908559,0.911993629,0,0,1,0,1,0,0
+Tofu Stir Fry,Veg,170,"tofu, broccoli, carrots, snap peas, soy sauce, sesame oil",0.818181818,0.16,0.34,0.820776896,0.439795429,0.374880138,1,1,0,0,0,0,0
+Greek Yogurt Parfait,Veg,119,"greek yogurt, honey, granola, mixed berries, walnuts",0.454545455,0.04,0.28,0.580437078,0.355812286,0.389587362,0,1,0,0,0,1,0
+Chicken Stir Fry,Non-veg,252,"chicken breast, bell peppers, onion, soy sauce, ginger",0.363636364,0.187272727,1,0.54562243,0.432169533,0.330236851,0,0,1,1,1,0,1
+Greek Yogurt Parfait,Veg,102,"greek yogurt, honey, granola, mixed berries, walnuts",0.636363636,0.812727273,0.28,0.883124784,0.496225712,0.743647735,0,1,0,0,0,1,0
+Vegan Buddha Bowl,Veg,212,"quinoa, chickpeas, avocado, sweet potato, kale, tahini",0.454545455,0.8,0.64,0.710595573,0.780086137,0.138336847,1,1,0,0,1,0,0
+Vegan Buddha Bowl,Veg,197,"quinoa, chickpeas, avocado, sweet potato, kale, tahini",0.454545455,0.947272727,0.08,0.881251745,0.342498183,0.824374741,1,1,0,0,1,0,0
+Turkey Lettuce Wraps,Non-veg,213,"ground turkey, lettuce leaves, ginger, soy sauce, water chestnuts",0.272727273,0.390909091,0.28,0.801373792,0.149850572,0.225464657,0,0,1,1,1,1,1
+Lentil Soup,Veg,133,"lentils, carrots, celery, onion, vegetable broth, spices",0.090909091,0.745454545,0.6,0.601501015,0.566486695,0.718071053,0,1,0,0,0,0,0
+Mediterranean Wrap,Veg,139,"whole wheat wrap, hummus, cucumber, olives, feta cheese",0.272727273,0.018181818,0.18,0.34426971,0.227478871,0.422076648,0,0,0,0,0,1,0
+Shrimp Zoodles,Non-veg,317,"shrimp, zucchini noodles, garlic, lemon, parmesan",0.909090909,0.718181818,0.5,0.589225493,0.506717084,0.612124877,0,0,1,1,1,0,0
+Turkey Lettuce Wraps,Non-veg,205,"ground turkey, lettuce leaves, ginger, soy sauce, water chestnuts",0.636363636,0.834545455,0.86,0.568020619,0.697958992,0.926797538,0,0,1,1,1,1,0
+Vegan Curry,Veg,179,"tofu, coconut milk, sweet potato, peas, curry paste",0.818181818,0.685454545,0.16,0.426294765,0.737852483,0.938803576,1,1,0,0,0,0,0
+Grilled Salmon,Non-veg,441,"salmon fillet, lemon, asparagus, olive oil, herbs",0.545454545,0.734545455,0.5,0.843189935,0.12453231,0.925120709,0,0,1,1,1,1,0
+Greek Yogurt Parfait,Veg,103,"greek yogurt, honey, granola, mixed berries, walnuts",0.636363636,0.781818182,0.16,0.748055954,0.205652942,0.790517017,0,1,0,0,0,1,0
+Keto Avocado Salad,Non-veg,218,"avocado, bacon, hard boiled egg, mixed greens, ranch dressing",0.181818182,0.441818182,0.48,0.86793629,0.924837563,0.46467093,0,0,1,1,1,0,0
+Chicken Stir Fry,Non-veg,225,"chicken breast, bell peppers, onion, soy sauce, ginger",0.909090909,0.96,0.84,0.033003479,0.914601115,0.244660998,0,0,1,1,1,0,0
+Gluten-Free Pasta,Veg,146,"rice pasta, tomato sauce, garlic, olive oil, basil",0.272727273,0.909090909,0.46,0.313059332,0.782014744,0.274364143,0,0,0,0,1,0,0
+Cauliflower Rice Bowl,Veg,152,"cauliflower, bell peppers, broccoli, tofu, soy sauce",0.363636364,0.087272727,0.12,0.980534143,0.459699441,0.557344508,1,1,0,1,1,0,0
+,,,,,,,,,,,,,,,,
+Dal Makhani,Veg,90,"black lentils, kidney beans, butter, cream, onion, tomato, garam masala",0.727272727,0.457143,0.529412,0.4,0.327273,0.872727,0,1,0,0,1,0,0
+Chole Bhature,Veg,70,"chickpeas, refined flour, onion, tomato, chole masala, butter, yogurt",0.090909091,0.685714,0.470588,0.363636,0.436364,1,0,1,0,0,0,0,0
+Methi Thepla,Veg,110,"fenugreek leaves, whole wheat flour, yogurt, turmeric, cumin, oil, green chilli",0.909090909,0.157143,0.235294,0.181818,0.163636,0.8,0,1,0,0,0,0,1
+Matar Paneer,Veg,175,"paneer, green peas, onion, tomato, ginger, garam masala, oil",0.181818182,0.314286,0.294118,0.381818,0.4,0.436364,0,1,0,0,1,0,1
+Kadai Vegetables,Veg,150,"bell peppers, paneer, onion, tomato, kadai masala, oil, coriander",0.727272727,0.214286,0.235294,0.254545,0.290909,0.545455,0,1,0,0,1,0,1
+Pesarattu,Veg,100,"green moong dal, rice, ginger, cumin, green chilli, onion, oil",0,0.114286,0.294118,0.272727,0.090909,0.763636,1,1,0,0,1,0,1
+Aloo Paratha,Veg,120,"whole wheat flour, potato, onion, cumin, ajwain, butter, green chilli",0.454545455,0.4,0.294118,0.2,0.272727,1,0,1,0,0,0,0,0
+Kadhi Pakora,Veg,130,"yogurt, chickpea flour, onion, fenugreek, mustard seeds, ghee, turmeric",0.545454546,0.228571,0.411765,0.236364,0.254545,0.690909,0,1,0,0,1,0,0
+Bisi Bele Bath,Veg,140,"toor dal, basmati rice, mixed vegetables, tamarind, ghee, sambar masala, cashews",0.818181818,0.371429,0.470588,0.290909,0.2,1,0,1,0,0,1,0,1
+Pav Bhaji,Veg,130,"mixed vegetables, butter, pav bread, pav bhaji masala, onion, tomato, lemon",0.272727273,0.485714,0.294118,0.218182,0.327273,1,0,1,0,0,0,0,0
+Rava Upma,Veg,90,"semolina, mustard seeds, curry leaves, carrot, peas, oil, onion",0.090909091,0.157143,0.176471,0.163636,0.145455,0.872727,1,1,0,0,0,0,1
+Vegetable Khichdi,Veg,120,"moong dal, basmati rice, carrot, peas, turmeric, ghee, cumin",0.545454546,0.271429,0.294118,0.272727,0.163636,1,0,1,0,0,1,0,1
+Paneer Bhurji,Veg,160,"paneer, onion, tomato, green chilli, turmeric, cumin, coriander",0.545454546,0.257143,0.176471,0.436364,0.4,0.218182,0,1,0,0,1,0,1
+Avial,Veg,130,"mixed vegetables, coconut, yogurt, curry leaves, turmeric, cumin, mustard oil",0.090909091,0.128571,0.352941,0.127273,0.254545,0.581818,0,1,0,0,1,0,1
+Gujarati Dal,Veg,120,"toor dal, peanuts, kokum, jaggery, mustard seeds, ghee, curry leaves",0,0.2,0.294118,0.254545,0.181818,0.836364,0,1,0,0,1,0,1
+Rajasthani Gatte Ki Sabzi,Veg,125,"chickpea flour, yogurt, mustard seeds, red chilli, ghee, turmeric, coriander",0.090909091,0.285714,0.411765,0.272727,0.254545,0.763636,0,1,0,0,1,0,0
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+Appam with Stew,Veg,140,"rice flour, coconut milk, mixed vegetables, cardamom, curry leaves, oil, onion",0.272727273,0.242857,0.411765,0.145455,0.218182,0.945455,1,1,0,0,1,0,1
+Lauki Chana Dal,Veg,110,"bottle gourd, chana dal, onion, tomato, cumin, turmeric, mustard oil",0.545454546,0.157143,0.352941,0.290909,0.127273,0.727273,1,1,0,0,1,0,1
+Stuffed Bell Peppers Indian,Veg,165,"bell peppers, paneer, onion, tomato, spices, oil, coriander",0.090909091,0.2,0.294118,0.327273,0.254545,0.509091,0,1,0,0,1,0,1
+Sindhi Kadhi,Veg,135,"chickpea flour, cluster beans, drumstick, potato, okra, turmeric, mustard seeds",0.545454546,0.171429,0.411765,0.218182,0.181818,0.727273,0,1,0,0,1,0,1
+Panch Phoron Sabzi,Veg,130,"mixed vegetables, panch phoron, mustard oil, turmeric, green chilli, bay leaf, onion",0,0.114286,0.235294,0.145455,0.181818,0.581818,1,1,0,0,1,0,1
+Butter Chicken,Non-veg,240,"chicken, butter, cream, tomato puree, onion, garam masala, kasuri methi",0.818181818,0.457143,0.411765,0.654545,0.509091,0.327273,0,0,0,0,1,0,0
+Mutton Biryani,Non-veg,320,"mutton, basmati rice, fried onion, yogurt, saffron, ghee, whole spices",0,0.742857,0.764706,0.690909,0.472727,1,0,0,0,0,1,0,0
+Prawn Masala,Non-veg,280,"prawns, onion, tomato, coconut milk, ginger, garlic, curry leaves",0.727272727,0.257143,0.294118,0.581818,0.327273,0.290909,0,0,0,0,1,0,1
+Egg Curry,Non-veg,160,"eggs, onion, tomato, mustard oil, turmeric, garam masala, coriander",0.727272727,0.271429,0.235294,0.4,0.436364,0.254545,0,0,0,0,1,0,1
+Chicken Saag,Non-veg,230,"chicken, spinach, onion, garlic, cream, garam masala, oil",0.090909091,0.3,0.411765,0.690909,0.363636,0.218182,0,0,0,0,1,0,1
+Chettinad Chicken,Non-veg,250,"chicken, chettinad masala, coconut, onion, kalpasi, marathi mokku, oil",0.272727273,0.357143,0.470588,0.727273,0.4,0.254545,0,0,0,0,1,0,1
+Fish Tikka,Non-veg,240,"fish fillet, yogurt, tikka masala, lemon, mustard oil, ginger, garlic",0.272727273,0.171429,0.294118,0.618182,0.218182,0.145455,0,0,0,0,1,0,1
+Kolhapuri Mutton,Non-veg,310,"mutton, kolhapuri masala, onion, tomato, sesame, coconut, oil",0,0.442857,0.588235,0.654545,0.509091,0.290909,0,0,0,0,1,0,0
+Goan Prawn Curry,Non-veg,290,"prawns, coconut milk, kokum, green chilli, garlic, turmeric, mustard seeds",1,0.257143,0.294118,0.545455,0.363636,0.254545,0,0,0,1,1,0,1
+Malabar Fish Curry,Non-veg,260,"snapper fillet, coconut milk, tamarind, shallots, green chilli, ginger, curry leaves",0.272727273,0.271429,0.294118,0.581818,0.363636,0.290909,0,0,0,0,1,0,1
+Mangalorean Chicken Sukka,Non-veg,250,"chicken, dry coconut, coriander seeds, red chilli, garlic, mustard oil, curry leaves",0.909090909,0.328571,0.411765,0.727273,0.4,0.181818,0,0,0,0,1,0,1
+Awadhi Gosht Biryani,Non-veg,330,"mutton, aged basmati rice, fried onion, kewra, ghee, yogurt, saffron",0.545454546,0.771429,0.882353,0.654545,0.509091,1,0,0,0,0,1,0,0
+Bangladeshi Hilsa Curry,Non-veg,280,"hilsa fish, mustard paste, turmeric, green chilli, mustard oil, onion, coriander",0.636363636,0.257143,0.235294,0.581818,0.4,0.145455,0,0,0,0,1,0,1
+Maharashtrian Misal Pav,Veg,125,"sprouted moth beans, pav bread, farsan, onion, tomato, coconut oil, usal masala",0.454545455,0.4,0.235294,0.327273,0.254545,1,0,1,0,0,0,0,1
+Kerala Puttu Kadala,Veg,120,"rice flour, black chickpeas, coconut, banana, coconut milk, cardamom, cumin",0.727272727,0.342857,0.294118,0.290909,0.181818,1,0,1,0,0,1,0,1
+Shakshuka,Veg,160,"eggs, canned tomatoes, bell peppers, onion, cumin, paprika, olive oil",0,0.2,0.235294,0.327273,0.363636,0.290909,0,0,0,0,1,1,1
+Falafel Bowl,Veg,200,"chickpeas, tahini, flatbread, tomato, cucumber, parsley, lemon",0.818181818,0.414286,0.352941,0.327273,0.363636,1,1,1,0,0,0,1,1
+Hummus Plate,Veg,170,"chickpeas, tahini, garlic, lemon, olive oil, paprika, pita bread",0.090909091,0.314286,0.117647,0.290909,0.327273,0.872727,1,1,0,0,0,1,1
+Baba Ganoush,Veg,155,"eggplant, tahini, garlic, lemon juice, olive oil, parsley, cumin",0.727272727,0.085714,0.176471,0.145455,0.290909,0.4,1,1,0,1,1,1,1
+Tabbouleh,Veg,145,"bulgur wheat, parsley, tomato, cucumber, mint, lemon juice, olive oil",0.272727273,0.128571,0.176471,0.145455,0.181818,0.727273,1,1,0,0,0,1,1
+Fattoush Salad,Veg,140,"romaine lettuce, tomato, cucumber, pita chips, sumac, lemon, olive oil",0.272727273,0.1,0.117647,0.109091,0.218182,0.581818,0,1,0,0,0,1,1
+Musakhan Chicken,Non-veg,270,"chicken, flatbread, caramelised onions, sumac, pine nuts, olive oil, allspice",0.090909091,0.514286,0.529412,0.654545,0.436364,0.763636,0,0,0,0,0,1,0
+Lamb Shawarma,Non-veg,130,"lamb, yogurt marinade, garlic, cumin, tahini, flatbread, pickled vegetables",0.272727273,0.571429,0.470588,0.727273,0.509091,0.690909,0,0,0,0,0,1,0
+Mujaddara,Veg,140,"lentils, basmati rice, caramelised onion, cumin, olive oil, parsley, yogurt",0.818181818,0.314286,0.411765,0.327273,0.218182,1,0,1,0,0,1,1,1
+Grilled Sea Bass,Non-veg,310,"sea bass, lemon, olive oil, garlic, fresh herbs, capers, cherry tomatoes",0,0.2,0.235294,0.690909,0.290909,0.109091,0,0,0,1,1,1,1
+Spanakopita,Veg,200,"spinach, feta cheese, phyllo dough, egg, onion, dill, olive oil",0.090909091,0.314286,0.588235,0.290909,0.4,0.690909,0,1,0,0,0,1,1
+Greek Moussaka,Non-veg,260,"minced beef, eggplant, bechamel sauce, onion, tomato, cinnamon, olive oil",0.181818182,0.514286,0.705882,0.545455,0.545455,0.654545,0,0,0,0,0,1,0
+Chicken Souvlaki,Non-veg,240,"chicken thigh, lemon, oregano, garlic, olive oil, pita, tzatziki",0.727272727,0.342857,0.294118,0.727273,0.290909,0.509091,0,0,0,0,0,1,1
+Koshari,Veg,130,"lentils, rice, pasta, fried onions, tomato sauce, cumin, vinegar",0.454545455,0.4,0.411765,0.327273,0.109091,1,1,1,0,0,0,0,1
+Lebanese Kibbeh,Non-veg,240,"minced lamb, bulghur wheat, pine nuts, onion, cinnamon, allspice, olive oil",0.090909091,0.428571,0.470588,0.509091,0.436364,0.690909,0,0,0,0,0,1,0
+Turkish Mercimek Corbasi,Veg,140,"red lentils, onion, carrot, butter, paprika, cumin, lemon",0.818181818,0.2,0.294118,0.327273,0.181818,0.836364,0,1,0,0,1,1,1
+Moroccan Vegetable Stew,Veg,185,"chickpeas, sweet potato, zucchini, ras el hanout, tomatoes, onion, coriander",0.636363636,0.257143,0.411765,0.254545,0.145455,1,1,1,0,0,1,1,1
+Miso Salmon,Non-veg,310,"salmon fillet, white miso, mirin, soy sauce, ginger, sesame oil, spring onion",0.363636364,0.314286,0.176471,0.727273,0.363636,0.254545,0,0,0,0,1,0,1
+Teriyaki Chicken Rice,Non-veg,240,"chicken thigh, teriyaki sauce, basmati rice, broccoli, sesame seeds, ginger, garlic",0.636363636,0.457143,0.235294,0.654545,0.254545,1,0,0,0,0,1,0,1
+Japanese Gyudon,Non-veg,230,"beef slices, onion, dashi, mirin, soy sauce, rice, egg",0.818181818,0.514286,0.176471,0.581818,0.363636,1,0,0,0,0,0,0,0
+Bibimbap,Veg,220,"steamed rice, spinach, bean sprouts, carrot, mushrooms, gochujang, sesame oil",0.181818182,0.4,0.294118,0.254545,0.181818,1,1,1,0,0,1,0,1
+Kimchi Fried Rice,Non-veg,200,"basmati rice, kimchi, egg, pork belly, sesame oil, spring onion, soy sauce",1,0.457143,0.176471,0.363636,0.363636,1,0,0,0,0,1,0,0
+Thai Green Curry,Non-veg,240,"chicken, coconut milk, green curry paste, Thai basil, bamboo shoots, fish sauce, lime",0.454545455,0.371429,0.294118,0.581818,0.472727,0.327273,0,0,0,0,1,0,1
+Thai Basil Stir Fry,Non-veg,210,"minced pork, Thai basil, garlic, oyster sauce, fish sauce, egg, chilli",0.727272727,0.342857,0.117647,0.509091,0.4,0.4,0,0,0,0,0,0,0
+Pad See Ew,Non-veg,220,"rice noodles, chicken, Chinese broccoli, egg, oyster sauce, dark soy, garlic",0.636363636,0.457143,0.176471,0.509091,0.254545,1,0,0,0,0,1,0,0
+Vietnamese Pho,Non-veg,230,"rice noodles, beef broth, beef slices, bean sprouts, basil, lime, hoisin",0.727272727,0.3,0.647059,0.509091,0.218182,0.8,0,0,0,0,1,0,1
+Tom Kha Gai,Non-veg,230,"chicken, coconut milk, galangal, lemongrass, mushrooms, fish sauce, lime",0.636363636,0.214286,0.294118,0.472727,0.4,0.181818,0,0,0,1,1,0,1
+Mapo Tofu,Veg,180,"firm tofu, doubanjiang, sichuan peppercorn, garlic, ginger, soy sauce, sesame oil",0.545454546,0.171429,0.176471,0.327273,0.327273,0.290909,1,1,0,0,1,0,1
+Ramen Tonkotsu,Non-veg,280,"pork broth, ramen noodles, chashu pork, soft egg, corn, nori, spring onion",1,0.685714,0.647059,0.581818,0.509091,1,0,0,0,0,0,0,0
+Hainanese Chicken Rice,Non-veg,230,"whole chicken, jasmine rice, ginger, spring onion, sesame oil, oyster sauce, chicken broth",0.090909091,0.457143,0.588235,0.654545,0.290909,0.945455,0,0,0,0,1,0,1
+Korean Japchae,Veg,200,"glass noodles, spinach, carrot, mushrooms, soy sauce, sesame oil, garlic",1,0.314286,0.294118,0.181818,0.181818,1,0,1,0,0,1,0,1
+Indonesian Nasi Goreng,Non-veg,210,"jasmine rice, egg, chicken, shrimp paste, kecap manis, spring onion, cucumber",0.818181818,0.457143,0.176471,0.4,0.290909,1,0,0,0,0,1,0,0
+Malaysian Laksa,Non-veg,240,"rice noodles, coconut milk, prawn, tofu puffs, bean sprouts, laksa paste, lime",0.545454546,0.485714,0.294118,0.509091,0.472727,0.8,0,0,0,0,1,0,0
+Filipino Adobo Chicken,Non-veg,200,"chicken, soy sauce, vinegar, garlic, bay leaf, peppercorns, oil",0.909090909,0.328571,0.411765,0.654545,0.363636,0.181818,0,0,0,0,1,0,1
+Singapore Noodles,Non-veg,220,"rice vermicelli, prawns, egg, curry powder, bean sprouts, spring onion, soy sauce",0.818181818,0.342857,0.176471,0.472727,0.218182,0.945455,0,0,0,0,1,0,1
+Beef Bolognese,Non-veg,290,"minced beef, tomato, onion, carrot, celery, red wine, pasta",0,0.6,0.529412,0.618182,0.4,0.981818,0,0,0,0,0,1,0
+Pesto Pasta,Veg,210,"pasta, basil pesto, cherry tomatoes, parmesan, pine nuts, olive oil, garlic",0.454545455,0.542857,0.176471,0.327273,0.472727,1,0,1,0,0,0,1,0
+Chicken Marsala,Non-veg,280,"chicken breast, marsala wine, mushrooms, butter, shallots, chicken broth, parsley",0.818181818,0.371429,0.294118,0.727273,0.363636,0.254545,0,0,0,0,1,0,1
+Lamb Tagine,Non-veg,310,"lamb shoulder, apricots, chickpeas, ras el hanout, onion, cinnamon, honey",0.272727273,0.514286,1,0.690909,0.4,0.8,0,0,0,0,1,0,1
+Beef Bourguignon,Non-veg,330,"beef chuck, red wine, mushrooms, pearl onions, carrot, bacon, thyme",0.454545455,0.542857,1,0.654545,0.509091,0.4,0,0,0,0,1,0,0
+Chicken Cacciatore,Non-veg,250,"chicken pieces, canned tomatoes, olives, onion, bell pepper, rosemary, white wine",0.272727273,0.328571,0.588235,0.690909,0.327273,0.327273,0,0,0,0,1,1,1
+Ratatouille,Veg,190,"zucchini, eggplant, bell peppers, tomatoes, onion, thyme, olive oil",0.727272727,0.085714,0.529412,0.109091,0.218182,0.509091,1,1,0,1,1,1,1
+French Onion Soup,Veg,200,"onions, beef broth, baguette, gruyere cheese, butter, thyme, white wine",0.727272727,0.285714,0.588235,0.254545,0.290909,0.763636,0,1,0,0,0,1,0
+Risotto Funghi,Veg,240,"arborio rice, porcini mushrooms, parmesan, white wine, shallots, butter, vegetable broth",0.818181818,0.457143,0.411765,0.254545,0.327273,1,0,1,0,0,1,1,0
+Osso Buco,Non-veg,340,"veal shank, gremolata, white wine, carrot, celery, onion, canned tomatoes",0.363636364,0.485714,0.882353,0.8,0.436364,0.327273,0,0,0,0,1,1,1
+Coq au Vin,Non-veg,310,"chicken, red wine, mushrooms, bacon lardons, pearl onions, thyme, chicken stock",0.181818182,0.457143,0.882353,0.727273,0.472727,0.290909,0,0,0,0,1,1,0
+Beef Stew,Non-veg,290,"beef chuck, potato, carrot, onion, celery, beef broth, thyme",0.363636364,0.4,0.882353,0.654545,0.327273,0.654545,0,0,0,0,1,0,1
+Zucchini Frittata,Veg,180,"eggs, zucchini, onion, parmesan, olive oil, basil, salt",0.454545455,0.157143,0.176471,0.363636,0.363636,0.145455,0,1,0,0,1,1,1
+Spanish Tortilla,Veg,175,"potato, egg, onion, olive oil, salt, parsley, paprika",0.363636364,0.257143,0.294118,0.290909,0.363636,0.581818,0,1,0,0,1,1,0
+Swedish Kottbullar,Non-veg,240,"minced pork beef mix, cream sauce, lingonberry, potato, allspice, onion, butter",0.454545455,0.514286,0.352941,0.545455,0.545455,0.581818,0,0,0,0,0,0,0
+Portuguese Caldo Verde,Non-veg,200,"chorizo, kale, potato, onion, olive oil, garlic, vegetable broth",0.090909091,0.285714,0.411765,0.327273,0.290909,0.690909,0,0,0,0,1,1,0
+Polish Bigos,Non-veg,220,"sauerkraut, pork, kielbasa, mushrooms, onion, tomato paste, bay leaf",0.727272727,0.371429,0.647059,0.509091,0.4,0.436364,0,0,0,0,1,0,0
+Hungarian Goulash,Non-veg,250,"beef, onion, paprika, carrot, potato, beef broth, tomato paste",0.181818182,0.371429,0.823529,0.581818,0.327273,0.654545,0,0,0,0,1,0,1
+Georgian Chakhokhbili,Non-veg,240,"chicken, tomatoes, onion, fresh herbs, garlic, butter, adjika",0.909090909,0.314286,0.470588,0.690909,0.327273,0.254545,0,0,0,0,1,0,1
+Iranian Ghormeh Sabzi,Non-veg,270,"lamb, kidney beans, fenugreek leaves, parsley, dried lime, saffron, oil",0.363636364,0.4,0.764706,0.654545,0.4,0.509091,0,0,0,0,1,0,1
+Russian Solyanka,Non-veg,220,"beef, olives, gherkins, tomato paste, onion, lemon, capers",0.727272727,0.285714,0.529412,0.509091,0.327273,0.4,0,0,0,0,1,0,0
+Black Bean Tacos,Veg,170,"black beans, corn tortillas, avocado, salsa, jalapeño, lime, coriander",0.363636364,0.314286,0.176471,0.290909,0.254545,1,1,1,0,0,1,0,1
+Chicken Enchiladas,Non-veg,230,"chicken, corn tortillas, enchilada sauce, cheddar, onion, sour cream, coriander",0.818181818,0.485714,0.411765,0.654545,0.4,0.8,0,0,0,0,1,0,0
+Beef Chilli,Non-veg,230,"minced beef, kidney beans, canned tomatoes, onion, cumin, chipotle, bell pepper",0.909090909,0.4,0.470588,0.618182,0.363636,0.690909,0,0,0,0,1,0,1
+Corn Black Bean Bowl,Veg,185,"corn, black beans, quinoa, avocado, salsa verde, lime, coriander",0.181818182,0.342857,0.176471,0.290909,0.254545,1,1,1,0,0,1,0,1
+Chicken Burrito Bowl,Non-veg,220,"chicken, brown rice, black beans, corn, avocado, tomato, sour cream",0,0.542857,0.235294,0.690909,0.327273,1,0,0,0,0,1,0,1
+Turkey Meatballs Marinara,Non-veg,220,"minced turkey, egg, breadcrumbs, parmesan, garlic, tomato sauce, basil",0.454545455,0.342857,0.294118,0.654545,0.290909,0.509091,0,0,0,0,0,0,1
+Peruvian Lomo Saltado,Non-veg,260,"beef sirloin, tomato, onion, soy sauce, vinegar, fries, coriander",1,0.542857,0.294118,0.618182,0.363636,0.909091,0,0,0,0,0,0,0
+Chimichurri Skirt Steak,Non-veg,320,"beef skirt steak, chimichurri sauce, garlic, parsley, vinegar, olive oil, chilli",0.818181818,0.457143,0.176471,0.8,0.509091,0.109091,0,0,1,1,1,0,1
+Brazilian Moqueca,Non-veg,280,"fish fillet, coconut milk, tomato, onion, dende oil, coriander, lime",0.727272727,0.314286,0.352941,0.618182,0.4,0.290909,0,0,0,0,1,0,1
+Cuban Ropa Vieja,Non-veg,250,"shredded beef, tomato, bell pepper, onion, garlic, cumin, olives",0.818181818,0.371429,0.647059,0.690909,0.290909,0.4,0,0,0,0,1,0,1
+Jamaican Jerk Chicken,Non-veg,230,"chicken, scotch bonnet, allspice, thyme, soy sauce, ginger, lime",0.727272727,0.314286,0.529412,0.727273,0.290909,0.181818,0,0,0,1,1,0,1
+Colombian Ajiaco,Non-veg,220,"chicken, three potato varieties, corn, guasca herb, cream, capers, avocado",0.727272727,0.342857,0.647059,0.545455,0.254545,0.763636,0,0,0,0,1,0,1
+Egg Bacon Cups,Non-veg,160,"eggs, bacon, heavy cream, cheddar, spinach, butter, chives",0.818181818,0.257143,0.176471,0.472727,0.509091,0.072727,0,0,1,0,1,0,0
+Cauliflower Steak,Veg,170,"cauliflower, olive oil, garlic, parmesan, rosemary, lemon, paprika",0.181818182,0.057143,0.294118,0.181818,0.254545,0.327273,0,1,1,0,1,0,1
+Zucchini Noodle Alfredo,Veg,190,"zucchini, heavy cream, parmesan, garlic, butter, nutmeg, black pepper",0.727272727,0.228571,0.176471,0.218182,0.509091,0.254545,0,1,1,0,1,0,1
+Keto Chicken Thighs,Non-veg,210,"chicken thighs, butter, garlic, rosemary, lemon, olive oil, dijon mustard",0.545454546,0.314286,0.294118,0.654545,0.509091,0.072727,0,0,1,1,1,0,1
+Broccoli Cheddar Soup,Veg,190,"broccoli, cheddar, heavy cream, onion, garlic, vegetable broth, butter",0.454545455,0.257143,0.235294,0.290909,0.509091,0.254545,0,1,1,0,1,0,0
+Steak Wedge Salad,Non-veg,280,"beef sirloin, iceberg lettuce, blue cheese, bacon, cherry tomatoes, olive oil, walnuts",0.727272727,0.342857,0.176471,0.654545,0.509091,0.218182,0,0,1,1,1,0,1
+Smoked Salmon Avocado,Non-veg,270,"smoked salmon, avocado, cucumber, cream cheese, lemon, capers, dill",0.272727273,0.228571,0.058824,0.509091,0.472727,0.145455,0,0,1,0,1,1,1
+Egg Salad Lettuce Wraps,Veg,160,"hard boiled eggs, mayo, mustard, celery, lettuce, chives, paprika",0.363636364,0.114286,0.117647,0.327273,0.363636,0.109091,0,1,1,0,1,0,1
+Lentil Bolognese,Veg,180,"green lentils, canned tomatoes, carrot, celery, red wine, pasta, basil",0.818181818,0.4,0.411765,0.4,0.145455,1,1,1,0,0,0,1,1
+Roasted Chickpea Tacos,Veg,165,"chickpeas, corn tortillas, red cabbage, lime, avocado, chipotle, cumin",0,0.314286,0.294118,0.290909,0.218182,1,1,1,0,0,1,0,1
+Mushroom Bourguignon,Veg,210,"portobello mushrooms, red wine, carrot, onion, thyme, lentils, vegetable broth",0.727272727,0.228571,0.647059,0.290909,0.145455,0.8,1,1,0,0,1,1,1
+Black Bean Soup,Veg,150,"black beans, onion, garlic, cumin, vegetable broth, lime, coriander",0.818181818,0.2,0.352941,0.327273,0.109091,0.909091,1,1,0,0,1,0,1
+Tempeh Stir Fry,Veg,200,"tempeh, bok choy, carrot, soy sauce, ginger, sesame oil, brown rice",0.545454546,0.371429,0.176471,0.472727,0.290909,0.909091,1,1,0,0,1,0,1
+Jackfruit Pulled Tacos,Veg,175,"jackfruit, taco seasoning, corn tortillas, avocado, red onion, lime, jalapeño",0.909090909,0.257143,0.235294,0.145455,0.181818,1,1,1,0,0,1,0,1
+Sweet Potato Black Bean Burrito,Veg,170,"sweet potato, black beans, brown rice, avocado, salsa, cumin, lime",0,0.457143,0.352941,0.254545,0.181818,1,1,1,0,0,1,0,1
+White Bean Minestrone,Veg,160,"white beans, zucchini, pasta, tomatoes, carrot, basil, vegetable broth",0.272727273,0.257143,0.411765,0.290909,0.109091,1,1,1,0,0,0,1,1
+Edamame Soba Bowl,Veg,190,"soba noodles, edamame, carrot, cucumber, soy sauce, sesame oil, ginger",0.272727273,0.314286,0.176471,0.363636,0.181818,1,1,1,0,0,0,0,1
+Balinese Tempeh Sambal,Veg,175,"tempeh, sambal sauce, shallots, garlic, lime, palm sugar, kaffir lime leaves",0.272727273,0.214286,0.176471,0.363636,0.290909,0.509091,1,1,0,0,1,0,1
+Tofu Tikka Masala,Veg,190,"firm tofu, tomato puree, cream, onion, tikka masala, ginger, garlic",0.272727273,0.257143,0.294118,0.4,0.327273,0.436364,0,1,0,0,1,0,1
+Egyptian Ful Medames,Veg,120,"fava beans, lemon juice, garlic, cumin, olive oil, parsley, tomato",0.181818182,0.2,0.176471,0.327273,0.181818,0.8,1,1,0,0,1,0,1
+Tuscan Bean Soup,Veg,180,"cannellini beans, kale, tomatoes, rosemary, garlic, olive oil, vegetable broth",0.909090909,0.2,0.294118,0.327273,0.145455,0.8,1,1,0,0,1,1,1
+Moroccan Harira,Non-veg,200,"lamb, lentils, chickpeas, tomato, cinnamon, coriander, lemon",0.636363636,0.371429,0.529412,0.545455,0.290909,0.8,0,0,0,0,1,0,1
+Pumpkin Coconut Soup,Veg,160,"pumpkin, onion, vegetable broth, coconut milk, ginger, cumin, olive oil",0.818181818,0.085714,0.294118,0.109091,0.218182,0.581818,1,1,0,0,1,0,1
+Clam Chowder,Non-veg,230,"clams, potato, heavy cream, bacon, onion, celery, thyme",0.181818182,0.4,0.352941,0.4,0.509091,0.545455,0,0,0,0,1,0,0
+Tom Yum Soup,Non-veg,210,"prawns, lemongrass, galangal, kaffir lime leaves, mushrooms, fish sauce, lime",0.363636364,0.057143,0.235294,0.4,0.145455,0.218182,0,0,0,0,1,0,1
+Lemon Chicken Orzo,Non-veg,220,"chicken, orzo pasta, spinach, lemon, garlic, chicken broth, parmesan",0.727272727,0.4,0.352941,0.618182,0.254545,0.836364,0,0,0,0,0,1,1
+Sri Lankan Dhal Curry,Veg,120,"red lentils, coconut milk, pandan leaf, curry leaves, mustard seeds, turmeric, tomato",0,0.228571,0.294118,0.327273,0.254545,0.727273,1,1,0,0,1,0,1
+Ethiopian Doro Wat,Non-veg,250,"chicken, berbere spice, onion, niter kibbeh, egg, garlic, ginger",0.090909091,0.4,0.647059,0.690909,0.436364,0.327273,0,0,0,0,1,0,1
+Jollof Rice Chicken,Non-veg,220,"rice, chicken, tomato, onion, scotch bonnet, bay leaf, vegetable broth",0.818181818,0.514286,0.529412,0.545455,0.254545,1,0,0,0,0,1,0,1
+Nepalese Dal Bhat,Veg,120,"toor dal, basmati rice, spinach, mustard oil, fenugreek, turmeric, tomato",0.545454546,0.4,0.352941,0.363636,0.145455,1,1,1,0,0,1,0,1
+Afghan Kabuli Pulao,Non-veg,260,"lamb, basmati rice, carrot, raisins, cardamom, rose water, fried onion",0.272727273,0.6,0.705882,0.545455,0.363636,1,0,0,0,0,1,0,0
+Poke Bowl,Non-veg,260,"salmon, sushi rice, edamame, cucumber, avocado, soy sauce, sesame seeds",0.181818182,0.485714,0.117647,0.618182,0.363636,0.945455,0,0,0,0,1,0,1
+Farro Grain Bowl,Veg,200,"farro, roasted vegetables, kale, goat cheese, walnuts, balsamic, lemon",0.181818182,0.4,0.352941,0.290909,0.327273,1,0,1,0,0,0,0,1
+Warm Lentil Salad,Veg,165,"green lentils, roasted beetroot, goat cheese, walnuts, arugula, dijon vinaigrette, thyme",0.909090909,0.285714,0.294118,0.363636,0.290909,0.727273,0,1,0,0,1,0,1
+Chicken Caesar Salad,Non-veg,220,"chicken breast, romaine, parmesan, croutons, caesar dressing, lemon, anchovy",0.272727273,0.342857,0.176471,0.690909,0.4,0.4,0,0,0,0,0,0,1
+Soba Noodle Salad,Veg,190,"soba noodles, edamame, carrot, cucumber, sesame dressing, spring onion, nori",1,0.257143,0.176471,0.254545,0.145455,1,1,1,0,0,1,0,1
+Beef Bulgogi Bowl,Non-veg,250,"beef, sesame oil, soy sauce, pear, garlic, ginger, steamed rice",0.454545455,0.485714,0.235294,0.618182,0.327273,0.981818,0,0,0,0,1,0,1
+Nicoise Tuna Wrap,Non-veg,210,"tuna, green beans, olives, egg, tomato, whole wheat wrap, dijon",0.363636364,0.314286,0.117647,0.618182,0.290909,0.581818,0,0,0,0,0,1,1
+Roasted Beet Salad,Veg,170,"beetroot, arugula, goat cheese, candied walnuts, orange, olive oil, balsamic",0.909090909,0.2,0.411765,0.181818,0.327273,0.654545,0,1,0,0,1,1,1
+Spicy Chickpea Couscous,Veg,165,"roasted chickpeas, couscous, cucumber, tomato, feta, harissa, lemon",0.181818182,0.328571,0.235294,0.327273,0.218182,1,0,1,0,0,0,1,1
+Waldorf Chicken Salad,Non-veg,210,"chicken breast, apple, celery, walnuts, grapes, mayo, lettuce",1,0.257143,0.117647,0.581818,0.363636,0.4,0,0,0,0,1,0,1
+Tuna Nicoise Platter,Non-veg,230,"tuna steak, green beans, potato, olives, egg, tomato, dijon vinaigrette",0.909090909,0.314286,0.235294,0.690909,0.290909,0.509091,0,0,0,0,1,1,1
+Peruvian Causa,Veg,180,"yellow potato, avocado, lime, chilli paste, onion, olives, egg",0.454545455,0.257143,0.352941,0.181818,0.290909,0.872727,0,1,0,0,1,0,1
+Spiced Quinoa Bowl,Veg,175,"quinoa, roasted chickpeas, avocado, cherry tomatoes, spinach, lemon, olive oil",1,0.314286,0.235294,0.290909,0.254545,0.945455,1,1,0,0,1,0,1
+Grilled Swordfish,Non-veg,310,"swordfish steak, lemon, olive oil, capers, garlic, parsley, cherry tomatoes",0.454545455,0.228571,0.176471,0.727273,0.290909,0.072727,0,0,0,1,1,1,1
+Shrimp Scampi Pasta,Non-veg,270,"prawns, spaghetti, butter, garlic, white wine, lemon, parsley",0.181818182,0.485714,0.235294,0.581818,0.363636,0.836364,0,0,0,0,0,1,0
+Baked Cod Salsa Verde,Non-veg,240,"cod fillet, salsa verde, lime, garlic, cumin, olive oil, coriander",0.545454546,0.157143,0.235294,0.654545,0.181818,0.181818,0,0,0,1,1,0,1
+Crab Fried Rice,Non-veg,280,"crab meat, jasmine rice, egg, spring onion, soy sauce, sesame oil, ginger",0.272727273,0.4,0.176471,0.472727,0.254545,0.981818,0,0,0,0,1,0,1
+Prawn Pad Thai,Non-veg,230,"rice noodles, prawns, egg, bean sprouts, peanuts, tamarind, fish sauce",0.818181818,0.457143,0.176471,0.545455,0.254545,1,0,0,0,0,1,0,1
+Moroccan Spiced Salmon,Non-veg,290,"salmon, chermoula paste, lemon, chickpeas, spinach, olive oil, cumin",0.636363636,0.314286,0.235294,0.727273,0.363636,0.327273,0,0,0,0,1,1,1
+Thai Fish Cakes,Non-veg,220,"white fish, red curry paste, kaffir lime, green beans, egg, fish sauce, oil",0.181818182,0.2,0.235294,0.509091,0.254545,0.254545,0,0,0,0,1,0,1
+Steamed Mussels,Non-veg,250,"mussels, white wine, garlic, shallots, butter, parsley, crusty bread",0.090909091,0.257143,0.176471,0.472727,0.254545,0.4,0,0,0,0,1,1,1
+Sri Lankan Fish Ambul Thiyal,Non-veg,250,"tuna, goraka, black pepper, curry leaves, pandan, turmeric, oil",0.727272727,0.228571,0.352941,0.690909,0.254545,0.145455,0,0,0,0,1,0,1
+Salmon Teriyaki Bowl,Non-veg,290,"salmon fillet, teriyaki glaze, sushi rice, edamame, avocado, sesame, spring onion",0.181818182,0.457143,0.176471,0.654545,0.4,0.909091,0,0,0,0,1,0,1
+Shakshuka Verde,Veg,165,"eggs, tomatillos, jalapeño, onion, cilantro, feta, olive oil",0.272727273,0.157143,0.235294,0.327273,0.327273,0.290909,0,1,0,0,1,0,1
+Mushroom Omelette,Veg,150,"eggs, portobello mushrooms, cheddar, onion, olive oil, thyme, parsley",0.909090909,0.2,0.117647,0.4,0.436364,0.145455,0,1,1,0,1,0,1
+Smoked Salmon Scramble,Non-veg,220,"eggs, smoked salmon, cream cheese, chives, butter, capers, sourdough",0.545454546,0.342857,0.117647,0.545455,0.509091,0.327273,0,0,0,0,0,0,1
+Spinach Egg White Omelette,Veg,145,"egg whites, spinach, feta, cherry tomatoes, onion, olive oil, oregano",0.454545455,0.028571,0.082353,0.472727,0.145455,0.145455,0,1,1,0,1,1,1
+Avocado Egg Toast,Veg,160,"sourdough, avocado, poached egg, chilli flakes, lemon, microgreens, olive oil",1,0.257143,0.058824,0.290909,0.4,0.581818,0,1,0,0,0,0,1
+Veggie Hummus Sandwich,Veg,155,"whole wheat bread, hummus, cucumber, tomato, spinach, red onion, feta",0.909090909,0.257143,0.058824,0.254545,0.181818,0.909091,0,1,0,0,0,1,1
+Turkey Avocado Wrap,Non-veg,190,"turkey breast, avocado, whole wheat wrap, lettuce, tomato, mustard, onion",0.909090909,0.342857,0.058824,0.618182,0.290909,0.690909,0,0,0,0,0,0,1
+Chicken Avocado Wrap,Non-veg,200,"grilled chicken, avocado, whole wheat wrap, salsa, lettuce, jalapeño, lime",0.818181818,0.371429,0.117647,0.654545,0.290909,0.690909,0,0,0,0,0,0,1
+Caprese Panini,Veg,170,"ciabatta, fresh mozzarella, tomato, basil pesto, olive oil, balsamic, arugula",0.727272727,0.314286,0.058824,0.290909,0.363636,0.763636,0,1,0,0,0,1,1
+Uzbek Plov,Non-veg,250,"lamb, basmati rice, carrot, onion, cumin, barberries, cottonseed oil",0.272727273,0.6,0.647059,0.509091,0.436364,1,0,0,0,0,1,0,0
+Argentinian Locro,Non-veg,240,"white corn, chorizo, pork, squash, onion, sweet paprika, vegetable broth",0,0.457143,0.764706,0.509091,0.363636,0.945455,0,0,0,0,1,0,0
+Vegetable Paella,Veg,220,"calasparra rice, bell peppers, artichoke, tomato, saffron, paprika, olive oil",0.454545455,0.4,0.352941,0.181818,0.181818,1,1,1,0,0,1,1,1
+Seafood Paella,Non-veg,320,"calasparra rice, prawns, mussels, squid, tomato, saffron, olive oil",1,0.457143,0.470588,0.581818,0.218182,1,0,0,0,0,1,1,1
+Lentil Shepherd Pie,Veg,185,"green lentils, mashed potato, carrot, onion, celery, vegetable broth, thyme",1,0.314286,0.529412,0.327273,0.145455,1,1,1,0,0,1,0,1
+Veggie Shakshuka,Veg,155,"eggs, harissa, roasted peppers, onion, garlic, cumin, feta",0.727272727,0.171429,0.235294,0.327273,0.327273,0.327273,0,1,0,0,1,1,1
+Uzbek Shurpa Soup,Non-veg,230,"lamb ribs, potato, carrot, onion, tomato, bell pepper, coriander",0.454545455,0.342857,0.588235,0.509091,0.327273,0.654545,0,0,0,0,1,0,1
+Chicken Piccata,Non-veg,260,"chicken breast, capers, lemon juice, white wine, butter, garlic, parsley",0.454545455,0.257143,0.176471,0.727273,0.327273,0.145455,0,0,0,0,1,0,1
+Roasted Vegetable Tart,Veg,200,"shortcrust pastry, zucchini, tomato, goat cheese, egg, thyme, olive oil",0.727272727,0.371429,0.470588,0.254545,0.436364,0.763636,0,1,0,0,0,1,1
+Lamb Kofta Platter,Non-veg,260,"minced lamb, cumin, coriander, onion, garlic, yogurt, flatbread",0.636363636,0.428571,0.294118,0.618182,0.472727,0.509091,0,0,0,0,0,1,1
+Mushroom Risotto,Veg,230,"arborio rice, mixed mushrooms, shallots, white wine, parmesan, butter, thyme",0.454545455,0.442857,0.411765,0.254545,0.327273,1,0,1,0,0,1,1,0
+Chicken Tikka Bowl,Non-veg,220,"chicken, tikka marinade, basmati rice, cucumber raita, mint chutney, onion, lemon",0.363636364,0.4,0.352941,0.690909,0.254545,0.8,0,0,0,0,1,0,1
+Roasted Cauliflower Soup,Veg,160,"cauliflower, onion, garlic, vegetable broth, cream, cumin, olive oil",0.090909091,0.114286,0.352941,0.145455,0.218182,0.472727,0,1,0,0,1,0,1
+Chicken Shawarma Rice,Non-veg,230,"chicken thigh, shawarma spice, basmati rice, garlic sauce, cucumber, tomato, parsley",0.181818182,0.457143,0.352941,0.690909,0.290909,0.836364,0,0,0,0,1,1,1
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+Turkey Lettuce Wraps,Non-veg,216,"ground turkey, lettuce leaves, ginger, soy sauce, water chestnuts",0.363636364,0.941818182,0.16,0.193575365,0.115128058,0.420221054,0,0,1,1,1,1,0
+Cauliflower Rice Bowl,Veg,152,"cauliflower, bell peppers, broccoli, tofu, soy sauce",0.272727273,0.729090909,0.82,0.647841477,0.651358613,0.362490127,1,1,0,1,1,0,0
+Lentil Soup,Veg,126,"lentils, carrots, celery, onion, vegetable broth, spices",1,0.176363636,0.04,0.699849039,0.340285848,0.726758903,0,1,0,0,0,0,0
+Lentil Soup,Veg,131,"lentils, carrots, celery, onion, vegetable broth, spices",0.545454545,0.956363636,0.96,0.541151793,0.66287533,0.740000546,0,1,0,0,0,0,0
+Quinoa Salad,Veg,137,"quinoa, cucumber, cherry tomatoes, feta cheese, lemon dressing",0.818181818,0.194545455,0.02,0.024514263,0.87184326,0.015057116,1,1,0,0,0,1,0
+Tofu Stir Fry,Veg,145,"tofu, broccoli, carrots, snap peas, soy sauce, sesame oil",0.090909091,0.754545455,0.62,0.802869295,1,0.34834159,1,1,0,0,0,0,0
+Chickpea Stew,Veg,127,"chickpeas, spinach, tomatoes, coconut milk, curry powder",0.363636364,0.492727273,0.86,0.989120118,0.769761711,0.416178575,1,1,0,0,0,0,0
+Gluten-Free Pasta,Veg,139,"rice pasta, tomato sauce, garlic, olive oil, basil",0.272727273,0.705454545,0,0.239990377,0.110308058,0.352297536,0,0,0,0,1,0,0
+Cauliflower Rice Bowl,Veg,159,"cauliflower, bell peppers, broccoli, tofu, soy sauce",0.272727273,0.263636364,0.72,0.042297433,0.017474992,0.992781199,1,1,0,1,1,0,0
+Keto Avocado Salad,Non-veg,208,"avocado, bacon, hard boiled egg, mixed greens, ranch dressing",0,0.623636364,0.06,0.219361835,0.951906422,0.789055292,0,0,1,1,1,0,0
+Grilled Salmon,Non-veg,437,"salmon fillet, lemon, asparagus, olive oil, herbs",1,0.798181818,0.9,0.603868845,0.90555292,0.994260776,0,0,1,1,1,1,0
+Gluten-Free Pasta,Veg,135,"rice pasta, tomato sauce, garlic, olive oil, basil",0.272727273,0.561818182,1,0.515306906,0.230806047,0.172126416,0,0,0,0,1,0,1
+Keto Avocado Salad,Non-veg,199,"avocado, bacon, hard boiled egg, mixed greens, ranch dressing",0,0.918181818,0.04,0.830432432,0.802339712,0.630662262,0,0,1,1,1,0,0
+Chickpea Stew,Veg,150,"chickpeas, spinach, tomatoes, coconut milk, curry powder",0.727272727,0.178181818,0.38,1,0.173888697,0.394402782,1,1,0,0,0,0,0
+Cauliflower Rice Bowl,Veg,167,"cauliflower, bell peppers, broccoli, tofu, soy sauce",0.090909091,0.110909091,0.32,0.154673697,0.817441034,0.220597728,1,1,0,1,1,0,0
+Turkey Lettuce Wraps,Non-veg,235,"ground turkey, lettuce leaves, ginger, soy sauce, water chestnuts",0.727272727,0.596363636,0.06,0.583050353,0.09127303,0.881233764,0,0,1,1,1,1,0
+Keto Omelette,Veg,128,"eggs, spinach, mushrooms, cheddar cheese, avocado",0.909090909,0.981818182,0.16,0.044592621,0.853892888,0.02937513,0,0,1,0,1,0,0
+Turkey Lettuce Wraps,Non-veg,211,"ground turkey, lettuce leaves, ginger, soy sauce, water chestnuts",0.636363636,0.974545455,0.08,0.738972597,0.281654758,0.249135228,0,0,1,1,1,1,0
+Paleo Chicken Bowl,Non-veg,291,"grilled chicken, sweet potato, broccoli, avocado, olive oil",0.636363636,0.454545455,0.08,0.049022147,0.533498109,0.966882221,0,0,1,1,1,0,0
+Eggplant Parmesan,Veg,183,"eggplant, marinara sauce, mozzarella, parmesan, basil",1,0.205454545,0.78,0.887423879,0.516933054,0.910625446,0,1,0,0,0,1,0
+Keto Omelette,Veg,129,"eggs, spinach, mushrooms, cheddar cheese, avocado",0.636363636,0.070909091,0.66,0.546556796,0.866223168,0.736008681,0,0,1,0,1,0,0
+Greek Yogurt Parfait,Veg,109,"greek yogurt, honey, granola, mixed berries, walnuts",0.636363636,0.165454545,0.64,0.158136122,0.160359613,0.331443858,0,1,0,0,0,1,0
+Tofu Stir Fry,Veg,170,"tofu, broccoli, carrots, snap peas, soy sauce, sesame oil",0.727272727,0.307272727,0.7,0.621773157,0.754165812,0.153994466,1,1,0,0,0,0,0
+Grilled Salmon,Non-veg,444,"salmon fillet, lemon, asparagus, olive oil, herbs",0.818181818,0.054545455,0.44,0.005159871,0.821565173,0.22483112,0,0,1,1,1,1,0
+Gluten-Free Pasta,Veg,162,"rice pasta, tomato sauce, garlic, olive oil, basil",0.090909091,0.645454545,0.02,0.836391327,0.50830011,0,0,0,0,0,1,0,0
+Tofu Stir Fry,Veg,157,"tofu, broccoli, carrots, snap peas, soy sauce, sesame oil",0.909090909,0.203636364,0.8,0.635043033,0.260013087,0.634939348,1,1,0,0,0,0,0
+Tofu Stir Fry,Veg,163,"tofu, broccoli, carrots, snap peas, soy sauce, sesame oil",0.181818182,0.590909091,0.36,0.764920277,0.542183958,0.967762399,1,1,0,0,0,0,0
+Turkey Lettuce Wraps,Non-veg,235,"ground turkey, lettuce leaves, ginger, soy sauce, water chestnuts",0.363636364,0.503636364,0.06,0.174633135,0.772348896,0.951885253,0,0,1,1,1,1,0
+Chickpea Stew,Veg,131,"chickpeas, spinach, tomatoes, coconut milk, curry powder",1,0.727272727,0.18,0.475991626,0.057622234,0.069105184,1,1,0,0,0,0,0
+Cauliflower Rice Bowl,Veg,161,"cauliflower, bell peppers, broccoli, tofu, soy sauce",0.090909091,0.489090909,0.92,0.973836499,0.751093296,0.125143004,1,1,0,1,1,0,0
+Lentil Soup,Veg,124,"lentils, carrots, celery, onion, vegetable broth, spices",0.545454545,0.050909091,0.2,0.82571561,0.372324788,0.821874255,0,1,0,0,0,0,0
+Grilled Salmon,Non-veg,463,"salmon fillet, lemon, asparagus, olive oil, herbs",0.818181818,0.976363636,0.66,0.275018675,0.999188353,0.424691228,0,0,1,1,1,1,0
+Tofu Stir Fry,Veg,148,"tofu, broccoli, carrots, snap peas, soy sauce, sesame oil",0.727272727,0.069090909,0.28,0.798875223,0.694982928,0.216883957,1,1,0,0,0,0,0
+Chicken Stir Fry,Non-veg,254,"chicken breast, bell peppers, onion, soy sauce, ginger",0.272727273,0.038181818,0.2,0.274649652,0.95281107,0.146359234,0,0,1,1,1,0,0
+Turkey Lettuce Wraps,Non-veg,209,"ground turkey, lettuce leaves, ginger, soy sauce, water chestnuts",0.363636364,0.150909091,0.1,0.763981663,0.44296724,0.309129735,0,0,1,1,1,1,0
+Paleo Chicken Bowl,Non-veg,287,"grilled chicken, sweet potato, broccoli, avocado, olive oil",0.090909091,0.294545455,0.96,0.654998178,0.369009285,0.867978345,0,0,1,1,1,0,0
+Eggplant Parmesan,Veg,181,"eggplant, marinara sauce, mozzarella, parmesan, basil",0.909090909,0.107272727,0.9,0.204734541,0.090949872,0.148989705,0,1,0,0,0,1,0
+Shrimp Zoodles,Non-veg,317,"shrimp, zucchini noodles, garlic, lemon, parmesan",0.090909091,0.36,0.04,0.800873702,0.294463905,0.916009832,0,0,1,1,1,0,0
+Keto Omelette,Veg,129,"eggs, spinach, mushrooms, cheddar cheese, avocado",0.272727273,0.956363636,0.48,0.00122646,0.599388151,0.607928717,0,0,1,0,1,0,0
+Almond Flour Pancakes,Veg,175,"almond flour, eggs, almond milk, maple syrup, baking powder",0.272727273,0.945454545,0.74,0.226685468,0.160786047,0.652657363,0,1,1,1,1,0,0
+Chicken Stir Fry,Non-veg,253,"chicken breast, bell peppers, onion, soy sauce, ginger",0.636363636,0.716363636,0.24,0.150336296,0.465323158,0.681931998,0,0,1,1,1,0,0
+Cauliflower Rice Bowl,Veg,148,"cauliflower, bell peppers, broccoli, tofu, soy sauce",0.454545455,0.987272727,0.2,0.698535445,0.861841693,0.782485531,1,1,0,1,1,0,0
+Vegan Curry,Veg,167,"tofu, coconut milk, sweet potato, peas, curry paste",0.909090909,0.387272727,1,0.105456775,0.242209859,0.991709043,1,1,0,0,0,0,0
+Turkey Lettuce Wraps,Non-veg,211,"ground turkey, lettuce leaves, ginger, soy sauce, water chestnuts",0.454545455,0.154545455,0.54,0.706056918,0.560612294,0.003424452,0,0,1,1,1,1,0
+Quinoa Salad,Veg,161,"quinoa, cucumber, cherry tomatoes, feta cheese, lemon dressing",0.090909091,0.407272727,0.64,0.887049183,0.082272147,0.827669465,1,1,0,0,0,1,0
+Gluten-Free Pasta,Veg,153,"rice pasta, tomato sauce, garlic, olive oil, basil",0.090909091,0.3,0.76,0.201877801,0.694493415,0.824560304,0,0,0,0,1,0,0
+Vegetarian Pizza,Veg,256,"whole wheat crust, tomato sauce, mozzarella, bell peppers, olives",0.545454545,0.776363636,0.96,0.956419726,0.124088482,0.900212995,0,1,0,0,0,0,0
+Keto Avocado Salad,Non-veg,222,"avocado, bacon, hard boiled egg, mixed greens, ranch dressing",0.454545455,0.130909091,0.76,0.616076881,0.299143558,0.939648112,0,0,1,1,1,0,0
+Vegan Curry,Veg,156,"tofu, coconut milk, sweet potato, peas, curry paste",0.090909091,0.576363636,0.38,0.341179876,0.816430488,0.074588827,1,1,0,0,0,0,0
+Almond Flour Pancakes,Veg,174,"almond flour, eggs, almond milk, maple syrup, baking powder",0.272727273,0.707272727,0.42,0.45462698,0.644752385,0.526081402,0,1,1,1,1,0,1
+Vegetarian Pizza,Veg,247,"whole wheat crust, tomato sauce, mozzarella, bell peppers, olives",0.909090909,0.02,0.44,0.653618497,0.480040411,0.616462669,0,1,0,0,0,0,0
+Greek Yogurt Parfait,Veg,124,"greek yogurt, honey, granola, mixed berries, walnuts",0.545454545,0.645454545,0.88,0.183040485,0.791240688,0.659929504,0,1,0,0,0,1,0
+Greek Yogurt Parfait,Veg,119,"greek yogurt, honey, granola, mixed berries, walnuts",1,0.996363636,0.62,0.545249854,0.494073533,0.076016933,0,1,0,0,0,1,0
+Greek Yogurt Parfait,Veg,115,"greek yogurt, honey, granola, mixed berries, walnuts",0.181818182,0.807272727,0.56,0.420534483,0.203646381,0.843793703,0,1,0,0,0,1,0
+Chickpea Stew,Veg,130,"chickpeas, spinach, tomatoes, coconut milk, curry powder",0.363636364,0.287272727,0.46,0.427664419,0.346361117,0.368905598,1,1,0,0,0,0,1
+Almond Flour Pancakes,Veg,192,"almond flour, eggs, almond milk, maple syrup, baking powder",1,0.274545455,0.98,0.871467669,0.579686871,0.437270356,0,1,1,1,1,0,0
+Chicken Stir Fry,Non-veg,252,"chicken breast, bell peppers, onion, soy sauce, ginger",0.272727273,0.607272727,0.66,0.797012261,0.656212779,0.997243567,0,0,1,1,1,0,0
+Lentil Soup,Veg,116,"lentils, carrots, celery, onion, vegetable broth, spices",0.181818182,0.429090909,0.34,0.634788426,0.734512892,0.126641726,0,1,0,0,0,0,0
+Vegan Curry,Veg,166,"tofu, coconut milk, sweet potato, peas, curry paste",0.272727273,0.867272727,0.44,0.635773768,0.373342449,0.512133153,1,1,0,0,0,0,0
+Mediterranean Wrap,Veg,144,"whole wheat wrap, hummus, cucumber, olives, feta cheese",0.363636364,0.576363636,0.92,0.595948374,0.580428221,0.663888648,0,0,0,0,0,1,1
+Gluten-Free Pasta,Veg,164,"rice pasta, tomato sauce, garlic, olive oil, basil",0.454545455,0.261818182,0.48,0.974373708,0.258338738,0.657935406,0,0,0,0,1,0,0
+Quinoa Salad,Veg,164,"quinoa, cucumber, cherry tomatoes, feta cheese, lemon dressing",0.636363636,0.834545455,0.7,0.974784527,0.454486918,0.232343018,1,1,0,0,0,1,0
+Keto Omelette,Veg,125,"eggs, spinach, mushrooms, cheddar cheese, avocado",0.454545455,0.489090909,0.3,0.522428692,0.337406838,0.83208974,0,0,1,0,1,0,0
+Quinoa Salad,Veg,160,"quinoa, cucumber, cherry tomatoes, feta cheese, lemon dressing",0.363636364,0.5,0.14,0.620299243,0.708110853,0.162529662,1,1,0,0,0,1,0
+Almond Flour Pancakes,Veg,187,"almond flour, eggs, almond milk, maple syrup, baking powder",1,0.218181818,0.84,0.740168059,0.665030088,0.473705837,0,1,1,1,1,0,0
+Chickpea Stew,Veg,152,"chickpeas, spinach, tomatoes, coconut milk, curry powder",0.636363636,0.281818182,0.92,0.872713813,0.205915002,0.106764518,1,1,0,0,0,0,0
+Cauliflower Rice Bowl,Veg,169,"cauliflower, bell peppers, broccoli, tofu, soy sauce",0.090909091,0.927272727,0.72,0.94139878,0.038998594,0.117073656,1,1,0,1,1,0,0
+Paleo Chicken Bowl,Non-veg,271,"grilled chicken, sweet potato, broccoli, avocado, olive oil",0.363636364,0.105454545,0.08,0.103827237,0.585697241,0.689773635,0,0,1,1,1,0,0
+Almond Flour Pancakes,Veg,194,"almond flour, eggs, almond milk, maple syrup, baking powder",0.363636364,0.438181818,0.46,0.689475052,0.016979605,0.320438771,0,1,1,1,1,0,1
+Gluten-Free Pasta,Veg,135,"rice pasta, tomato sauce, garlic, olive oil, basil",0.636363636,0.898181818,0.84,0.491342666,0.668097513,0.134819569,0,0,0,0,1,0,0
+Tofu Stir Fry,Veg,145,"tofu, broccoli, carrots, snap peas, soy sauce, sesame oil",0.272727273,0.609090909,0.98,0.202877265,0.674682208,0.974763145,1,1,0,0,0,0,0
+Quinoa Salad,Veg,159,"quinoa, cucumber, cherry tomatoes, feta cheese, lemon dressing",0.545454545,0.638181818,0.74,0.872584125,0.177151423,0.694243246,1,1,0,0,0,1,0
+Grilled Salmon,Non-veg,461,"salmon fillet, lemon, asparagus, olive oil, herbs",0.818181818,0.750909091,0.98,0.24538807,0.832522936,0.868231853,0,0,1,1,1,1,0
+Chickpea Stew,Veg,154,"chickpeas, spinach, tomatoes, coconut milk, curry powder",1,0.625454545,0.9,0.923378915,0.601676169,0.94538782,1,1,0,0,0,0,0
+Shrimp Zoodles,Non-veg,329,"shrimp, zucchini noodles, garlic, lemon, parmesan",0.363636364,0.550909091,0.08,0.580134499,0.349006428,0.154684764,0,0,1,1,1,0,1
+Paleo Chicken Bowl,Non-veg,284,"grilled chicken, sweet potato, broccoli, avocado, olive oil",0.727272727,0.290909091,0.8,0.998421056,0.753876208,0.085076578,0,0,1,1,1,0,0
+Keto Avocado Salad,Non-veg,207,"avocado, bacon, hard boiled egg, mixed greens, ranch dressing",0.909090909,0.587272727,0.66,0.406201865,0.327411748,0.668918741,0,0,1,1,1,0,0
+Paleo Chicken Bowl,Non-veg,273,"grilled chicken, sweet potato, broccoli, avocado, olive oil",0.090909091,0.72,0.8,0.318811235,0.870641998,0.373593124,0,0,1,1,1,0,0
+Gluten-Free Pasta,Veg,137,"rice pasta, tomato sauce, garlic, olive oil, basil",0.727272727,0.116363636,0.22,0.612948545,0.56441207,0.378395943,0,0,0,0,1,0,0
+Quinoa Salad,Veg,141,"quinoa, cucumber, cherry tomatoes, feta cheese, lemon dressing",0,0.901818182,0.68,0.228423825,0.072936115,0.604025871,1,1,0,0,0,1,0
+Shrimp Zoodles,Non-veg,310,"shrimp, zucchini noodles, garlic, lemon, parmesan",0.818181818,0.003636364,0.4,0.867750852,0.519943371,0.478309914,0,0,1,1,1,0,0
+Lentil Soup,Veg,112,"lentils, carrots, celery, onion, vegetable broth, spices",0.363636364,0.550909091,0.72,0.2473203,0.47745046,0.392504201,0,1,0,0,0,0,0
+Paleo Chicken Bowl,Non-veg,291,"grilled chicken, sweet potato, broccoli, avocado, olive oil",0.090909091,0.66,0.84,0.018314421,0.195826468,0.00119073,0,0,1,1,1,0,0
+Turkey Lettuce Wraps,Non-veg,213,"ground turkey, lettuce leaves, ginger, soy sauce, water chestnuts",0.363636364,0.223636364,0.28,0.244719665,0.928922123,0.054509903,0,0,1,1,1,1,0
+Tofu Stir Fry,Veg,174,"tofu, broccoli, carrots, snap peas, soy sauce, sesame oil",0.454545455,0.605454545,0.06,0.258082136,0.285145457,0.304413339,1,1,0,0,0,0,0
+Turkey Lettuce Wraps,Non-veg,209,"ground turkey, lettuce leaves, ginger, soy sauce, water chestnuts",1,0.527272727,0.14,0.312893012,0.611424866,0.718042322,0,0,1,1,1,1,0
+Chickpea Stew,Veg,125,"chickpeas, spinach, tomatoes, coconut milk, curry powder",0.272727273,0.161818182,0.48,0.525149671,0.123088662,0.862978247,1,1,0,0,0,0,0
+Gluten-Free Pasta,Veg,153,"rice pasta, tomato sauce, garlic, olive oil, basil",0.545454545,0.565454545,0.96,0.570210834,0.256764139,0.967696511,0,0,0,0,1,0,0
+Vegan Buddha Bowl,Veg,194,"quinoa, chickpeas, avocado, sweet potato, kale, tahini",0.454545455,0.698181818,0.86,0.043623544,0.634299844,0.956038586,1,1,0,0,1,0,0
+Keto Avocado Salad,Non-veg,206,"avocado, bacon, hard boiled egg, mixed greens, ranch dressing",0.818181818,0.945454545,0.28,0.614103624,0.411618303,0.843195706,0,0,1,1,1,0,0
+Vegan Curry,Veg,178,"tofu, coconut milk, sweet potato, peas, curry paste",0.636363636,0.087272727,0.5,0.256944761,0.302376283,0.734034066,1,1,0,0,0,0,0
+Vegan Buddha Bowl,Veg,199,"quinoa, chickpeas, avocado, sweet potato, kale, tahini",1,0.301818182,0.18,0.813671166,0.768140365,0.144989521,1,1,0,0,1,0,0
+Cauliflower Rice Bowl,Veg,171,"cauliflower, bell peppers, broccoli, tofu, soy sauce",0.363636364,0.876363636,0.86,0.867211527,0.216841001,0.090370465,1,1,0,1,1,0,0
+Eggplant Parmesan,Veg,196,"eggplant, marinara sauce, mozzarella, parmesan, basil",0.363636364,0.76,0.54,0.207232204,0.639121357,0.253419369,0,1,0,0,0,1,0
+Tofu Stir Fry,Veg,168,"tofu, broccoli, carrots, snap peas, soy sauce, sesame oil",0.727272727,0.46,0.48,0.99284116,0.136339001,0.696791221,1,1,0,0,0,0,0
+Keto Omelette,Veg,123,"eggs, spinach, mushrooms, cheddar cheese, avocado",0.818181818,0.678181818,0.76,0.728221925,0.015416986,0.338607587,0,0,1,0,1,0,1
+Shrimp Zoodles,Non-veg,324,"shrimp, zucchini noodles, garlic, lemon, parmesan",0.181818182,0.394545455,0.74,0.581342344,0.27440628,0.073885239,0,0,1,1,1,0,1
+Vegan Curry,Veg,171,"tofu, coconut milk, sweet potato, peas, curry paste",0.363636364,0.64,0.7,0.192839909,0.32374094,0.222839401,1,1,0,0,0,0,0
+Keto Avocado Salad,Non-veg,224,"avocado, bacon, hard boiled egg, mixed greens, ranch dressing",0.545454545,0.938181818,0.86,0.234899329,0.540926139,0.883882524,0,0,1,1,1,0,0
+Cauliflower Rice Bowl,Veg,161,"cauliflower, bell peppers, broccoli, tofu, soy sauce",0.181818182,0.690909091,0.04,0.191289534,0.052026612,0.376429999,1,1,0,1,1,0,0
+Paleo Chicken Bowl,Non-veg,290,"grilled chicken, sweet potato, broccoli, avocado, olive oil",0,0.641818182,0.44,0.46758042,0.059849704,0.562394167,0,0,1,1,1,0,0
+Vegan Buddha Bowl,Veg,204,"quinoa, chickpeas, avocado, sweet potato, kale, tahini",0.363636364,0.865454545,0.6,0.758698439,0.170462792,0.407792977,1,1,0,0,1,0,0
+Eggplant Parmesan,Veg,186,"eggplant, marinara sauce, mozzarella, parmesan, basil",1,0.725454545,0.22,0.986258417,0.475636979,0.380527086,0,1,0,0,0,1,0
