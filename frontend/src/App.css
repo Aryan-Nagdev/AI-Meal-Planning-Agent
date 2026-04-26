@@ -1,0 +1,52 @@
+.app { min-height: 100vh; display: flex; flex-direction: column; }
+
+/* Header */
+.header {
+  background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+  border-bottom: 1px solid #1e3a5f;
+  padding: 16px 24px;
+  position: sticky; top: 0; z-index: 50;
+}
+.header-inner {
+  max-width: 1400px; margin: 0 auto;
+  display: flex; align-items: center; justify-content: space-between;
+}
+.logo { display: flex; align-items: center; gap: 12px; }
+.logo h1 { font-size: 1.4rem; font-weight: 700; color: #f1f5f9; }
+.logo p { font-size: 0.75rem; color: #64748b; }
+
+/* Layout */
+.main {
+  flex: 1; display: flex; gap: 0;
+  max-width: 1400px; margin: 0 auto; width: 100%; padding: 24px;
+  gap: 24px;
+}
+.sidebar { width: 340px; flex-shrink: 0; }
+.content { flex: 1; min-width: 0; }
+
+/* Empty / Loading */
+.empty-state, .loading-state {
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  height: 400px; gap: 16px; color: #64748b; text-align: center;
+}
+.empty-state h2, .loading-state h2 { color: #94a3b8; font-size: 1.3rem; }
+.empty-state p, .loading-state p { font-size: 0.9rem; max-width: 300px; line-height: 1.6; }
+
+@keyframes spin { to { transform: rotate(360deg); } }
+.spin { animation: spin 1s linear infinite; }
+
+/* Tabs */
+.tabs { display: flex; gap: 8px; margin: 20px 0 16px; }
+.tab-btn {
+  padding: 8px 20px; border-radius: 8px; border: 1px solid #1e3a5f;
+  background: #1e293b; color: #94a3b8; cursor: pointer;
+  font-size: 0.88rem; font-weight: 500; transition: all 0.2s;
+}
+.tab-btn:hover { background: #1e3a5f; color: #e2e8f0; }
+.tab-btn.active { background: #2563eb; border-color: #2563eb; color: #fff; }
+
+/* Responsive */
+@media (max-width: 900px) {
+  .main { flex-direction: column; padding: 16px; }
+  .sidebar { width: 100%; }
+}

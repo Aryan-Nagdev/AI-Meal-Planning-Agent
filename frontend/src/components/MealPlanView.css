@@ -1,0 +1,132 @@
+.plan-view { display: flex; flex-direction: column; gap: 10px; }
+
+.day-card {
+  background: #1e293b; border: 1px solid #1e3a5f;
+  border-radius: 12px; overflow: hidden;
+}
+.day-header {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 14px 18px; cursor: pointer; transition: background 0.15s;
+}
+.day-header:hover { background: #253347; }
+.day-title { display: flex; align-items: center; gap: 12px; }
+.day-badge {
+  background: #1d4ed8; color: #fff;
+  font-size: 0.78rem; font-weight: 700;
+  padding: 3px 10px; border-radius: 20px; white-space: nowrap;
+}
+.day-stats { font-size: 0.82rem; color: #94a3b8; display: flex; align-items: center; gap: 4px; }
+.day-meals { padding: 0 14px 14px; display: flex; flex-direction: column; gap: 10px; }
+
+/* Meal card */
+.meal-card {
+  background: #0f172a; border: 1px solid #1e3a5f;
+  border-left: 4px solid; border-radius: 10px; overflow: hidden;
+}
+.meal-header {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 11px 14px; cursor: pointer; gap: 8px;
+}
+.meal-header:hover { background: #141f30; }
+.meal-slot-info { display: flex; align-items: center; gap: 10px; flex: 1; min-width: 0; }
+.slot-icon { font-size: 1.25rem; }
+.slot-name { font-size: 0.7rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; }
+.meal-name {
+  font-size: 0.9rem; font-weight: 600; color: #e2e8f0;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 200px;
+}
+.meal-quick-stats { display: flex; align-items: center; gap: 7px; flex-shrink: 0; flex-wrap: wrap; }
+.qs { display: flex; align-items: center; gap: 3px; font-size: 0.76rem; color: #94a3b8; }
+
+.badge { font-size: 0.65rem; font-weight: 700; padding: 2px 6px; border-radius: 10px; white-space: nowrap; }
+.fav-badge   { background: #3b1f00; color: #fbbf24; border: 1px solid #92400e; }
+.quick-badge { background: #0c0f1c; color: #818cf8; border: 1px solid #4338ca; }
+.health-badge{ background: transparent; }
+.expand-icon { color: #64748b; font-size: 0.6rem; }
+
+/* Details */
+.meal-details { padding: 0 14px 14px; display: flex; flex-direction: column; gap: 12px; }
+
+.macros-row { display: flex; flex-direction: column; gap: 6px; }
+.macro-bar { display: flex; align-items: center; gap: 8px; }
+.macro-label { font-size: 0.72rem; color: #64748b; width: 48px; }
+.macro-track { flex: 1; height: 6px; background: #1e3a5f; border-radius: 3px; overflow: hidden; }
+.macro-fill  { height: 100%; border-radius: 3px; transition: width 0.5s ease; }
+.macro-val   { font-size: 0.72rem; color: #94a3b8; width: 32px; text-align: right; }
+
+.ing-label { font-size: 0.74rem; color: #64748b; margin-bottom: 6px; }
+.ing-list  { display: flex; flex-wrap: wrap; gap: 5px; }
+.ing-chip  {
+  background: #1e3a5f; color: #93c5fd;
+  font-size: 0.71rem; padding: 3px 9px; border-radius: 12px;
+}
+
+.score-row {
+  display: flex; gap: 14px; flex-wrap: wrap;
+  font-size: 0.76rem; color: #64748b;
+  border-top: 1px solid #1e3a5f; padding-top: 8px;
+}
+
+/* Action buttons */
+.action-row { display: flex; gap: 8px; }
+.action-btn {
+  display: flex; align-items: center; gap: 6px;
+  padding: 7px 12px; border-radius: 8px;
+  border: 1px solid #334155; background: #0f172a;
+  color: #94a3b8; font-size: 0.76rem; cursor: pointer;
+  transition: all 0.18s;
+}
+.action-btn:hover:not(:disabled) { border-color: #3b82f6; color: #93c5fd; }
+.action-btn:disabled { opacity: 0.5; cursor: wait; }
+.action-btn.active-btn { border-color: #4f46e5; color: #a5b4fc; background: #0e0c1f; }
+
+/* Recipe panel */
+.recipe-panel {
+  background: #080d1a; border: 1px solid #1e3a5f;
+  border-radius: 10px; padding: 14px;
+}
+.panel-header {
+  font-size: 0.78rem; font-weight: 700; color: #cbd5e1;
+  margin-bottom: 10px; display: flex; align-items: center; gap: 8px;
+}
+.panel-source {
+  font-size: 0.66rem; color: #64748b; font-weight: 400;
+  background: #1e293b; padding: 2px 7px; border-radius: 8px;
+  margin-left: auto;
+}
+.recipe-steps {
+  list-style: none; padding: 0; margin: 0;
+  display: flex; flex-direction: column; gap: 9px; counter-reset: step;
+}
+.recipe-steps li {
+  counter-increment: step;
+  display: grid; grid-template-columns: 22px 1fr; gap: 8px;
+  font-size: 0.82rem; color: #cbd5e1; line-height: 1.5;
+}
+.recipe-steps li::before {
+  content: counter(step);
+  width: 22px; height: 22px; border-radius: 50%;
+  background: #1d4ed8; color: #fff;
+  font-size: 0.7rem; font-weight: 700;
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0; margin-top: 1px;
+}
+
+/* Similar meals panel */
+.similar-panel {
+  background: #080d1a; border: 1px solid #1e3a5f;
+  border-radius: 10px; padding: 14px;
+  display: flex; flex-direction: column; gap: 8px;
+}
+.similar-item {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 7px 10px; background: #0f172a; border-radius: 7px;
+  border: 1px solid #1e3a5f;
+}
+.similar-name { font-size: 0.82rem; color: #e2e8f0; font-weight: 500; }
+.similar-meta { font-size: 0.72rem; color: #64748b; margin-top: 1px; }
+.sim-score {
+  font-size: 0.72rem; font-weight: 700; color: #818cf8;
+  background: #0e0c1f; padding: 3px 8px; border-radius: 8px;
+  border: 1px solid #4338ca; white-space: nowrap;
+}
